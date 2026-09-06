@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f3ef;
+  --foreground: #1a1a1a;
+  --steel: #6e7378;
+  --hairline: #c9c7c0;
+  --sold: #b23b23;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-steel: var(--steel);
+  --color-hairline: var(--hairline);
+  --color-sold: var(--sold);
+  --font-sans: "Archivo", "Arial Narrow", Arial, Helvetica, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.hairline {
+  border-color: var(--hairline);
+}
+

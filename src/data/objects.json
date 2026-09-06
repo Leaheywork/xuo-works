@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "stocky",
+    "title": "STOCKY",
+    "price": 420,
+    "materials": "Forged steel and brass",
+    "dimensions": "33 x 11 x 10 cm",
+    "weightKg": 14.9,
+    "year": 2022,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "sold",
+    "images": [
+      "images/stocky.jpg",
+      "images/stocky-2.jpg",
+      "images/stocky-3.jpg"
+    ]
+  },
+  {
+    "id": "dominique",
+    "title": "DOMINIQUE",
+    "price": 720,
+    "materials": "Welded mild steel",
+    "dimensions": "40 x 21 x 9 cm",
+    "weightKg": 2.3,
+    "year": 2025,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "in_bidding",
+    "images": [
+      "images/dominique.jpg",
+      "images/dominique-2.jpg",
+      "images/dominique-3.jpg"
+    ],
+    "currentBid": 810,
+    "bidCount": 6,
+    "hoursLeft": 23.5
+  },
+  {
+    "id": "cutout",
+    "title": "CUTOUT",
+    "price": 320,
+    "materials": "Recycled scrap steel",
+    "dimensions": "43 x 35 x 9 cm",
+    "weightKg": 15.0,
+    "year": 2022,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/cutout.jpg",
+      "images/cutout-2.jpg",
+      "images/cutout-3.jpg"
+    ]
+  },
+  {
+    "id": "pearl-shell",
+    "title": "PEARL SHELL",
+    "price": 850,
+    "materials": "Welded mild steel",
+    "dimensions": "44 x 33 x 9 cm",
+    "weightKg": 17.6,
+    "year": 2022,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "available",
+    "images": [
+      "images/pearl-shell.jpg",
+      "images/pearl-shell-2.jpg",
+      "images/pearl-shell-3.jpg"
+    ]
+  },
+  {
+    "id": "nina",
+    "title": "NINA",
+    "price": 260,
+    "materials": "Recycled scrap steel",
+    "dimensions": "44 x 27 x 25 cm",
+    "weightKg": 14.8,
+    "year": 2023,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "images/nina.jpg",
+      "images/nina-2.jpg",
+      "images/nina-3.jpg"
+    ]
+  },
+  {
+    "id": "rachel",
+    "title": "RACHEL",
+    "price": 720,
+    "materials": "Steel and found objects",
+    "dimensions": "31 x 14 x 25 cm",
+    "weightKg": 13.0,
+    "year": 2026,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "available",
+    "images": [
+      "images/rachel.jpg",
+      "images/rachel-2.jpg",
+      "images/rachel-3.jpg"
+    ]
+  },
+  {
+    "id": "michael",
+    "title": "MICHAEL",
+    "price": 720,
+    "materials": "Steel and found objects",
+    "dimensions": "39 x 35 x 18 cm",
+    "weightKg": 8.8,
+    "year": 2025,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "sold",
+    "images": [
+      "images/michael.jpg",
+      "images/michael-2.jpg",
+      "images/michael-3.jpg"
+    ]
+  },
+  {
+    "id": "minna",
+    "title": "MINNA",
+    "price": 380,
+    "materials": "Steel and found objects",
+    "dimensions": "58 x 19 x 30 cm",
+    "weightKg": 14.2,
+    "year": 2022,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "available",
+    "images": [
+      "images/minna.jpg",
+      "images/minna-2.jpg",
+      "images/minna-3.jpg"
+    ]
+  },
+  {
+    "id": "michael-ii",
+    "title": "MICHAEL II",
+    "price": 380,
+    "materials": "Steel and copper wire",
+    "dimensions": "29 x 36 x 17 cm",
+    "weightKg": 11.3,
+    "year": 2022,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "images/michael-ii.jpg",
+      "images/michael-ii-2.jpg",
+      "images/michael-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "guy",
+    "title": "GUY",
+    "price": 650,
+    "materials": "Stainless steel",
+    "dimensions": "18 x 29 x 12 cm",
+    "weightKg": 16.9,
+    "year": 2025,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "in_bidding",
+    "images": [
+      "images/guy.jpg",
+      "images/guy-2.jpg",
+      "images/guy-3.jpg"
+    ],
+    "currentBid": 740,
+    "bidCount": 5,
+    "hoursLeft": 14
+  },
+  {
+    "id": "janet",
+    "title": "JANET",
+    "price": 850,
+    "materials": "Recycled scrap steel",
+    "dimensions": "56 x 28 x 18 cm",
+    "weightKg": 12.8,
+    "year": 2026,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/janet.jpg",
+      "images/janet-2.jpg",
+      "images/janet-3.jpg"
+    ]
+  },
+  {
+    "id": "fourty",
+    "title": "FOURTY",
+    "price": 720,
+    "materials": "Steel and copper wire",
+    "dimensions": "12 x 13 x 16 cm",
+    "weightKg": 9.0,
+    "year": 2022,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "available",
+    "images": [
+      "images/fourty.jpg",
+      "images/fourty-2.jpg",
+      "images/fourty-3.jpg"
+    ]
+  },
+  {
+    "id": "walter",
+    "title": "WALTER",
+    "price": 850,
+    "materials": "Steel and copper wire",
+    "dimensions": "26 x 32 x 29 cm",
+    "weightKg": 6.8,
+    "year": 2025,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "sold",
+    "images": [
+      "images/walter.jpg",
+      "images/walter-2.jpg",
+      "images/walter-3.jpg"
+    ]
+  },
+  {
+    "id": "simon",
+    "title": "SIMON",
+    "price": 260,
+    "materials": "Recycled scrap steel",
+    "dimensions": "39 x 11 x 14 cm",
+    "weightKg": 14.0,
+    "year": 2023,
+    "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
+    "status": "available",
+    "images": [
+      "images/simon.jpg",
+      "images/simon-2.jpg",
+      "images/simon-3.jpg"
+    ]
+  },
+  {
+    "id": "eva",
+    "title": "EVA",
+    "price": 320,
+    "materials": "Stainless steel",
+    "dimensions": "33 x 39 x 10 cm",
+    "weightKg": 3.7,
+    "year": 2025,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "sold",
+    "images": [
+      "images/eva.jpg",
+      "images/eva-2.jpg",
+      "images/eva-3.jpg"
+    ]
+  },
+  {
+    "id": "smoc",
+    "title": "SMOC",
+    "price": 380,
+    "materials": "Forged steel and brass",
+    "dimensions": "60 x 35 x 25 cm",
+    "weightKg": 5.6,
+    "year": 2025,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "available",
+    "images": [
+      "images/smoc.jpg",
+      "images/smoc-2.jpg",
+      "images/smoc-3.jpg"
+    ]
+  },
+  {
+    "id": "sophie",
+    "title": "SOPHIE",
+    "price": 850,
+    "materials": "Stainless steel",
+    "dimensions": "22 x 17 x 10 cm",
+    "weightKg": 3.8,
+    "year": 2023,
+    "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
+    "status": "sold",
+    "images": [
+      "images/sophie.jpg",
+      "images/sophie-2.jpg",
+      "images/sophie-3.jpg"
+    ]
+  },
+  {
+    "id": "lipstick",
+    "title": "LIPSTICK",
+    "price": 320,
+    "materials": "Welded mild steel",
+    "dimensions": "39 x 19 x 16 cm",
+    "weightKg": 5.6,
+    "year": 2023,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "in_bidding",
+    "images": [
+      "images/lipstick.jpg",
+      "images/lipstick-2.jpg",
+      "images/lipstick-3.jpg"
+    ],
+    "currentBid": 360,
+    "bidCount": 3,
+    "hoursLeft": 23.5
+  },
+  {
+    "id": "ashley-and-sally",
+    "title": "ASHLEY AND SALLY",
+    "price": 650,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "47 x 28 x 12 cm",
+    "weightKg": 12.7,
+    "year": 2026,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "sold",
+    "images": [
+      "images/ashley-and-sally.jpg",
+      "images/ashley-and-sally-2.jpg",
+      "images/ashley-and-sally-3.jpg"
+    ]
+  },
+  {
+    "id": "chambers",
+    "title": "CHAMBERS",
+    "price": 850,
+    "materials": "Welded mild steel",
+    "dimensions": "37 x 33 x 20 cm",
+    "weightKg": 7.7,
+    "year": 2022,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/chambers.jpg",
+      "images/chambers-2.jpg",
+      "images/chambers-3.jpg"
+    ]
+  },
+  {
+    "id": "one",
+    "title": "ONE",
+    "price": 220,
+    "materials": "Steel and found objects",
+    "dimensions": "36 x 18 x 11 cm",
+    "weightKg": 6.6,
+    "year": 2022,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "images/one.jpg",
+      "images/one-2.jpg",
+      "images/one-3.jpg"
+    ]
+  },
+  {
+    "id": "james",
+    "title": "JAMES",
+    "price": 180,
+    "materials": "Forged steel and brass",
+    "dimensions": "42 x 14 x 19 cm",
+    "weightKg": 11.4,
+    "year": 2022,
+    "description": "A one-off maquette, part of an ongoing series exploring found form.",
+    "status": "available",
+    "images": [
+      "images/james.jpg",
+      "images/james-2.jpg",
+      "images/james-3.jpg"
+    ]
+  },
+  {
+    "id": "jinx",
+    "title": "JINX",
+    "price": 320,
+    "materials": "Stainless steel",
+    "dimensions": "17 x 24 x 19 cm",
+    "weightKg": 11.2,
+    "year": 2025,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "images/jinx.jpg",
+      "images/jinx-2.jpg",
+      "images/jinx-3.jpg"
+    ]
+  },
+  {
+    "id": "sophie-ii",
+    "title": "SOPHIE II",
+    "price": 220,
+    "materials": "Steel and copper wire",
+    "dimensions": "37 x 38 x 23 cm",
+    "weightKg": 6.2,
+    "year": 2023,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "available",
+    "images": [
+      "images/sophie-ii.jpg",
+      "images/sophie-ii-2.jpg",
+      "images/sophie-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "minna-ii",
+    "title": "MINNA II",
+    "price": 950,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "55 x 24 x 23 cm",
+    "weightKg": 15.1,
+    "year": 2023,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "sold",
+    "images": [
+      "images/minna-ii.jpg",
+      "images/minna-ii-2.jpg",
+      "images/minna-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "chris",
+    "title": "CHRIS",
+    "price": 180,
+    "materials": "Steel and found objects",
+    "dimensions": "41 x 31 x 12 cm",
+    "weightKg": 12.7,
+    "year": 2022,
+    "description": "A one-off maquette, part of an ongoing series exploring found form.",
+    "status": "in_bidding",
+    "images": [
+      "images/chris.jpg",
+      "images/chris-2.jpg",
+      "images/chris-3.jpg"
+    ],
+    "currentBid": 270,
+    "bidCount": 7,
+    "hoursLeft": 14
+  },
+  {
+    "id": "dominique-and-jean-luc",
+    "title": "DOMINIQUE AND JEAN LUC",
+    "price": 650,
+    "materials": "Cast bronze",
+    "dimensions": "49 x 13 x 30 cm",
+    "weightKg": 15.3,
+    "year": 2026,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "sold",
+    "images": [
+      "images/dominique-and-jean-luc.jpg",
+      "images/dominique-and-jean-luc-2.jpg",
+      "images/dominique-and-jean-luc-3.jpg"
+    ]
+  },
+  {
+    "id": "kate",
+    "title": "KATE",
+    "price": 260,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "57 x 22 x 25 cm",
+    "weightKg": 10.1,
+    "year": 2026,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "available",
+    "images": [
+      "images/kate.jpg",
+      "images/kate-2.jpg",
+      "images/kate-3.jpg"
+    ]
+  },
+  {
+    "id": "jim",
+    "title": "JIM",
+    "price": 1200,
+    "materials": "Steel and found objects",
+    "dimensions": "59 x 23 x 20 cm",
+    "weightKg": 13.5,
+    "year": 2023,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/jim.jpg",
+      "images/jim-2.jpg",
+      "images/jim-3.jpg"
+    ]
+  },
+  {
+    "id": "la-la",
+    "title": "LA LA",
+    "price": 650,
+    "materials": "Steel and copper wire",
+    "dimensions": "30 x 9 x 8 cm",
+    "weightKg": 14.4,
+    "year": 2025,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "available",
+    "images": [
+      "images/la-la.jpg",
+      "images/la-la-2.jpg",
+      "images/la-la-3.jpg"
+    ]
+  },
+  {
+    "id": "janet-ii",
+    "title": "JANET II",
+    "price": 320,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "36 x 30 x 19 cm",
+    "weightKg": 2.2,
+    "year": 2022,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/janet-ii.jpg",
+      "images/janet-ii-2.jpg",
+      "images/janet-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "jean-luc",
+    "title": "JEAN-LUC",
+    "price": 560,
+    "materials": "Steel and found objects",
+    "dimensions": "29 x 21 x 23 cm",
+    "weightKg": 11.5,
+    "year": 2026,
+    "description": "A one-off maquette, part of an ongoing series exploring found form.",
+    "status": "available",
+    "images": [
+      "images/jean-luc.jpg",
+      "images/jean-luc-2.jpg",
+      "images/jean-luc-3.jpg"
+    ]
+  },
+  {
+    "id": "jessica",
+    "title": "JESSICA",
+    "price": 180,
+    "materials": "Steel and copper wire",
+    "dimensions": "49 x 30 x 28 cm",
+    "weightKg": 2.3,
+    "year": 2022,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/jessica.jpg",
+      "images/jessica-2.jpg",
+      "images/jessica-3.jpg"
+    ]
+  },
+  {
+    "id": "timmy-dog",
+    "title": "TIMMY DOG",
+    "price": 1200,
+    "materials": "Steel and found objects",
+    "dimensions": "38 x 19 x 21 cm",
+    "weightKg": 14.4,
+    "year": 2024,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "in_bidding",
+    "images": [
+      "images/timmy-dog.jpg",
+      "images/timmy-dog-2.jpg",
+      "images/timmy-dog-3.jpg"
+    ],
+    "currentBid": 1240,
+    "bidCount": 2,
+    "hoursLeft": 6
+  },
+  {
+    "id": "jon-jon",
+    "title": "JON JON",
+    "price": 1200,
+    "materials": "Stainless steel",
+    "dimensions": "37 x 33 x 10 cm",
+    "weightKg": 13.3,
+    "year": 2023,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/jon-jon.jpg",
+      "images/jon-jon-2.jpg",
+      "images/jon-jon-3.jpg"
+    ]
+  },
+  {
+    "id": "ireland",
+    "title": "IRELAND",
+    "price": 180,
+    "materials": "Forged steel and brass",
+    "dimensions": "45 x 37 x 28 cm",
+    "weightKg": 3.3,
+    "year": 2026,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/ireland.jpg",
+      "images/ireland-2.jpg",
+      "images/ireland-3.jpg"
+    ]
+  },
+  {
+    "id": "louise",
+    "title": "LOUISE",
+    "price": 650,
+    "materials": "Forged steel and brass",
+    "dimensions": "9 x 8 x 28 cm",
+    "weightKg": 2.6,
+    "year": 2023,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/louise.jpg",
+      "images/louise-2.jpg",
+      "images/louise-3.jpg"
+    ]
+  },
+  {
+    "id": "shane",
+    "title": "SHANE",
+    "price": 1450,
+    "materials": "Steel and found objects",
+    "dimensions": "60 x 21 x 8 cm",
+    "weightKg": 5.1,
+    "year": 2024,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "available",
+    "images": [
+      "images/shane.jpg",
+      "images/shane-2.jpg",
+      "images/shane-3.jpg"
+    ]
+  },
+  {
+    "id": "burrows",
+    "title": "BURROWS",
+    "price": 320,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "24 x 34 x 12 cm",
+    "weightKg": 1.8,
+    "year": 2024,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/burrows.jpg",
+      "images/burrows-2.jpg",
+      "images/burrows-3.jpg"
+    ]
+  },
+  {
+    "id": "dry-july",
+    "title": "DRY JULY",
+    "price": 850,
+    "materials": "Stainless steel",
+    "dimensions": "60 x 40 x 12 cm",
+    "weightKg": 9.9,
+    "year": 2026,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "available",
+    "images": [
+      "images/dry-july.jpg",
+      "images/dry-july-2.jpg",
+      "images/dry-july-3.jpg"
+    ]
+  },
+  {
+    "id": "mr-king",
+    "title": "MR KING",
+    "price": 180,
+    "materials": "Steel and copper wire",
+    "dimensions": "57 x 19 x 27 cm",
+    "weightKg": 0.9,
+    "year": 2023,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/mr-king.jpg",
+      "images/mr-king-2.jpg",
+      "images/mr-king-3.jpg"
+    ]
+  },
+  {
+    "id": "dani",
+    "title": "DANI",
+    "price": 260,
+    "materials": "Steel and copper wire",
+    "dimensions": "47 x 15 x 25 cm",
+    "weightKg": 1.9,
+    "year": 2026,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "in_bidding",
+    "images": [
+      "images/dani.jpg",
+      "images/dani-2.jpg",
+      "images/dani-3.jpg"
+    ],
+    "currentBid": 320,
+    "bidCount": 3,
+    "hoursLeft": 0.05
+  },
+  {
+    "id": "billy-boy",
+    "title": "BILLY BOY",
+    "price": 650,
+    "materials": "Steel and copper wire",
+    "dimensions": "58 x 14 x 25 cm",
+    "weightKg": 1.8,
+    "year": 2023,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "sold",
+    "images": [
+      "images/billy-boy.jpg",
+      "images/billy-boy-2.jpg",
+      "images/billy-boy-3.jpg"
+    ]
+  },
+  {
+    "id": "smoc-ii",
+    "title": "SMOC II",
+    "price": 180,
+    "materials": "Recycled scrap steel",
+    "dimensions": "40 x 36 x 25 cm",
+    "weightKg": 1.3,
+    "year": 2022,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/smoc-ii.jpg",
+      "images/smoc-ii-2.jpg",
+      "images/smoc-ii-3.jpg"
+    ]
+  },
+  {
+    "id": "woman-and-man",
+    "title": "WOMAN AND MAN",
+    "price": 720,
+    "materials": "Steel and found objects",
+    "dimensions": "52 x 25 x 22 cm",
+    "weightKg": 9.5,
+    "year": 2025,
+    "description": "A small edition piece, hand-torched and finished with clear wax.",
+    "status": "sold",
+    "images": [
+      "images/woman-and-man.jpg",
+      "images/woman-and-man-2.jpg",
+      "images/woman-and-man-3.jpg"
+    ]
+  },
+  {
+    "id": "swordfish",
+    "title": "SWORDFISH",
+    "price": 320,
+    "materials": "Cast bronze",
+    "dimensions": "43 x 20 x 22 cm",
+    "weightKg": 3.2,
+    "year": 2022,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/swordfish.jpg",
+      "images/swordfish-2.jpg",
+      "images/swordfish-3.jpg"
+    ]
+  },
+  {
+    "id": "rhonda",
+    "title": "RHONDA",
+    "price": 560,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "12 x 23 x 21 cm",
+    "weightKg": 2.1,
+    "year": 2024,
+    "description": "A one-off maquette, part of an ongoing series exploring found form.",
+    "status": "sold",
+    "images": [
+      "images/rhonda.jpg",
+      "images/rhonda-2.jpg",
+      "images/rhonda-3.jpg"
+    ]
+  },
+  {
+    "id": "nic",
+    "title": "NIC",
+    "price": 220,
+    "materials": "Forged steel and brass",
+    "dimensions": "53 x 31 x 12 cm",
+    "weightKg": 5.2,
+    "year": 2023,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/nic.jpg",
+      "images/nic-2.jpg",
+      "images/nic-3.jpg"
+    ]
+  },
+  {
+    "id": "lala",
+    "title": "LALA",
+    "price": 320,
+    "materials": "Recycled scrap steel",
+    "dimensions": "33 x 39 x 13 cm",
+    "weightKg": 17.8,
+    "year": 2023,
+    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
+    "status": "sold",
+    "images": [
+      "images/lala.jpg",
+      "images/lala-2.jpg",
+      "images/lala-3.jpg"
+    ]
+  },
+  {
+    "id": "anchor",
+    "title": "ANCHOR",
+    "price": 950,
+    "materials": "Stainless steel",
+    "dimensions": "40 x 33 x 18 cm",
+    "weightKg": 8.0,
+    "year": 2024,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "in_bidding",
+    "images": [
+      "images/anchor.jpg",
+      "images/anchor-2.jpg",
+      "images/anchor-3.jpg"
+    ],
+    "currentBid": 970,
+    "bidCount": 6,
+    "hoursLeft": 6
+  },
+  {
+    "id": "bunny",
+    "title": "BUNNY",
+    "price": 220,
+    "materials": "Welded steel, rust patina",
+    "dimensions": "9 x 29 x 25 cm",
+    "weightKg": 8.7,
+    "year": 2022,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/bunny.jpg",
+      "images/bunny-2.jpg",
+      "images/bunny-3.jpg"
+    ]
+  },
+  {
+    "id": "jecca",
+    "title": "JECCA",
+    "price": 420,
+    "materials": "Cast bronze",
+    "dimensions": "40 x 12 x 11 cm",
+    "weightKg": 17.7,
+    "year": 2023,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "available",
+    "images": [
+      "images/jecca.jpg",
+      "images/jecca-2.jpg",
+      "images/jecca-3.jpg"
+    ]
+  },
+  {
+    "id": "garry",
+    "title": "GARRY",
+    "price": 180,
+    "materials": "Forged steel and brass",
+    "dimensions": "25 x 16 x 21 cm",
+    "weightKg": 15.4,
+    "year": 2024,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "sold",
+    "images": [
+      "images/garry.jpg",
+      "images/garry-2.jpg",
+      "images/garry-3.jpg"
+    ]
+  },
+  {
+    "id": "jeanie",
+    "title": "JEANIE",
+    "price": 260,
+    "materials": "Steel and copper wire",
+    "dimensions": "52 x 28 x 10 cm",
+    "weightKg": 5.6,
+    "year": 2023,
+    "description": "Salvaged hardware reworked into a single continuous gesture.",
+    "status": "available",
+    "images": [
+      "images/jeanie.jpg",
+      "images/jeanie-2.jpg",
+      "images/jeanie-3.jpg"
+    ]
+  },
+  {
+    "id": "duke",
+    "title": "DUKE",
+    "price": 220,
+    "materials": "Cast bronze",
+    "dimensions": "9 x 13 x 16 cm",
+    "weightKg": 2.2,
+    "year": 2023,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "images/duke.jpg",
+      "images/duke-2.jpg",
+      "images/duke-3.jpg"
+    ]
+  },
+  {
+    "id": "rodger",
+    "title": "RODGER",
+    "price": 380,
+    "materials": "Recycled scrap steel",
+    "dimensions": "37 x 8 x 18 cm",
+    "weightKg": 17.9,
+    "year": 2025,
+    "description": "A quiet, figurative form finished with an oxidised patina.",
+    "status": "available",
+    "images": [
+      "images/rodger.jpg",
+      "images/rodger-2.jpg",
+      "images/rodger-3.jpg"
+    ]
+  },
+  {
+    "id": "married-just",
+    "title": "MARRIED JUST",
+    "price": 690,
+    "materials": "Welded mild steel, brass fittings",
+    "dimensions": "38 x 24 x 12 cm",
+    "weightKg": 9.4,
+    "year": 2024,
+    "description": "A paired form welded from salvaged hardware, finished with a warm oxidised patina.",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770647685-CBOBV77OE0G6PYOBZ6Z7/IMG_5366.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770618923-GKT7NSCTZCRBN2I4M116/IMG_5232.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770632756-TRZVDBAPBULRWMG1UM6Q/IMG_5258.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "grandparent",
+    "title": "GRANDPARENT",
+    "price": 780,
+    "materials": "Forged steel, reclaimed timber base",
+    "dimensions": "45 x 30 x 15 cm",
+    "weightKg": 12.1,
+    "year": 2023,
+    "description": "A weighty, weathered form built to feel handed down rather than made.",
+    "status": "available",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771522521-JF10ZXOIWHUFV5Q75J5J/IMG_4843.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771525248-V5FPRZI93ZQABFNMSEPE/IMG_4841.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771552261-EHRBM528I9DHBDLXUKCE/IMG_5358.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "oyster",
+    "title": "OYSTER",
+    "price": 540,
+    "materials": "Hammered steel shell, welded seam",
+    "dimensions": "28 x 22 x 14 cm",
+    "weightKg": 6.8,
+    "year": 2025,
+    "description": "A rough, ridged shell-form hammered by hand and left with a raw mill-scale finish.",
+    "status": "in_bidding",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772208212-KXNYO9O9WDSJTNO27IUV/IMG_3606.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772185916-668OXWIKL06FQACNN3X5/IMG_3423.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772215737-GPX3PWI4UISKPTXW229C/IMG_3608.jpeg?format=1500w"
+    ],
+    "currentBid": 615,
+    "bidCount": 4,
+    "hoursLeft": 11.0
+  },
+  {
+    "id": "terry",
+    "title": "TERRY",
+    "price": 460,
+    "materials": "Welded scrap steel",
+    "dimensions": "31 x 19 x 10 cm",
+    "weightKg": 5.9,
+    "year": 2024,
+    "description": "A compact figurative study built from offcuts left over from a larger commission.",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772342231-B3NW3QBFO7FID0G498KR/IMG_3466.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772353398-NNW8935O6Z0H40KT13OA/IMG_3462.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772377202-LMFXF8H7QPIALWSDMKSH/IMG_3471.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "cook",
+    "title": "COOK",
+    "price": 380,
+    "materials": "Recycled kitchen-grade steel",
+    "dimensions": "26 x 18 x 9 cm",
+    "weightKg": 4.2,
+    "year": 2022,
+    "description": "Built from decommissioned kitchen offcuts, this piece keeps a faint working-tool character.",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772608454-VVWF2OGO5LDNBJVU3W97/IMG_3568.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772615801-8DC9HFE7NHMVOGBYZBZP/IMG_3567.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "boxes",
+    "title": "BOXES",
+    "price": 510,
+    "materials": "Welded steel plate",
+    "dimensions": "34 x 34 x 20 cm",
+    "weightKg": 10.7,
+    "year": 2023,
+    "description": "A stacked, geometric study in welded plate steel, playing hard right angles against a soft patina.",
+    "status": "available",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772679552-1MPGSTY89GGN81K49IG2/IMG_3604.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772671883-FLZYEFP1RXJ7N1MA1LG0/IMG_3600.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772693740-16GR783552IBZUMZZQMS/IMG_3605.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "untitled",
+    "title": "UNTITLED",
+    "price": 350,
+    "materials": "Mixed reclaimed steel",
+    "dimensions": "24 x 20 x 11 cm",
+    "weightKg": 4.5,
+    "year": 2025,
+    "description": "A recent, still-unnamed study fresh from the workshop.",
+    "status": "available",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773638946-Q3XSBLTKV10ZGWUYNRPN/IMG_3415.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773644412-QG9GUTKZUKFJS6XIHX3A/IMG_3416.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773659684-13OHUMR9TZOZMZP8BBO7/IMG_3417.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "banjo",
+    "title": "BANJO",
+    "price": 620,
+    "materials": "Welded steel, brass tuning pegs",
+    "dimensions": "42 x 16 x 8 cm",
+    "weightKg": 5.3,
+    "year": 2024,
+    "description": "An instrument-shaped study cast in the same rough, welded language as the rest of the workshop.",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774052808-LU2401H5W31JR20SMMJI/IMG_3025.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w"
+    ]
+  }
+]
