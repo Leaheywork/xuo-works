@@ -10,9 +10,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "images/stocky.jpg",
-      "images/stocky-2.jpg",
-      "images/stocky-3.jpg"
+      "/images/stocky.jpg",
+      "/images/stocky-2.jpg",
+      "/images/stocky-3.jpg"
     ]
   },
   {
@@ -26,9 +26,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "in_bidding",
     "images": [
-      "images/dominique.jpg",
-      "images/dominique-2.jpg",
-      "images/dominique-3.jpg"
+      "/images/dominique.jpg",
+      "/images/dominique-2.jpg",
+      "/images/dominique-3.jpg"
     ],
     "currentBid": 810,
     "bidCount": 6,
@@ -45,9 +45,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/cutout.jpg",
-      "images/cutout-2.jpg",
-      "images/cutout-3.jpg"
+      "/images/cutout.jpg",
+      "/images/cutout-2.jpg",
+      "/images/cutout-3.jpg"
     ]
   },
   {
@@ -61,9 +61,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "available",
     "images": [
-      "images/pearl-shell.jpg",
-      "images/pearl-shell-2.jpg",
-      "images/pearl-shell-3.jpg"
+      "/images/pearl-shell.jpg",
+      "/images/pearl-shell-2.jpg",
+      "/images/pearl-shell-3.jpg"
     ]
   },
   {
@@ -77,9 +77,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "images/nina.jpg",
-      "images/nina-2.jpg",
-      "images/nina-3.jpg"
+      "/images/nina.jpg",
+      "/images/nina-2.jpg",
+      "/images/nina-3.jpg"
     ]
   },
   {
@@ -93,9 +93,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
     "images": [
-      "images/rachel.jpg",
-      "images/rachel-2.jpg",
-      "images/rachel-3.jpg"
+      "/images/rachel.jpg",
+      "/images/rachel-2.jpg",
+      "/images/rachel-3.jpg"
     ]
   },
   {
@@ -109,9 +109,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "images/michael.jpg",
-      "images/michael-2.jpg",
-      "images/michael-3.jpg"
+      "/images/michael.jpg",
+      "/images/michael-2.jpg",
+      "/images/michael-3.jpg"
     ]
   },
   {
@@ -125,9 +125,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "available",
     "images": [
-      "images/minna.jpg",
-      "images/minna-2.jpg",
-      "images/minna-3.jpg"
+      "/images/minna.jpg",
+      "/images/minna-2.jpg",
+      "/images/minna-3.jpg"
     ]
   },
   {
@@ -141,9 +141,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "images/michael-ii.jpg",
-      "images/michael-ii-2.jpg",
-      "images/michael-ii-3.jpg"
+      "/images/michael-ii.jpg",
+      "/images/michael-ii-2.jpg",
+      "/images/michael-ii-3.jpg"
     ]
   },
   {
@@ -157,9 +157,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "in_bidding",
     "images": [
-      "images/guy.jpg",
-      "images/guy-2.jpg",
-      "images/guy-3.jpg"
+      "/images/guy.jpg",
+      "/images/guy-2.jpg",
+      "/images/guy-3.jpg"
     ],
     "currentBid": 740,
     "bidCount": 5,
@@ -176,9 +176,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/janet.jpg",
-      "images/janet-2.jpg",
-      "images/janet-3.jpg"
+      "/images/janet.jpg",
+      "/images/janet-2.jpg",
+      "/images/janet-3.jpg"
     ]
   },
   {
@@ -192,9 +192,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
     "images": [
-      "images/fourty.jpg",
-      "images/fourty-2.jpg",
-      "images/fourty-3.jpg"
+      "/images/fourty.jpg",
+      "/images/fourty-2.jpg",
+      "/images/fourty-3.jpg"
     ]
   },
   {
@@ -208,9 +208,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "images/walter.jpg",
-      "images/walter-2.jpg",
-      "images/walter-3.jpg"
+      "/images/walter.jpg",
+      "/images/walter-2.jpg",
+      "/images/walter-3.jpg"
     ]
   },
   {
@@ -224,9 +224,9 @@
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
     "status": "available",
     "images": [
-      "images/simon.jpg",
-      "images/simon-2.jpg",
-      "images/simon-3.jpg"
+      "/images/simon.jpg",
+      "/images/simon-2.jpg",
+      "/images/simon-3.jpg"
     ]
   },
   {
@@ -240,9 +240,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "images/eva.jpg",
-      "images/eva-2.jpg",
-      "images/eva-3.jpg"
+      "/images/eva.jpg",
+      "/images/eva-2.jpg",
+      "/images/eva-3.jpg"
     ]
   },
   {
@@ -256,9 +256,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "available",
     "images": [
-      "images/smoc.jpg",
-      "images/smoc-2.jpg",
-      "images/smoc-3.jpg"
+      "/images/smoc.jpg",
+      "/images/smoc-2.jpg",
+      "/images/smoc-3.jpg"
     ]
   },
   {
@@ -272,9 +272,9 @@
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
     "status": "sold",
     "images": [
-      "images/sophie.jpg",
-      "images/sophie-2.jpg",
-      "images/sophie-3.jpg"
+      "/images/sophie.jpg",
+      "/images/sophie-2.jpg",
+      "/images/sophie-3.jpg"
     ]
   },
   {
@@ -288,9 +288,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "in_bidding",
     "images": [
-      "images/lipstick.jpg",
-      "images/lipstick-2.jpg",
-      "images/lipstick-3.jpg"
+      "/images/lipstick.jpg",
+      "/images/lipstick-2.jpg",
+      "/images/lipstick-3.jpg"
     ],
     "currentBid": 360,
     "bidCount": 3,
@@ -307,9 +307,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "images/ashley-and-sally.jpg",
-      "images/ashley-and-sally-2.jpg",
-      "images/ashley-and-sally-3.jpg"
+      "/images/ashley-and-sally.jpg",
+      "/images/ashley-and-sally-2.jpg",
+      "/images/ashley-and-sally-3.jpg"
     ]
   },
   {
@@ -323,9 +323,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/chambers.jpg",
-      "images/chambers-2.jpg",
-      "images/chambers-3.jpg"
+      "/images/chambers.jpg",
+      "/images/chambers-2.jpg",
+      "/images/chambers-3.jpg"
     ]
   },
   {
@@ -339,9 +339,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "images/one.jpg",
-      "images/one-2.jpg",
-      "images/one-3.jpg"
+      "/images/one.jpg",
+      "/images/one-2.jpg",
+      "/images/one-3.jpg"
     ]
   },
   {
@@ -355,9 +355,9 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "available",
     "images": [
-      "images/james.jpg",
-      "images/james-2.jpg",
-      "images/james-3.jpg"
+      "/images/james.jpg",
+      "/images/james-2.jpg",
+      "/images/james-3.jpg"
     ]
   },
   {
@@ -371,9 +371,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "images/jinx.jpg",
-      "images/jinx-2.jpg",
-      "images/jinx-3.jpg"
+      "/images/jinx.jpg",
+      "/images/jinx-2.jpg",
+      "/images/jinx-3.jpg"
     ]
   },
   {
@@ -387,9 +387,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
     "images": [
-      "images/sophie-ii.jpg",
-      "images/sophie-ii-2.jpg",
-      "images/sophie-ii-3.jpg"
+      "/images/sophie-ii.jpg",
+      "/images/sophie-ii-2.jpg",
+      "/images/sophie-ii-3.jpg"
     ]
   },
   {
@@ -403,9 +403,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "images/minna-ii.jpg",
-      "images/minna-ii-2.jpg",
-      "images/minna-ii-3.jpg"
+      "/images/minna-ii.jpg",
+      "/images/minna-ii-2.jpg",
+      "/images/minna-ii-3.jpg"
     ]
   },
   {
@@ -419,9 +419,9 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "in_bidding",
     "images": [
-      "images/chris.jpg",
-      "images/chris-2.jpg",
-      "images/chris-3.jpg"
+      "/images/chris.jpg",
+      "/images/chris-2.jpg",
+      "/images/chris-3.jpg"
     ],
     "currentBid": 270,
     "bidCount": 7,
@@ -438,9 +438,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "images/dominique-and-jean-luc.jpg",
-      "images/dominique-and-jean-luc-2.jpg",
-      "images/dominique-and-jean-luc-3.jpg"
+      "/images/dominique-and-jean-luc.jpg",
+      "/images/dominique-and-jean-luc-2.jpg",
+      "/images/dominique-and-jean-luc-3.jpg"
     ]
   },
   {
@@ -454,9 +454,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "available",
     "images": [
-      "images/kate.jpg",
-      "images/kate-2.jpg",
-      "images/kate-3.jpg"
+      "/images/kate.jpg",
+      "/images/kate-2.jpg",
+      "/images/kate-3.jpg"
     ]
   },
   {
@@ -470,9 +470,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/jim.jpg",
-      "images/jim-2.jpg",
-      "images/jim-3.jpg"
+      "/images/jim.jpg",
+      "/images/jim-2.jpg",
+      "/images/jim-3.jpg"
     ]
   },
   {
@@ -486,9 +486,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "available",
     "images": [
-      "images/la-la.jpg",
-      "images/la-la-2.jpg",
-      "images/la-la-3.jpg"
+      "/images/la-la.jpg",
+      "/images/la-la-2.jpg",
+      "/images/la-la-3.jpg"
     ]
   },
   {
@@ -502,9 +502,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/janet-ii.jpg",
-      "images/janet-ii-2.jpg",
-      "images/janet-ii-3.jpg"
+      "/images/janet-ii.jpg",
+      "/images/janet-ii-2.jpg",
+      "/images/janet-ii-3.jpg"
     ]
   },
   {
@@ -518,9 +518,9 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "available",
     "images": [
-      "images/jean-luc.jpg",
-      "images/jean-luc-2.jpg",
-      "images/jean-luc-3.jpg"
+      "/images/jean-luc.jpg",
+      "/images/jean-luc-2.jpg",
+      "/images/jean-luc-3.jpg"
     ]
   },
   {
@@ -534,9 +534,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/jessica.jpg",
-      "images/jessica-2.jpg",
-      "images/jessica-3.jpg"
+      "/images/jessica.jpg",
+      "/images/jessica-2.jpg",
+      "/images/jessica-3.jpg"
     ]
   },
   {
@@ -550,9 +550,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "in_bidding",
     "images": [
-      "images/timmy-dog.jpg",
-      "images/timmy-dog-2.jpg",
-      "images/timmy-dog-3.jpg"
+      "/images/timmy-dog.jpg",
+      "/images/timmy-dog-2.jpg",
+      "/images/timmy-dog-3.jpg"
     ],
     "currentBid": 1240,
     "bidCount": 2,
@@ -569,9 +569,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/jon-jon.jpg",
-      "images/jon-jon-2.jpg",
-      "images/jon-jon-3.jpg"
+      "/images/jon-jon.jpg",
+      "/images/jon-jon-2.jpg",
+      "/images/jon-jon-3.jpg"
     ]
   },
   {
@@ -585,9 +585,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/ireland.jpg",
-      "images/ireland-2.jpg",
-      "images/ireland-3.jpg"
+      "/images/ireland.jpg",
+      "/images/ireland-2.jpg",
+      "/images/ireland-3.jpg"
     ]
   },
   {
@@ -601,9 +601,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/louise.jpg",
-      "images/louise-2.jpg",
-      "images/louise-3.jpg"
+      "/images/louise.jpg",
+      "/images/louise-2.jpg",
+      "/images/louise-3.jpg"
     ]
   },
   {
@@ -617,9 +617,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "available",
     "images": [
-      "images/shane.jpg",
-      "images/shane-2.jpg",
-      "images/shane-3.jpg"
+      "/images/shane.jpg",
+      "/images/shane-2.jpg",
+      "/images/shane-3.jpg"
     ]
   },
   {
@@ -633,9 +633,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/burrows.jpg",
-      "images/burrows-2.jpg",
-      "images/burrows-3.jpg"
+      "/images/burrows.jpg",
+      "/images/burrows-2.jpg",
+      "/images/burrows-3.jpg"
     ]
   },
   {
@@ -649,9 +649,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "available",
     "images": [
-      "images/dry-july.jpg",
-      "images/dry-july-2.jpg",
-      "images/dry-july-3.jpg"
+      "/images/dry-july.jpg",
+      "/images/dry-july-2.jpg",
+      "/images/dry-july-3.jpg"
     ]
   },
   {
@@ -665,9 +665,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/mr-king.jpg",
-      "images/mr-king-2.jpg",
-      "images/mr-king-3.jpg"
+      "/images/mr-king.jpg",
+      "/images/mr-king-2.jpg",
+      "/images/mr-king-3.jpg"
     ]
   },
   {
@@ -681,9 +681,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "in_bidding",
     "images": [
-      "images/dani.jpg",
-      "images/dani-2.jpg",
-      "images/dani-3.jpg"
+      "/images/dani.jpg",
+      "/images/dani-2.jpg",
+      "/images/dani-3.jpg"
     ],
     "currentBid": 320,
     "bidCount": 3,
@@ -700,9 +700,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "images/billy-boy.jpg",
-      "images/billy-boy-2.jpg",
-      "images/billy-boy-3.jpg"
+      "/images/billy-boy.jpg",
+      "/images/billy-boy-2.jpg",
+      "/images/billy-boy-3.jpg"
     ]
   },
   {
@@ -716,9 +716,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/smoc-ii.jpg",
-      "images/smoc-ii-2.jpg",
-      "images/smoc-ii-3.jpg"
+      "/images/smoc-ii.jpg",
+      "/images/smoc-ii-2.jpg",
+      "/images/smoc-ii-3.jpg"
     ]
   },
   {
@@ -732,9 +732,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "images/woman-and-man.jpg",
-      "images/woman-and-man-2.jpg",
-      "images/woman-and-man-3.jpg"
+      "/images/woman-and-man.jpg",
+      "/images/woman-and-man-2.jpg",
+      "/images/woman-and-man-3.jpg"
     ]
   },
   {
@@ -748,9 +748,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/swordfish.jpg",
-      "images/swordfish-2.jpg",
-      "images/swordfish-3.jpg"
+      "/images/swordfish.jpg",
+      "/images/swordfish-2.jpg",
+      "/images/swordfish-3.jpg"
     ]
   },
   {
@@ -764,9 +764,9 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "sold",
     "images": [
-      "images/rhonda.jpg",
-      "images/rhonda-2.jpg",
-      "images/rhonda-3.jpg"
+      "/images/rhonda.jpg",
+      "/images/rhonda-2.jpg",
+      "/images/rhonda-3.jpg"
     ]
   },
   {
@@ -780,9 +780,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/nic.jpg",
-      "images/nic-2.jpg",
-      "images/nic-3.jpg"
+      "/images/nic.jpg",
+      "/images/nic-2.jpg",
+      "/images/nic-3.jpg"
     ]
   },
   {
@@ -796,9 +796,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "images/lala.jpg",
-      "images/lala-2.jpg",
-      "images/lala-3.jpg"
+      "/images/lala.jpg",
+      "/images/lala-2.jpg",
+      "/images/lala-3.jpg"
     ]
   },
   {
@@ -812,9 +812,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "in_bidding",
     "images": [
-      "images/anchor.jpg",
-      "images/anchor-2.jpg",
-      "images/anchor-3.jpg"
+      "/images/anchor.jpg",
+      "/images/anchor-2.jpg",
+      "/images/anchor-3.jpg"
     ],
     "currentBid": 970,
     "bidCount": 6,
@@ -831,9 +831,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/bunny.jpg",
-      "images/bunny-2.jpg",
-      "images/bunny-3.jpg"
+      "/images/bunny.jpg",
+      "/images/bunny-2.jpg",
+      "/images/bunny-3.jpg"
     ]
   },
   {
@@ -847,9 +847,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
     "images": [
-      "images/jecca.jpg",
-      "images/jecca-2.jpg",
-      "images/jecca-3.jpg"
+      "/images/jecca.jpg",
+      "/images/jecca-2.jpg",
+      "/images/jecca-3.jpg"
     ]
   },
   {
@@ -863,9 +863,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "images/garry.jpg",
-      "images/garry-2.jpg",
-      "images/garry-3.jpg"
+      "/images/garry.jpg",
+      "/images/garry-2.jpg",
+      "/images/garry-3.jpg"
     ]
   },
   {
@@ -879,9 +879,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "available",
     "images": [
-      "images/jeanie.jpg",
-      "images/jeanie-2.jpg",
-      "images/jeanie-3.jpg"
+      "/images/jeanie.jpg",
+      "/images/jeanie-2.jpg",
+      "/images/jeanie-3.jpg"
     ]
   },
   {
@@ -895,9 +895,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "images/duke.jpg",
-      "images/duke-2.jpg",
-      "images/duke-3.jpg"
+      "/images/duke.jpg",
+      "/images/duke-2.jpg",
+      "/images/duke-3.jpg"
     ]
   },
   {
@@ -911,9 +911,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "available",
     "images": [
-      "images/rodger.jpg",
-      "images/rodger-2.jpg",
-      "images/rodger-3.jpg"
+      "/images/rodger.jpg",
+      "/images/rodger-2.jpg",
+      "/images/rodger-3.jpg"
     ]
   },
   {
