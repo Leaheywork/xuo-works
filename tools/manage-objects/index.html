@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XUO.WORKS — item manager</title>
+<style>
+  :root {
+    --bg: #f4f3ef;
+    --ink: #1a1a1a;
+    --steel: #6e7378;
+    --hairline: #c9c7c0;
+    --sold: #b23b23;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  header {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--hairline);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  header h1 {
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  header .note {
+    font-family: "Courier New", monospace;
+    font-size: 11px;
+    color: var(--steel);
+  }
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px 24px 80px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+  }
+  .card {
+    background: var(--bg);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    background: #fff;
+    border: 1px solid var(--hairline);
+  }
+  .card .title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .row {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  label {
+    font-size: 11px;
+    color: var(--steel);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  input, select, textarea {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 6px 8px;
+    border: 1px solid var(--hairline);
+    background: #fff;
+    color: var(--ink);
+    width: 100%;
+  }
+  textarea { resize: vertical; min-height: 60px; }
+  button {
+    font-family: "Courier New", monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 8px 12px;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: var(--bg);
+    cursor: pointer;
+  }
+  button.secondary {
+    background: transparent;
+    color: var(--ink);
+  }
+  button.danger {
+    border-color: var(--sold);
+    color: var(--sold);
+    background: transparent;
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid var(--hairline);
+    padding: 20px;
+  }
+  .form-grid .full { grid-column: 1 / -1; }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .status-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    display: inline-block; margin-right: 6px;
+  }
+  .status-sold { background: var(--sold); }
+  .status-available { background: #3a8f5c; }
+  .status-in_bidding { background: #b8860b; }
+  .msg {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    border: 1px solid var(--hairline);
+    display: none;
+  }
+  .msg.show { display: block; }
+  .msg.ok { border-color: #3a8f5c; color: #3a8f5c; }
+  .msg.err { border-color: var(--sold); color: var(--sold); }
+  .publish-box {
+    background: var(--ink);
+    color: var(--bg);
+    padding: 16px 20px;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .publish-box code {
+    display: block;
+    background: rgba(255,255,255,0.08);
+    padding: 8px 10px;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>XUO.WORKS — item manager</h1>
+  <span class="note">runs locally · localhost:5757</span>
+</header>
+
+<main>
+  <div id="msg" class="msg"></div>
+
+  <section>
+    <h2>Current objects</h2>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section>
+    <h2>Add new object</h2>
+    <form id="addForm" class="form-grid">
+      <div class="field">
+        <label>Title</label>
+        <input name="title" required placeholder="e.g. OYSTER" />
+      </div>
+      <div class="field">
+        <label>Price (AUD)</label>
+        <input name="price" type="number" min="0" required placeholder="450" />
+      </div>
+      <div class="field">
+        <label>Materials</label>
+        <input name="materials" placeholder="Welded mild steel" />
+      </div>
+      <div class="field">
+        <label>Dimensions</label>
+        <input name="dimensions" placeholder="30 x 20 x 12 cm" />
+      </div>
+      <div class="field">
+        <label>Weight (kg)</label>
+        <input name="weightKg" type="number" step="0.1" min="0" placeholder="5.5" />
+      </div>
+      <div class="field">
+        <label>Year</label>
+        <input name="year" type="number" placeholder="2026" />
+      </div>
+      <div class="field full">
+        <label>Description</label>
+        <textarea name="description" placeholder="A short line about the piece."></textarea>
+      </div>
+      <div class="field">
+        <label>Status</label>
+        <select name="status" id="statusSelect">
+          <option value="available">Available</option>
+          <option value="in_bidding">In bidding</option>
+          <option value="sold">Sold</option>
+        </select>
+      </div>
+      <div class="field" id="hoursLeftField" style="display:none;">
+        <label>Hours left in bidding</label>
+        <input name="hoursLeft" type="number" min="0" value="24" />
+      </div>
+      <div class="field full">
+        <label>Photos (first = main grid photo, up to 3)</label>
+        <input name="photos" type="file" accept="image/*" multiple />
+      </div>
+      <div class="field full row" style="justify-content:flex-end;">
+        <button type="submit">Add object</button>
+      </div>
+    </form>
+  </section>
+
+  <section>
+    <h2>Publish your changes</h2>
+    <div class="publish-box">
+      Every change here updates the file on your computer, but the live site
+      doesn't see it until you push it. When you're done adding/editing items,
+      open Terminal in your xuo-works folder and run:
+      <code>git add .
+git commit -m "update objects"
+git push</code>
+    </div>
+  </section>
+</main>
+
+<script>
+const grid = document.getElementById('grid');
+const msgEl = document.getElementById('msg');
+const statusSelect = document.getElementById('statusSelect');
+const hoursLeftField = document.getElementById('hoursLeftField');
+
+statusSelect.addEventListener('change', () => {
+  hoursLeftField.style.display = statusSelect.value === 'in_bidding' ? 'flex' : 'none';
+});
+
+function showMsg(text, ok) {
+  msgEl.textContent = text;
+  msgEl.className = 'msg show ' + (ok ? 'ok' : 'err');
+  setTimeout(() => { msgEl.className = 'msg'; }, 4000);
+}
+
+function statusLabel(s) {
+  return s === 'in_bidding' ? 'In bidding' : s === 'sold' ? 'Sold' : 'Available';
+}
+
+async function loadObjects() {
+  const res = await fetch('/api/objects');
+  const data = await res.json();
+  grid.innerHTML = '';
+  data.slice().reverse().forEach((o) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    const img = (o.images && o.images[0]) || '';
+    card.innerHTML = `
+      <img src="${img}" alt="${o.title}" onerror="this.style.opacity=0.2" />
+      <div class="title">${o.title}</div>
+      <div class="row">
+        <select data-id="${o.id}" class="statusSel">
+          <option value="available" ${o.status==='available'?'selected':''}>Available</option>
+          <option value="in_bidding" ${o.status==='in_bidding'?'selected':''}>In bidding</option>
+          <option value="sold" ${o.status==='sold'?'selected':''}>Sold</option>
+        </select>
+      </div>
+      <div class="row">
+        <input data-id="${o.id}" class="priceInput" type="number" value="${o.currentBid ?? o.price}" />
+        <button data-id="${o.id}" class="saveBtn">Save</button>
+      </div>
+      <div class="row">
+        <button data-id="${o.id}" class="deleteBtn danger" style="width:100%;">Remove</button>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+
+  grid.querySelectorAll('.saveBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      const status = grid.querySelector(`.statusSel[data-id="${id}"]`).value;
+      const price = grid.querySelector(`.priceInput[data-id="${id}"]`).value;
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status, price }),
+      });
+      if (res.ok) { showMsg('Saved ' + id, true); loadObjects(); }
+      else showMsg('Could not save ' + id, false);
+    });
+  });
+
+  grid.querySelectorAll('.deleteBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      if (!confirm('Remove "' + id + '" from the site? This does not delete the photo files.')) return;
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), { method: 'DELETE' });
+      if (res.ok) { showMsg('Removed ' + id, true); loadObjects(); }
+      else showMsg('Could not remove ' + id, false);
+    });
+  });
+}
+
+function fileToDataURL(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+document.getElementById('addForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const fd = new FormData(form);
+  const files = form.querySelector('input[name="photos"]').files;
+  const images = [];
+  for (let i = 0; i < Math.min(files.length, 3); i++) {
+    const dataURL = await fileToDataURL(files[i]);
+    images.push({ filename: files[i].name, dataBase64: dataURL });
+  }
+
+  const payload = {
+    title: fd.get('title'),
+    price: fd.get('price'),
+    materials: fd.get('materials'),
+    dimensions: fd.get('dimensions'),
+    weightKg: fd.get('weightKg'),
+    year: fd.get('year'),
+    description: fd.get('description'),
+    status: fd.get('status'),
+    hoursLeft: fd.get('hoursLeft'),
+    images,
+  };
+
+  const res = await fetch('/api/objects', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+
+  if (res.ok) {
+    showMsg('Added — remember to push your changes when you\'re done.', true);
+    form.reset();
+    hoursLeftField.style.display = 'none';
+    loadObjects();
+  } else {
+    const err = await res.json().catch(() => ({}));
+    showMsg('Could not add object: ' + (err.error || 'unknown error'), false);
+  }
+});
+
+loadObjects();
+</script>
+</body>
+</html>
