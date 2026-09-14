@@ -65,6 +65,15 @@ function ensureImagesDir() {
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
 }
 
+const MIME = {
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".gif": "image/gif",
+  ".webp": "image/webp",
+  ".svg": "image/svg+xml",
+};
+
 const server = http.createServer((req, res) => {
   const url = req.url.split("?")[0];
 
@@ -74,6 +83,20 @@ const server = http.createServer((req, res) => {
       send(res, 200, buf, "text/html; charset=utf-8");
     });
     return;
+  }
+
+  // Serve static files out of the project's public/ folder (e.g. /images/foo.jpg)
+  if (req.method === "GET" && !url.startsWith("/api/")) {
+    const safePath = path.normalize(url).replace(/^(\.\.[/\\])+/, "");
+    const filePath = path.join(ROOT, "public", safePath);
+    if (filePath.startsWith(path.join(ROOT, "public"))) {
+      fs.readFile(filePath, (err, buf) => {
+        if (err) return send(res, 404, { error: "Not found." });
+        const ext = path.extname(filePath).toLowerCase();
+        send(res, 200, buf, MIME[ext] || "application/octet-stream");
+      });
+      return;
+    }
   }
 
   if (req.method === "GET" && url === "/api/objects") {
