@@ -9,7 +9,7 @@ const FILTERS: { key: ObjectStatus | "all"; label: string }[] = [
   { key: "all", label: "All" },
   { key: "available", label: "Available" },
   { key: "in_bidding", label: "In bidding" },
-  { key: "sold", label: "Sold" },
+  { key: "sold", label: "Not available" },
 ];
 
 export default function ObjectsGrid({ objects }: { objects: XuoObject[] }) {

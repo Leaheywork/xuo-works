@@ -18,10 +18,10 @@ export default function BuyBox({ object }: { object: XuoObject }) {
       <div className="border border-hairline p-5">
         <div className="flex items-center gap-2 text-sold text-[11px] font-mono uppercase tracking-wide mb-2">
           <span className="h-1.5 w-1.5 rounded-full bg-sold inline-block" />
-          Sold
+          Not available
         </div>
         <p className="text-sm text-steel">
-          This piece has been sold and is no longer available.
+          This piece is no longer available.
         </p>
       </div>
     );
