@@ -40,7 +40,7 @@
     "price": 320,
     "materials": "Recycled scrap steel",
     "dimensions": "43 x 35 x 9 cm",
-    "weightKg": 15.0,
+    "weightKg": 15,
     "year": 2022,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
@@ -88,7 +88,7 @@
     "price": 720,
     "materials": "Steel and found objects",
     "dimensions": "31 x 14 x 25 cm",
-    "weightKg": 13.0,
+    "weightKg": 13,
     "year": 2026,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
@@ -187,7 +187,7 @@
     "price": 720,
     "materials": "Steel and copper wire",
     "dimensions": "12 x 13 x 16 cm",
-    "weightKg": 9.0,
+    "weightKg": 9,
     "year": 2022,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "available",
@@ -219,7 +219,7 @@
     "price": 260,
     "materials": "Recycled scrap steel",
     "dimensions": "39 x 11 x 14 cm",
-    "weightKg": 14.0,
+    "weightKg": 14,
     "year": 2023,
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
     "status": "available",
@@ -807,7 +807,7 @@
     "price": 950,
     "materials": "Stainless steel",
     "dimensions": "40 x 33 x 18 cm",
-    "weightKg": 8.0,
+    "weightKg": 8,
     "year": 2024,
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "in_bidding",
@@ -965,7 +965,7 @@
     ],
     "currentBid": 615,
     "bidCount": 4,
-    "hoursLeft": 11.0
+    "hoursLeft": 11
   },
   {
     "id": "terry",
@@ -1017,7 +1017,7 @@
   {
     "id": "untitled",
     "title": "UNTITLED",
-    "price": 350,
+    "price": 349,
     "materials": "Mixed reclaimed steel",
     "dimensions": "24 x 20 x 11 cm",
     "weightKg": 4.5,
@@ -1042,8 +1042,23 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774052808-LU2401H5W31JR20SMMJI/IMG_3025.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "twisties-4",
+    "title": "TWISTIES",
+    "price": 450,
+    "materials": "STAINLESS STEEL",
+    "dimensions": "23 X13 X 60",
+    "weightKg": 0.4,
+    "year": 2026,
+    "description": "LIFES PRETTY STRAIGHT WITHOUT A...",
+    "status": "available",
+    "images": [
+      "/images/twisties-4-2.jpeg",
+      "/images/twisties-4.jpeg"
     ]
   }
 ]

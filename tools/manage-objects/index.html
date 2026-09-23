@@ -80,6 +80,13 @@
     letter-spacing: 0.04em;
     font-weight: 600;
   }
+  .card .titleInput {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    padding: 4px 6px;
+  }
   .row {
     display: flex;
     gap: 6px;
@@ -131,6 +138,105 @@
   }
   .form-grid .full { grid-column: 1 / -1; }
   .field { display: flex; flex-direction: column; gap: 4px; }
+  .thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .thumb {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    cursor: grab;
+  }
+  .thumb.dragging {
+    opacity: 0.4;
+  }
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid var(--hairline);
+    aspect-ratio: unset;
+    pointer-events: none;
+  }
+  .thumbOrder {
+    position: absolute;
+    bottom: -6px;
+    left: -6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--bg);
+    font-size: 10px;
+    font-family: "Courier New", monospace;
+    line-height: 16px;
+    text-align: center;
+  }
+  .thumbHint {
+    font-size: 10px;
+    color: var(--steel);
+    font-family: "Courier New", monospace;
+  }
+  .crop-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  .crop-box {
+    background: var(--bg);
+    padding: 20px;
+    max-width: 92vw;
+  }
+  .crop-header {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+  }
+  #cropCanvas {
+    display: block;
+    background: #000;
+    cursor: grab;
+    touch-action: none;
+    max-width: 100%;
+  }
+  #cropCanvas.dragging { cursor: grabbing; }
+  .crop-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .crop-controls label { flex-shrink: 0; }
+  .crop-controls input[type="range"] { width: 100%; }
+  .crop-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .thumb .removeImgBtn {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    line-height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--sold);
+    background: var(--bg);
+    color: var(--sold);
+    font-size: 12px;
+    font-family: "Courier New", monospace;
+    cursor: pointer;
+  }
   .status-dot {
     width: 8px; height: 8px; border-radius: 50%;
     display: inline-block; margin-right: 6px;
@@ -246,6 +352,21 @@ git push</code>
   </section>
 </main>
 
+<div id="cropOverlay" class="crop-overlay">
+  <div class="crop-box">
+    <div class="crop-header">Position the photo <span id="cropCounter"></span> — drag to move, slider to zoom</div>
+    <canvas id="cropCanvas" width="320" height="320"></canvas>
+    <div class="crop-controls">
+      <label>Zoom</label>
+      <input type="range" id="cropZoom" min="1" max="4" step="0.01" value="1" />
+    </div>
+    <div class="crop-actions">
+      <button type="button" id="cropSkip" class="secondary">Use original (no crop)</button>
+      <button type="button" id="cropConfirm">Use this crop</button>
+    </div>
+  </div>
+</div>
+
 <script>
 const grid = document.getElementById('grid');
 const msgEl = document.getElementById('msg');
@@ -274,9 +395,22 @@ async function loadObjects() {
     const card = document.createElement('div');
     card.className = 'card';
     const img = (o.images && o.images[0]) || '';
+    const thumbsHtml = (o.images || [])
+      .map(
+        (imgPath, i) => `
+        <div class="thumb" draggable="true" data-id="${o.id}" data-img="${imgPath}">
+          <span class="thumbOrder">${i + 1}</span>
+          <img src="${imgPath}" onerror="this.style.opacity=0.2" />
+          <button type="button" class="removeImgBtn" data-id="${o.id}" data-img="${imgPath}" title="Remove this photo">&times;</button>
+        </div>`
+      )
+      .join('');
+    const titleEscaped = String(o.title || '').replace(/"/g, '&quot;');
     card.innerHTML = `
       <img src="${img}" alt="${o.title}" onerror="this.style.opacity=0.2" />
-      <div class="title">${o.title}</div>
+      <input data-id="${o.id}" class="titleInput" value="${titleEscaped}" />
+      <div class="thumbs" data-id="${o.id}">${thumbsHtml}</div>
+      ${(o.images || []).length > 1 ? '<div class="thumbHint">Drag photos to reorder — first is the main photo</div>' : ''}
       <div class="row">
         <select data-id="${o.id}" class="statusSel">
           <option value="available" ${o.status==='available'?'selected':''}>Available</option>
@@ -288,6 +422,10 @@ async function loadObjects() {
         <input data-id="${o.id}" class="priceInput" type="number" value="${o.currentBid ?? o.price}" />
         <button data-id="${o.id}" class="saveBtn">Save</button>
       </div>
+      <div class="field">
+        <label>Replace photos (optional, up to 3)</label>
+        <input data-id="${o.id}" class="photoInput" type="file" accept="image/*" multiple />
+      </div>
       <div class="row">
         <button data-id="${o.id}" class="deleteBtn danger" style="width:100%;">Remove</button>
       </div>
@@ -295,18 +433,83 @@ async function loadObjects() {
     grid.appendChild(card);
   });
 
+  let draggedThumb = null;
+  grid.querySelectorAll('.thumb').forEach((thumb) => {
+    thumb.addEventListener('dragstart', () => {
+      draggedThumb = thumb;
+      thumb.classList.add('dragging');
+    });
+    thumb.addEventListener('dragend', () => {
+      thumb.classList.remove('dragging');
+      draggedThumb = null;
+    });
+    thumb.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      if (!draggedThumb || draggedThumb === thumb) return;
+      const container = thumb.parentElement;
+      if (draggedThumb.parentElement !== container) return;
+      const rect = thumb.getBoundingClientRect();
+      const after = e.clientX - rect.left > rect.width / 2;
+      container.insertBefore(draggedThumb, after ? thumb.nextSibling : thumb);
+    });
+  });
+
+  grid.querySelectorAll('.thumbs').forEach((container) => {
+    container.addEventListener('dragover', (e) => e.preventDefault());
+    container.addEventListener('drop', async (e) => {
+      e.preventDefault();
+      const id = container.dataset.id;
+      const order = Array.from(container.querySelectorAll('.thumb')).map((t) => t.dataset.img);
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reorderImages: order }),
+      });
+      if (res.ok) { showMsg('Photo order updated for ' + id, true); loadObjects(); }
+      else showMsg('Could not update photo order for ' + id, false);
+    });
+  });
+
   grid.querySelectorAll('.saveBtn').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const id = btn.dataset.id;
       const status = grid.querySelector(`.statusSel[data-id="${id}"]`).value;
       const price = grid.querySelector(`.priceInput[data-id="${id}"]`).value;
+      const title = grid.querySelector(`.titleInput[data-id="${id}"]`).value;
+      const photoInput = grid.querySelector(`.photoInput[data-id="${id}"]`);
+      const files = photoInput && photoInput.files ? Array.from(photoInput.files).slice(0, 3) : [];
+
+      const body = { status, price, title };
+      if (files.length) {
+        btn.textContent = 'Uploading...';
+        btn.disabled = true;
+        body.images = await cropFiles(files);
+      }
+
       const res = await fetch('/api/objects/' + encodeURIComponent(id), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ status, price }),
+        body: JSON.stringify(body),
       });
+      btn.textContent = 'Save';
+      btn.disabled = false;
       if (res.ok) { showMsg('Saved ' + id, true); loadObjects(); }
       else showMsg('Could not save ' + id, false);
+    });
+  });
+
+  grid.querySelectorAll('.removeImgBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      const imgPath = btn.dataset.img;
+      if (!confirm('Remove this photo from ' + id + '?')) return;
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ removeImages: [imgPath] }),
+      });
+      if (res.ok) { showMsg('Removed photo from ' + id, true); loadObjects(); }
+      else showMsg('Could not remove photo from ' + id, false);
     });
   });
 
@@ -330,16 +533,143 @@ function fileToDataURL(file) {
   });
 }
 
+// --- Photo cropper: lets you pick exactly what square crop customers see ---
+const cropOverlay = document.getElementById('cropOverlay');
+const cropCanvas = document.getElementById('cropCanvas');
+const cropZoomInput = document.getElementById('cropZoom');
+const cropConfirmBtn = document.getElementById('cropConfirm');
+const cropSkipBtn = document.getElementById('cropSkip');
+const cropCounterEl = document.getElementById('cropCounter');
+const cropCtx = cropCanvas.getContext('2d');
+
+let cropState = null;
+let cropResolve = null;
+
+function drawCrop() {
+  if (!cropState) return;
+  const { img, scale, minSide } = cropState;
+  const sSize = minSide / scale;
+  let sx = cropState.cx - sSize / 2;
+  let sy = cropState.cy - sSize / 2;
+  sx = Math.max(0, Math.min(sx, img.naturalWidth - sSize));
+  sy = Math.max(0, Math.min(sy, img.naturalHeight - sSize));
+  cropState.sx = sx;
+  cropState.sy = sy;
+  cropState.sSize = sSize;
+  cropCtx.clearRect(0, 0, cropCanvas.width, cropCanvas.height);
+  cropCtx.drawImage(img, sx, sy, sSize, sSize, 0, 0, cropCanvas.width, cropCanvas.height);
+}
+
+function openCropper(file, counterText) {
+  return new Promise((resolve) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        const minSide = Math.min(img.naturalWidth, img.naturalHeight);
+        cropState = {
+          img,
+          scale: 1,
+          cx: img.naturalWidth / 2,
+          cy: img.naturalHeight / 2,
+          minSide,
+        };
+        cropZoomInput.value = 1;
+        cropCounterEl.textContent = counterText || '';
+        drawCrop();
+        cropOverlay.style.display = 'flex';
+        cropResolve = resolve;
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function finishCrop(useCrop) {
+  cropOverlay.style.display = 'none';
+  if (!useCrop || !cropState) {
+    cropState = null;
+    cropResolve(null);
+    return;
+  }
+  const outSize = 1200;
+  const out = document.createElement('canvas');
+  out.width = outSize;
+  out.height = outSize;
+  const octx = out.getContext('2d');
+  octx.drawImage(cropState.img, cropState.sx, cropState.sy, cropState.sSize, cropState.sSize, 0, 0, outSize, outSize);
+  const dataURL = out.toDataURL('image/jpeg', 0.9);
+  cropState = null;
+  cropResolve(dataURL);
+}
+
+cropConfirmBtn.addEventListener('click', () => finishCrop(true));
+cropSkipBtn.addEventListener('click', () => finishCrop(false));
+
+cropZoomInput.addEventListener('input', () => {
+  if (!cropState) return;
+  cropState.scale = Number(cropZoomInput.value);
+  drawCrop();
+});
+
+let cropDragging = false;
+let cropLastX = 0;
+let cropLastY = 0;
+cropCanvas.addEventListener('mousedown', (e) => {
+  cropDragging = true;
+  cropLastX = e.clientX;
+  cropLastY = e.clientY;
+  cropCanvas.classList.add('dragging');
+});
+window.addEventListener('mouseup', () => {
+  cropDragging = false;
+  cropCanvas.classList.remove('dragging');
+});
+window.addEventListener('mousemove', (e) => {
+  if (!cropDragging || !cropState) return;
+  const dx = e.clientX - cropLastX;
+  const dy = e.clientY - cropLastY;
+  cropLastX = e.clientX;
+  cropLastY = e.clientY;
+  const factor = cropState.sSize / cropCanvas.width;
+  cropState.cx -= dx * factor;
+  cropState.cy -= dy * factor;
+  drawCrop();
+});
+cropCanvas.addEventListener('wheel', (e) => {
+  if (!cropState) return;
+  e.preventDefault();
+  const next = Math.min(4, Math.max(1, cropState.scale - e.deltaY * 0.003));
+  cropState.scale = next;
+  cropZoomInput.value = next;
+  drawCrop();
+}, { passive: false });
+
+// Runs each picked file through the cropper (one at a time), falling back to
+// the original file if the user chooses "Use original".
+async function cropFiles(files) {
+  const images = [];
+  for (let i = 0; i < files.length; i++) {
+    const counterText = files.length > 1 ? `(${i + 1} of ${files.length})` : '';
+    const cropped = await openCropper(files[i], counterText);
+    const dataURL = cropped || (await fileToDataURL(files[i]));
+    const filename = cropped ? files[i].name.replace(/\.[^.]+$/, '.jpg') : files[i].name;
+    images.push({ filename, dataBase64: dataURL });
+  }
+  return images;
+}
+
 document.getElementById('addForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const form = e.target;
+  const submitBtn = form.querySelector('button[type="submit"]');
+  if (submitBtn.disabled) return;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Adding...';
   const fd = new FormData(form);
-  const files = form.querySelector('input[name="photos"]').files;
-  const images = [];
-  for (let i = 0; i < Math.min(files.length, 3); i++) {
-    const dataURL = await fileToDataURL(files[i]);
-    images.push({ filename: files[i].name, dataBase64: dataURL });
-  }
+  const files = Array.from(form.querySelector('input[name="photos"]').files).slice(0, 3);
+  const images = await cropFiles(files);
 
   const payload = {
     title: fd.get('title'),
@@ -369,6 +699,8 @@ document.getElementById('addForm').addEventListener('submit', async (e) => {
     const err = await res.json().catch(() => ({}));
     showMsg('Could not add object: ' + (err.error || 'unknown error'), false);
   }
+  submitBtn.disabled = false;
+  submitBtn.textContent = 'Add object';
 });
 
 loadObjects();

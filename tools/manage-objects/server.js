@@ -171,6 +171,30 @@ const server = http.createServer((req, res) => {
         const obj = data.find((o) => o.id === id);
         if (!obj) return send(res, 404, { error: "Item not found." });
 
+        if (Array.isArray(patch.reorderImages) && patch.reorderImages.length) {
+          const current = new Set(obj.images || []);
+          const isValidPermutation =
+            patch.reorderImages.length === current.size &&
+            patch.reorderImages.every((p) => current.has(p));
+          if (isValidPermutation) {
+            obj.images = patch.reorderImages;
+          }
+        }
+
+        if (Array.isArray(patch.removeImages) && patch.removeImages.length) {
+          const toRemove = new Set(patch.removeImages);
+          (obj.images || []).forEach((imgPath) => {
+            if (toRemove.has(imgPath)) {
+              const fname = path.basename(imgPath);
+              // Safety: only delete files that actually belong to this object.
+              if (new RegExp(`^${id}(-\\d+)?\\.[a-zA-Z0-9]+$`).test(fname)) {
+                try { fs.unlinkSync(path.join(IMAGES_DIR, fname)); } catch {}
+              }
+            }
+          });
+          obj.images = (obj.images || []).filter((imgPath) => !toRemove.has(imgPath));
+        }
+
         if (patch.price !== undefined) obj.price = Number(patch.price);
         if (patch.title !== undefined) obj.title = patch.title;
         if (patch.status !== undefined) {
@@ -185,6 +209,28 @@ const server = http.createServer((req, res) => {
             delete obj.hoursLeft;
           }
         }
+
+        if (Array.isArray(patch.images) && patch.images.length) {
+          ensureImagesDir();
+          // Remove old photo files for this item before writing new ones,
+          // so a changed file extension doesn't leave stale leftovers.
+          fs.readdirSync(IMAGES_DIR).forEach((fname) => {
+            if (fname === `${id}.${path.extname(fname).slice(1)}` || new RegExp(`^${id}(-\\d+)?\\.[a-zA-Z0-9]+$`).test(fname)) {
+              try { fs.unlinkSync(path.join(IMAGES_DIR, fname)); } catch {}
+            }
+          });
+          const images = [];
+          patch.images.forEach((img, i) => {
+            const extMatch = /\.([a-zA-Z0-9]+)$/.exec(img.filename || "");
+            const ext = (extMatch ? extMatch[1] : "jpg").toLowerCase();
+            const fname = i === 0 ? `${id}.${ext}` : `${id}-${i + 1}.${ext}`;
+            const b64 = (img.dataBase64 || "").split(",").pop();
+            fs.writeFileSync(path.join(IMAGES_DIR, fname), Buffer.from(b64, "base64"));
+            images.push("/images/" + fname);
+          });
+          obj.images = images;
+        }
+
         writeData(data);
         send(res, 200, { ok: true });
       } catch (e) {
