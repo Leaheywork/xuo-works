@@ -195,6 +195,21 @@ const server = http.createServer((req, res) => {
           obj.images = (obj.images || []).filter((imgPath) => !toRemove.has(imgPath));
         }
 
+        if (patch.editImage && patch.editImage.path && patch.editImage.dataBase64) {
+          const idx = (obj.images || []).indexOf(patch.editImage.path);
+          if (idx !== -1) {
+            const oldFname = path.basename(patch.editImage.path);
+            if (new RegExp(`^${id}(-\\d+)?\\.[a-zA-Z0-9]+$`).test(oldFname)) {
+              try { fs.unlinkSync(path.join(IMAGES_DIR, oldFname)); } catch {}
+            }
+            const newFname = idx === 0 ? `${id}.jpg` : `${id}-${idx + 1}.jpg`;
+            const b64 = patch.editImage.dataBase64.split(",").pop();
+            ensureImagesDir();
+            fs.writeFileSync(path.join(IMAGES_DIR, newFname), Buffer.from(b64, "base64"));
+            obj.images[idx] = "/images/" + newFname;
+          }
+        }
+
         if (patch.price !== undefined) obj.price = Number(patch.price);
         if (patch.title !== undefined) obj.title = patch.title;
         if (patch.status !== undefined) {
@@ -208,6 +223,22 @@ const server = http.createServer((req, res) => {
             delete obj.bidCount;
             delete obj.hoursLeft;
           }
+        }
+
+        if (Array.isArray(patch.addImages) && patch.addImages.length) {
+          ensureImagesDir();
+          obj.images = obj.images || [];
+          const room = Math.max(0, 3 - obj.images.length);
+          const toAdd = patch.addImages.slice(0, room);
+          toAdd.forEach((img) => {
+            const idx = obj.images.length;
+            const extMatch = /\.([a-zA-Z0-9]+)$/.exec(img.filename || "");
+            const ext = (extMatch ? extMatch[1] : "jpg").toLowerCase();
+            const fname = idx === 0 ? `${id}.${ext}` : `${id}-${idx + 1}.${ext}`;
+            const b64 = (img.dataBase64 || "").split(",").pop();
+            fs.writeFileSync(path.join(IMAGES_DIR, fname), Buffer.from(b64, "base64"));
+            obj.images.push("/images/" + fname);
+          });
         }
 
         if (Array.isArray(patch.images) && patch.images.length) {

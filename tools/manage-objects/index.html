@@ -158,7 +158,7 @@
     object-fit: cover;
     border: 1px solid var(--hairline);
     aspect-ratio: unset;
-    pointer-events: none;
+    cursor: pointer;
   }
   .thumbOrder {
     position: absolute;
@@ -391,6 +391,7 @@ async function loadObjects() {
   const res = await fetch('/api/objects');
   const data = await res.json();
   grid.innerHTML = '';
+  const cacheBust = Date.now();
   data.slice().reverse().forEach((o) => {
     const card = document.createElement('div');
     card.className = 'card';
@@ -400,17 +401,17 @@ async function loadObjects() {
         (imgPath, i) => `
         <div class="thumb" draggable="true" data-id="${o.id}" data-img="${imgPath}">
           <span class="thumbOrder">${i + 1}</span>
-          <img src="${imgPath}" onerror="this.style.opacity=0.2" />
+          <img class="editThumbImg" draggable="false" src="${imgPath}?v=${cacheBust}" data-id="${o.id}" data-img="${imgPath}" title="Click to reposition/zoom this photo" onerror="this.style.opacity=0.2" />
           <button type="button" class="removeImgBtn" data-id="${o.id}" data-img="${imgPath}" title="Remove this photo">&times;</button>
         </div>`
       )
       .join('');
     const titleEscaped = String(o.title || '').replace(/"/g, '&quot;');
     card.innerHTML = `
-      <img src="${img}" alt="${o.title}" onerror="this.style.opacity=0.2" />
+      <img src="${img ? img + '?v=' + cacheBust : ''}" alt="${o.title}" onerror="this.style.opacity=0.2" />
       <input data-id="${o.id}" class="titleInput" value="${titleEscaped}" />
       <div class="thumbs" data-id="${o.id}">${thumbsHtml}</div>
-      ${(o.images || []).length > 1 ? '<div class="thumbHint">Drag photos to reorder — first is the main photo</div>' : ''}
+      ${(o.images || []).length ? '<div class="thumbHint">Click a photo to reposition/zoom it. Drag to reorder — first is the main photo.</div>' : ''}
       <div class="row">
         <select data-id="${o.id}" class="statusSel">
           <option value="available" ${o.status==='available'?'selected':''}>Available</option>
@@ -423,7 +424,14 @@ async function loadObjects() {
         <button data-id="${o.id}" class="saveBtn">Save</button>
       </div>
       <div class="field">
-        <label>Replace photos (optional, up to 3)</label>
+        <label>Add a photo (keeps existing ones — up to 3 total)</label>
+        <div class="row">
+          <input data-id="${o.id}" class="addPhotoInput" type="file" accept="image/*" />
+          <button type="button" data-id="${o.id}" class="addPhotoBtn">Add</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Replace ALL photos (optional — wipes existing ones)</label>
         <input data-id="${o.id}" class="photoInput" type="file" accept="image/*" multiple />
       </div>
       <div class="row">
@@ -451,6 +459,22 @@ async function loadObjects() {
       const rect = thumb.getBoundingClientRect();
       const after = e.clientX - rect.left > rect.width / 2;
       container.insertBefore(draggedThumb, after ? thumb.nextSibling : thumb);
+    });
+  });
+
+  grid.querySelectorAll('.editThumbImg').forEach((imgEl) => {
+    imgEl.addEventListener('click', async () => {
+      const id = imgEl.dataset.id;
+      const imgPath = imgEl.dataset.img;
+      const dataURL = await openCropperFromUrl(imgPath);
+      if (!dataURL) return; // cancelled
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ editImage: { path: imgPath, filename: 'edit.jpg', dataBase64: dataURL } }),
+      });
+      if (res.ok) { showMsg('Updated photo for ' + id, true); loadObjects(); }
+      else showMsg('Could not update photo for ' + id, false);
     });
   });
 
@@ -495,6 +519,27 @@ async function loadObjects() {
       btn.disabled = false;
       if (res.ok) { showMsg('Saved ' + id, true); loadObjects(); }
       else showMsg('Could not save ' + id, false);
+    });
+  });
+
+  grid.querySelectorAll('.addPhotoBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      const input = grid.querySelector(`.addPhotoInput[data-id="${id}"]`);
+      const files = input && input.files ? Array.from(input.files).slice(0, 1) : [];
+      if (!files.length) { showMsg('Choose a photo first.', false); return; }
+      btn.textContent = 'Adding...';
+      btn.disabled = true;
+      const addImages = await cropFiles(files);
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ addImages }),
+      });
+      btn.textContent = 'Add';
+      btn.disabled = false;
+      if (res.ok) { showMsg('Added photo to ' + id, true); loadObjects(); }
+      else showMsg('Could not add photo to ' + id, false);
     });
   });
 
@@ -576,6 +621,7 @@ function openCropper(file, counterText) {
         };
         cropZoomInput.value = 1;
         cropCounterEl.textContent = counterText || '';
+        cropSkipBtn.textContent = 'Use original (no crop)';
         drawCrop();
         cropOverlay.style.display = 'flex';
         cropResolve = resolve;
@@ -583,6 +629,31 @@ function openCropper(file, counterText) {
       img.src = reader.result;
     };
     reader.readAsDataURL(file);
+  });
+}
+
+function openCropperFromUrl(url, counterText) {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => {
+      const minSide = Math.min(img.naturalWidth, img.naturalHeight);
+      cropState = {
+        img,
+        scale: 1,
+        cx: img.naturalWidth / 2,
+        cy: img.naturalHeight / 2,
+        minSide,
+      };
+      cropZoomInput.value = 1;
+      cropCounterEl.textContent = counterText || '';
+      cropSkipBtn.textContent = 'Cancel';
+      drawCrop();
+      cropOverlay.style.display = 'flex';
+      cropResolve = resolve;
+    };
+    img.onerror = () => resolve(null);
+    // cache-bust so we always load the current file, not a stale cached copy
+    img.src = url + (url.includes('?') ? '&' : '?') + 't=' + Date.now();
   });
 }
 

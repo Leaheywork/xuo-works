@@ -8,7 +8,7 @@
     "weightKg": 14.9,
     "year": 2022,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/stocky.jpg",
       "/images/stocky-2.jpg",
@@ -24,7 +24,7 @@
     "weightKg": 2.3,
     "year": 2025,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/dominique.jpg",
       "/images/dominique-2.jpg",
@@ -40,7 +40,7 @@
     "weightKg": 15,
     "year": 2022,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/cutout.jpg",
       "/images/cutout-2.jpg",
@@ -56,7 +56,7 @@
     "weightKg": 17.6,
     "year": 2022,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/pearl-shell.jpg",
       "/images/pearl-shell-2.jpg",
@@ -72,7 +72,7 @@
     "weightKg": 14.8,
     "year": 2023,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/nina.jpg",
       "/images/nina-2.jpg",
@@ -88,7 +88,7 @@
     "weightKg": 13,
     "year": 2026,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/rachel.jpg",
       "/images/rachel-2.jpg",
@@ -104,7 +104,7 @@
     "weightKg": 8.8,
     "year": 2025,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/michael.jpg",
       "/images/michael-2.jpg",
@@ -120,7 +120,7 @@
     "weightKg": 14.2,
     "year": 2022,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/minna.jpg",
       "/images/minna-2.jpg",
@@ -136,7 +136,7 @@
     "weightKg": 11.3,
     "year": 2022,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/michael-ii.jpg",
       "/images/michael-ii-2.jpg",
@@ -152,7 +152,7 @@
     "weightKg": 16.9,
     "year": 2025,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/guy.jpg",
       "/images/guy-2.jpg",
@@ -168,7 +168,7 @@
     "weightKg": 12.8,
     "year": 2026,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/janet.jpg",
       "/images/janet-2.jpg",
@@ -184,7 +184,7 @@
     "weightKg": 9,
     "year": 2022,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/fourty.jpg",
       "/images/fourty-2.jpg",
@@ -200,7 +200,7 @@
     "weightKg": 6.8,
     "year": 2025,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/walter.jpg",
       "/images/walter-2.jpg",
@@ -216,7 +216,7 @@
     "weightKg": 14,
     "year": 2023,
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/simon.jpg",
       "/images/simon-2.jpg",
@@ -232,7 +232,7 @@
     "weightKg": 3.7,
     "year": 2025,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/eva.jpg",
       "/images/eva-2.jpg",
@@ -248,7 +248,7 @@
     "weightKg": 5.6,
     "year": 2025,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/smoc.jpg",
       "/images/smoc-2.jpg",
@@ -264,7 +264,7 @@
     "weightKg": 3.8,
     "year": 2023,
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/sophie.jpg",
       "/images/sophie-2.jpg",
@@ -280,7 +280,7 @@
     "weightKg": 5.6,
     "year": 2023,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/lipstick.jpg",
       "/images/lipstick-2.jpg",
@@ -296,7 +296,7 @@
     "weightKg": 12.7,
     "year": 2026,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/ashley-and-sally.jpg",
       "/images/ashley-and-sally-2.jpg",
@@ -312,7 +312,7 @@
     "weightKg": 7.7,
     "year": 2022,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/chambers.jpg",
       "/images/chambers-2.jpg",
@@ -328,7 +328,7 @@
     "weightKg": 6.6,
     "year": 2022,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/one.jpg",
       "/images/one-2.jpg",
@@ -344,7 +344,7 @@
     "weightKg": 11.4,
     "year": 2022,
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/james.jpg",
       "/images/james-2.jpg",
@@ -360,7 +360,7 @@
     "weightKg": 11.2,
     "year": 2025,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jinx.jpg",
       "/images/jinx-2.jpg",
@@ -376,7 +376,7 @@
     "weightKg": 6.2,
     "year": 2023,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/sophie-ii.jpg",
       "/images/sophie-ii-2.jpg",
@@ -392,7 +392,7 @@
     "weightKg": 15.1,
     "year": 2023,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/minna-ii.jpg",
       "/images/minna-ii-2.jpg",
@@ -408,7 +408,7 @@
     "weightKg": 12.7,
     "year": 2022,
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/chris.jpg",
       "/images/chris-2.jpg",
@@ -424,7 +424,7 @@
     "weightKg": 15.3,
     "year": 2026,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/dominique-and-jean-luc.jpg",
       "/images/dominique-and-jean-luc-2.jpg",
@@ -440,7 +440,7 @@
     "weightKg": 10.1,
     "year": 2026,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/kate.jpg",
       "/images/kate-2.jpg",
@@ -456,7 +456,7 @@
     "weightKg": 13.5,
     "year": 2023,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jim.jpg",
       "/images/jim-2.jpg",
@@ -472,7 +472,7 @@
     "weightKg": 14.4,
     "year": 2025,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/la-la.jpg",
       "/images/la-la-2.jpg",
@@ -488,7 +488,7 @@
     "weightKg": 2.2,
     "year": 2022,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/janet-ii.jpg",
       "/images/janet-ii-2.jpg",
@@ -504,7 +504,7 @@
     "weightKg": 11.5,
     "year": 2026,
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jean-luc.jpg",
       "/images/jean-luc-2.jpg",
@@ -520,7 +520,7 @@
     "weightKg": 2.3,
     "year": 2022,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jessica.jpg",
       "/images/jessica-2.jpg",
@@ -536,7 +536,7 @@
     "weightKg": 14.4,
     "year": 2024,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/timmy-dog.jpg",
       "/images/timmy-dog-2.jpg",
@@ -552,7 +552,7 @@
     "weightKg": 13.3,
     "year": 2023,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jon-jon.jpg",
       "/images/jon-jon-2.jpg",
@@ -568,7 +568,7 @@
     "weightKg": 3.3,
     "year": 2026,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/ireland.jpg",
       "/images/ireland-2.jpg",
@@ -584,7 +584,7 @@
     "weightKg": 2.6,
     "year": 2023,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/louise.jpg",
       "/images/louise-2.jpg",
@@ -600,7 +600,7 @@
     "weightKg": 5.1,
     "year": 2024,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/shane.jpg",
       "/images/shane-2.jpg",
@@ -616,7 +616,7 @@
     "weightKg": 1.8,
     "year": 2024,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/burrows.jpg",
       "/images/burrows-2.jpg",
@@ -632,7 +632,7 @@
     "weightKg": 9.9,
     "year": 2026,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/dry-july.jpg",
       "/images/dry-july-2.jpg",
@@ -648,7 +648,7 @@
     "weightKg": 0.9,
     "year": 2023,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/mr-king.jpg",
       "/images/mr-king-2.jpg",
@@ -664,7 +664,7 @@
     "weightKg": 1.9,
     "year": 2026,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/dani.jpg",
       "/images/dani-2.jpg",
@@ -680,7 +680,7 @@
     "weightKg": 1.8,
     "year": 2023,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/billy-boy.jpg",
       "/images/billy-boy-2.jpg",
@@ -696,7 +696,7 @@
     "weightKg": 1.3,
     "year": 2022,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/smoc-ii.jpg",
       "/images/smoc-ii-2.jpg",
@@ -712,7 +712,7 @@
     "weightKg": 9.5,
     "year": 2025,
     "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/woman-and-man.jpg",
       "/images/woman-and-man-2.jpg",
@@ -728,7 +728,7 @@
     "weightKg": 3.2,
     "year": 2022,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/swordfish.jpg",
       "/images/swordfish-2.jpg",
@@ -744,7 +744,7 @@
     "weightKg": 2.1,
     "year": 2024,
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/rhonda.jpg",
       "/images/rhonda-2.jpg",
@@ -760,7 +760,7 @@
     "weightKg": 5.2,
     "year": 2023,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/nic.jpg",
       "/images/nic-2.jpg",
@@ -776,7 +776,7 @@
     "weightKg": 17.8,
     "year": 2023,
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/lala.jpg",
       "/images/lala-2.jpg",
@@ -792,7 +792,7 @@
     "weightKg": 8,
     "year": 2024,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/anchor.jpg",
       "/images/anchor-2.jpg",
@@ -808,7 +808,7 @@
     "weightKg": 8.7,
     "year": 2022,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/bunny.jpg",
       "/images/bunny-2.jpg",
@@ -824,7 +824,7 @@
     "weightKg": 17.7,
     "year": 2023,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jecca.jpg",
       "/images/jecca-2.jpg",
@@ -840,7 +840,7 @@
     "weightKg": 15.4,
     "year": 2024,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/garry.jpg",
       "/images/garry-2.jpg",
@@ -856,7 +856,7 @@
     "weightKg": 5.6,
     "year": 2023,
     "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/jeanie.jpg",
       "/images/jeanie-2.jpg",
@@ -872,7 +872,7 @@
     "weightKg": 2.2,
     "year": 2023,
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/duke.jpg",
       "/images/duke-2.jpg",
@@ -888,11 +888,10 @@
     "weightKg": 17.9,
     "year": 2025,
     "description": "A quiet, figurative form finished with an oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "/images/rodger.jpg",
-      "/images/rodger-2.jpg",
-      "/images/rodger-3.jpg"
+      "/images/rodger-2.jpg"
     ]
   },
   {
@@ -904,7 +903,7 @@
     "weightKg": 9.4,
     "year": 2024,
     "description": "A paired form welded from salvaged hardware, finished with a warm oxidised patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770647685-CBOBV77OE0G6PYOBZ6Z7/IMG_5366.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770618923-GKT7NSCTZCRBN2I4M116/IMG_5232.jpeg?format=1500w",
@@ -920,7 +919,7 @@
     "weightKg": 12.1,
     "year": 2023,
     "description": "A weighty, weathered form built to feel handed down rather than made.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771522521-JF10ZXOIWHUFV5Q75J5J/IMG_4843.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771525248-V5FPRZI93ZQABFNMSEPE/IMG_4841.jpeg?format=1500w",
@@ -936,7 +935,7 @@
     "weightKg": 6.8,
     "year": 2025,
     "description": "A rough, ridged shell-form hammered by hand and left with a raw mill-scale finish.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772208212-KXNYO9O9WDSJTNO27IUV/IMG_3606.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772185916-668OXWIKL06FQACNN3X5/IMG_3423.jpeg?format=1500w",
@@ -952,7 +951,7 @@
     "weightKg": 5.9,
     "year": 2024,
     "description": "A compact figurative study built from offcuts left over from a larger commission.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772342231-B3NW3QBFO7FID0G498KR/IMG_3466.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772353398-NNW8935O6Z0H40KT13OA/IMG_3462.jpeg?format=1500w",
@@ -968,7 +967,7 @@
     "weightKg": 4.2,
     "year": 2022,
     "description": "Built from decommissioned kitchen offcuts, this piece keeps a faint working-tool character.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772608454-VVWF2OGO5LDNBJVU3W97/IMG_3568.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772615801-8DC9HFE7NHMVOGBYZBZP/IMG_3567.jpeg?format=1500w"
@@ -983,7 +982,7 @@
     "weightKg": 10.7,
     "year": 2023,
     "description": "A stacked, geometric study in welded plate steel, playing hard right angles against a soft patina.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772679552-1MPGSTY89GGN81K49IG2/IMG_3604.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772671883-FLZYEFP1RXJ7N1MA1LG0/IMG_3600.jpeg?format=1500w",
@@ -999,7 +998,7 @@
     "weightKg": 4.5,
     "year": 2025,
     "description": "A recent, still-unnamed study fresh from the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773638946-Q3XSBLTKV10ZGWUYNRPN/IMG_3415.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773644412-QG9GUTKZUKFJS6XIHX3A/IMG_3416.jpeg?format=1500w",
@@ -1015,7 +1014,7 @@
     "weightKg": 5.3,
     "year": 2024,
     "description": "An instrument-shaped study cast in the same rough, welded language as the rest of the workshop.",
-    "status": "available",
+    "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774052808-LU2401H5W31JR20SMMJI/IMG_3025.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w",
@@ -1031,10 +1030,10 @@
     "weightKg": 0.4,
     "year": 2026,
     "description": "LIFES PRETTY STRAIGHT WITHOUT A...",
-    "status": "available",
+    "status": "sold",
     "images": [
-      "/images/twisties-4-2.jpeg",
-      "/images/twisties-4.jpeg"
+      "/images/twisties-4.jpg",
+      "/images/twisties-4-2.jpg"
     ]
   }
 ]
