@@ -1035,5 +1035,396 @@
       "/images/twisties-4.jpg",
       "/images/twisties-4-2.jpg"
     ]
+  },
+  {
+    "id": "nl-ted",
+    "title": "TED",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088691928-WFY2K88LGTVB7WD2YN3Z/Leahey_install4.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088690399-4MQXS1FT5MO86OCAT6CH/Leahey_Ted1.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088739174-VA1KVM2GPQR6M38KG0VY/Leahey_Ted2.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088722756-R8FO3CATA1RVEDDQJJIG/Leahey_Ted3.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088749721-UGV8XRIHQ9SDCZGDP0N7/Leahey_Ted4.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088764129-IDWYNCV1KKMW0RZVM0WP/Leahey_Ted5.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088776757-8ILONXTGG943GOHML0MG/Leahey_Ted6.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088791816-GGR3JB38ANUPTG4XTHD6/Leahey_Ted7.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-mortaged",
+    "title": "MORTAGED",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444087649320-PETTHCAY82JPTHKOPCPP/DSC09295.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444087669834-3RNGLDSBR75W8EKXWXRG/P6220278.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444087683379-LOONG9S5A6CMKZQ9JM5K/P6220286.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444087695574-DOP12JGME0NLO3CN95RL/P6220275.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709039573359-KIGQD4T88NGKQ9DYJ6ZO/P5270216.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709041671893-NUQR6E5QNSEYZODSOYOV/P5270212.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709041674131-REMTPDMV36X7K385WMTZ/P5270215.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-ananas-comosus",
+    "title": "ANANAS COMOSUS",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1540818078554-GBVFS9N0O3V320VR9EAE/image2.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1540818063643-PMZMBU03R9AA71FU8YQW/image1.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1540818173661-KXPMU6ILFPF6V4OFCN56/IMG_1360.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1540818051738-72REE0POX1S28IGACG7A/IMG_1629.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-pear",
+    "title": "PEAR",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948881963-DNRB9K6ZJZIMM8LJX0FP/PEAR++BLURB.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948849584-HKY9GM2YY8SQMEQW05Q2/P5180852.JPG.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948851534-YNT97DYGQHRV996U25WH/P5180853.JPG.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-gillian",
+    "title": "GILLIAN",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1434082349416-LVRM5UWM3VS1YWA2B9EC/image-asset.jpeg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-family",
+    "title": "FAMILY",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953896431-YKNLX5LDHKBLVJ3J9I2P/family+family+-+1+of+3+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953896833-42DMI0U8512KQFUPK0Q9/family+family+-+1+of+3+%282%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953902955-7V74NFWVF4CISEGS7BJB/family+family+-+1+of+3.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-crane",
+    "title": "CRANE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954088899-I7T6RIC6UG752FQR1JJ4/crane.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954088646-12B3W9LPWPA1BCPDTU2A/IMG_1122.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954116241-JB3YP2OOQN7O5BBHX4WG/IMG_1123.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954110236-J0YED84GDQ91Q4TXFRYA/IMG_1134.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954134508-LGYQ4HAHASVKIZLSTOCI/IMG_1149.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-money-eater",
+    "title": "MONEY EATER",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954554968-Q6VSXNBCVM8J6FD2EKBZ/money+eater+-+1+of+1.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-rawhide",
+    "title": "RAWHIDE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485955198509-D9PCYKVSZM2UJUOGYMQJ/rawhide+-+1+of+2+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485955197868-S98SPQHUT246GL8CIUCW/rawhide+-+1+of+2.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-bale",
+    "title": "BALE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075228466-JPLB6FEAYDDAHBWSFYU7/P5110272.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075225384-FUDO5COUUGJ7JV209OSF/P1020738.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075225684-ZPS111D05727SN6CBMO6/P1020740.JPG?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-mussles",
+    "title": "MUSSLES",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676120541066-ZW8LUBBVZO2YA9QHR8OE/IMG_5600.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676120546861-8DHZPI5DBMS2OC2XMNCJ/IMG_5601.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676120554989-XSLTK2K8URQ1AW80LYP9/IMG_5602.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676120558908-S7SOR5RD22EB5J9A3S9G/IMG_5603.JPG?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-there-is-a-plane-in-my-table",
+    "title": "THERE IS A PLANE IN MY TABLE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676124979729-SGW82HC8M3B5I3PM202M/IMG_6311.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676124985247-317OSW5CVAAR2TMMUDTI/IMG_6313.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676124988906-FTD4OOZZ84GZQ4CRSMW4/IMG_6317.JPG?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-plane",
+    "title": "PLANE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040520679-DCH9M8K4300GDKCWRQXK/IMG_3362.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040520679-USKLARM861WYY4EWDGGY/IMG_3358.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-grant",
+    "title": "GRANT",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953067737-TTYO5JAJINY4Z6FEMMXY/jet+-+1+of+3+%282%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953067294-DR3GKQANCIS7N9DE4R2I/jet+-+1+of+3+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953076547-EMUHK73L3TLHJ49KUED2/jet+-+1+of+3.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-cloudlands",
+    "title": "CLOUDLANDS",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709041005716-ZFEJAQ6YXXER3Y1Q26D0/IMG_0238.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-opened",
+    "title": "OPENED",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709119501921-LXVNHLX9LTOUXF7V4UHD/Screenshot+2024-02-28+at+10.24.22%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709119099174-0PQ4ULATD0DMF8FAJQYN/Screenshot+2024-02-28+at+9.59.45%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709119124706-RLS6JQ4FISRMB091DHBQ/Screenshot+2024-02-28+at+10.01.26%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709119403727-GMXAANU4WYEOHLV1JPXW/Screenshot+2024-02-28+at+10.22.40%E2%80%AFpm.png?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-eric",
+    "title": "ERIC",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403369385622-WZ2YWVPYI3ZGQ6M4E5GC/081228_0546.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881134576-Y93IHM52K5FDKUHFARCL/081228_0288.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881132263-XZXCPI2BGM196H3GVRDY/081228_0298.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881133228-NW3CNZGNMG1M0EKABBVW/081228_0451.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881134446-831YW6JEB5WRJETIMWO4/081228_0498.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881135885-JXRNZS60JGK3N8LSH98R/081228_0549.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881137547-YD2U0Y4P59SEU0CUIA7Z/081228_0555.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881137224-73XUHUN334O4K0NYWSFA/081228_0556.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-ned",
+    "title": "NED",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348248920-N5RBA2BOE5XXHH8SZW1B/IMG_1142.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348296554-PMGNMYFR8SIJN18J84B3/IMG_1139.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348325621-DG5GA940QQEJ9D9RUTDI/IMG_1141.JPG?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-duckfeet",
+    "title": "DUCKFEET",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040425312-0K9EYW0GCBZPHAC0GCC2/IMG_3383.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-ian",
+    "title": "IAN",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427201764367-YDTQ2OARQKFGET8A2TLJ/IMG_2633.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485950101878-Z5E9XM6Q5YK1805JYT3B/corked+-+1+of+6+%284%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427201763757-3WOCCEAYKDUZ9XHPBPE2/IMG_2635.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427201767035-OKKK33W39ICUQ4T2UP53/IMG_2636.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485950096721-9I45VVRYKPYZ2GB5PS8Q/corked+-+1+of+6+%285%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1678060878625-U44SB1COY9T3MEC8QM6P/IMG_6450.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-meteor",
+    "title": "METEOR",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040289964-8SPX67EDF1BBVPSNR7WS/IMG_4368.jpg?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-lola",
+    "title": "LOLA",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709245086439-INW7I32Y7N5B9S0FJG4U/Screenshot+2024-03-01+at+9.16.47%E2%80%AFam.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709245103685-YLZ5M6P3MC3YTNKLAP51/Screenshot+2024-03-01+at+9.17.28%E2%80%AFam.png?format=1500w"
+    ]
+  },
+  {
+    "id": "nl-beach-ball-and-plane",
+    "title": "BEACH BALL AND PLANE",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771186991-4CVEM5MZWHUC8NH10L09/IMG_0590+2.JPG?format=1500w"
+    ]
+  },
+  {
+    "id": "andy-and-rachel",
+    "title": "ANDY AND RACHEL",
+    "price": 0,
+    "materials": "",
+    "dimensions": "",
+    "weightKg": 0,
+    "year": 0,
+    "description": "",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126253056-7QWQTVKY7N3CX0TMDNHU/IMG_0017.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126253988-GJCIAAJ7D0W1SOYCMCSN/IMG_0019+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126264247-7QF8E0DGMLZ7D07FEO7S/IMG_0024.JPG?format=1500w"
+    ]
   }
 ]

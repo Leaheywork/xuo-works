@@ -429,6 +429,7 @@ async function loadObjects() {
           <input data-id="${o.id}" class="addPhotoInput" type="file" accept="image/*" />
           <button type="button" data-id="${o.id}" class="addPhotoBtn">Add</button>
         </div>
+        <button type="button" data-id="${o.id}" data-img="${(o.images || [])[0] || ''}" class="zoomCopyBtn secondary">Add a zoomed detail of photo 1</button>
       </div>
       <div class="field">
         <label>Replace ALL photos (optional — wipes existing ones)</label>
@@ -543,6 +544,23 @@ async function loadObjects() {
     });
   });
 
+  grid.querySelectorAll('.zoomCopyBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      const src = btn.dataset.img;
+      if (!src) { showMsg('This piece has no photo yet.', false); return; }
+      const dataURL = await openCropperFromUrl(src, '(new zoomed detail — original stays as is)');
+      if (!dataURL) return;
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ addImages: [{ filename: 'detail.jpg', dataBase64: dataURL }] }),
+      });
+      if (res.ok) { showMsg('Added zoomed detail to ' + id, true); loadObjects(); }
+      else showMsg('Could not add detail to ' + id, false);
+    });
+  });
+
   grid.querySelectorAll('.removeImgBtn').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const id = btn.dataset.id;
@@ -652,6 +670,7 @@ function openCropperFromUrl(url, counterText) {
       cropResolve = resolve;
     };
     img.onerror = () => resolve(null);
+    if (/^https?:/i.test(url)) img.crossOrigin = 'anonymous';
     // cache-bust so we always load the current file, not a stale cached copy
     img.src = url + (url.includes('?') ? '&' : '?') + 't=' + Date.now();
   });

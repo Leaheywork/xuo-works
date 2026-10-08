@@ -228,7 +228,7 @@ const server = http.createServer((req, res) => {
         if (Array.isArray(patch.addImages) && patch.addImages.length) {
           ensureImagesDir();
           obj.images = obj.images || [];
-          const room = Math.max(0, 3 - obj.images.length);
+          const room = Math.max(0, 12 - obj.images.length);
           const toAdd = patch.addImages.slice(0, room);
           toAdd.forEach((img) => {
             const idx = obj.images.length;
