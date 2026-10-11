@@ -75,12 +75,13 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485945871788-2LGDGW2G0F8V3KM4IBL6/P4200394.jpg?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485945871788-2LGDGW2G0F8V3KM4IBL6/P4200394.jpg?format=1500w",
+      "/images/nina-2.jpg"
     ]
   },
   {
     "id": "rachel",
-    "title": "RACHEL",
+    "title": "iron",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "31 x 14 x 25 cm",
@@ -89,13 +90,13 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427203264701-UIOF2CUYF6ZV8JFCXO4U/IMG_7302.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427203261867-1BLL6XGHAKK0KTO8T2EE/IMG_7301.jpg?format=1500w"
+      "/images/rachel-2.jpg",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427203264701-UIOF2CUYF6ZV8JFCXO4U/IMG_7302.jpg?format=1500w"
     ]
   },
   {
     "id": "michael",
-    "title": "MICHAEL",
+    "title": "butter",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "39 x 35 x 18 cm",
@@ -113,7 +114,7 @@
   },
   {
     "id": "minna",
-    "title": "MINNA",
+    "title": "5se",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "58 x 19 x 30 cm",
@@ -122,14 +123,14 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949817227-3U0OUVN6FHE118SXT4X7/iphone+-+1+of+3+%282%29.jpg?format=1500w",
+      "/images/minna.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949814193-PCYUMQUWFS53PK1D2XJS/iphone+-+1+of+3+%281%29.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949830445-FRSIPZG7ZHB8BG9UKZU3/iphone+-+1+of+3.jpg?format=1500w"
     ]
   },
   {
     "id": "michael-ii",
-    "title": "MICHAEL II",
+    "title": "footy",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "29 x 36 x 17 cm",
@@ -145,7 +146,7 @@
   },
   {
     "id": "guy",
-    "title": "GUY",
+    "title": "disc",
     "price": 0,
     "materials": "Stainless steel",
     "dimensions": "18 x 29 x 12 cm",
@@ -160,7 +161,7 @@
   },
   {
     "id": "janet",
-    "title": "JANET",
+    "title": "cake",
     "price": 0,
     "materials": "Recycled scrap steel",
     "dimensions": "56 x 28 x 18 cm",
@@ -174,23 +175,8 @@
     ]
   },
   {
-    "id": "fourty",
-    "title": "FOURTY",
-    "price": 0,
-    "materials": "Steel and copper wire",
-    "dimensions": "12 x 13 x 16 cm",
-    "weightKg": 9,
-    "year": 2022,
-    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676201383497-2R784RAJ3Q3EFXOO0VFO/215_1587.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676201384855-94PVQ40Q5CPRKIPG5HPL/215_1585.JPG?format=1500w"
-    ]
-  },
-  {
     "id": "walter",
-    "title": "WALTER",
+    "title": "monkey",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "26 x 32 x 29 cm",
@@ -199,26 +185,10 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076346255-Z37KUQUQDBAOVBD2TWSR/IMG_1698.jpg?format=1500w",
+      "/images/walter.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076246477-W98Q42NX229KT10R0456/IMG_1693.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076243117-ZVXRBRZ14U1ID5RLQQBO/IMG_1691.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076330957-EDOF9XU1M90LEZ0WXKDG/IMG_1699.jpg?format=1500w"
-    ]
-  },
-  {
-    "id": "simon",
-    "title": "SIMON",
-    "price": 0,
-    "materials": "Recycled scrap steel",
-    "dimensions": "39 x 11 x 14 cm",
-    "weightKg": 14,
-    "year": 2023,
-    "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076333414-S6RJEVUCEIULC1J54JJZ/IMG_1840.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076341368-5AN70XUBAT8B4SJLNAUI/IMG_1834.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076356754-TM9IDWEBHNPL8SZDAC50/IMG_1842.jpg?format=1500w"
     ]
   },
   {
@@ -475,7 +445,7 @@
   },
   {
     "id": "janet-ii",
-    "title": "JANET II",
+    "title": "duster",
     "price": 0,
     "materials": "Welded steel, rust patina",
     "dimensions": "36 x 30 x 19 cm",
@@ -484,13 +454,13 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676279333926-Q388RNQI7ARJUNR8GHHE/IMG_3642.JPG?format=1500w",
+      "/images/janet-ii.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676279334686-NRSRAR4P410KIRPBFN0N/IMG_3643.JPG?format=1500w"
     ]
   },
   {
     "id": "jean-luc",
-    "title": "JEAN-LUC",
+    "title": "dog",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "29 x 21 x 23 cm",
@@ -506,7 +476,7 @@
   },
   {
     "id": "jessica",
-    "title": "JESSICA",
+    "title": "bonsoy",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "49 x 30 x 28 cm",
@@ -522,7 +492,7 @@
   },
   {
     "id": "timmy-dog",
-    "title": "TIMMY DOG",
+    "title": "glasses",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "38 x 19 x 21 cm",
@@ -538,7 +508,7 @@
   },
   {
     "id": "jon-jon",
-    "title": "JON JON",
+    "title": "heart",
     "price": 0,
     "materials": "Stainless steel",
     "dimensions": "37 x 33 x 10 cm",
@@ -548,10 +518,10 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207486831-NY5KWT3J53CSVPJN0TQK/IMG_2749.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207508862-KJRYMK24DLLBNSUKTUSK/IMG_2750.JPG?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207449851-FXK2R6BXCGBPC7J9U748/IMG_2734.JPG?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207451593-LHG2B8MPJSY7XMDXZTAP/IMG_2736.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207486589-Z82DNAQZRIRY90X7AUNZ/IMG_2737.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207508862-KJRYMK24DLLBNSUKTUSK/IMG_2750.JPG?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207486589-Z82DNAQZRIRY90X7AUNZ/IMG_2737.JPG?format=1500w"
     ]
   },
   {
@@ -991,42 +961,6 @@
     ]
   },
   {
-    "id": "untitled",
-    "title": "UNTITLED",
-    "price": 0,
-    "materials": "Mixed reclaimed steel",
-    "dimensions": "24 x 20 x 11 cm",
-    "weightKg": 4.5,
-    "year": 2025,
-    "description": "A recent, still-unnamed study fresh from the workshop.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773638946-Q3XSBLTKV10ZGWUYNRPN/IMG_3415.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773644412-QG9GUTKZUKFJS6XIHX3A/IMG_3416.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773648656-KY7SOM50UB50BC9B8WRC/IMG_3415+2.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773659684-13OHUMR9TZOZMZP8BBO7/IMG_3417.jpeg?format=1500w"
-    ]
-  },
-  {
-    "id": "banjo",
-    "title": "BANJO",
-    "price": 0,
-    "materials": "Welded steel, brass tuning pegs",
-    "dimensions": "42 x 16 x 8 cm",
-    "weightKg": 5.3,
-    "year": 2024,
-    "description": "An instrument-shaped study cast in the same rough, welded language as the rest of the workshop.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774052808-LU2401H5W31JR20SMMJI/IMG_3025.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774048664-4538BA8L2YYEUXOVPOPR/IMG_3023.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774056742-MIUVLDBM41HS8L288CUA/IMG_3027.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774062903-3ADFLONFC4U2FYSIW379/IMG_3038.jpeg?format=1500w"
-    ]
-  },
-  {
     "id": "nl-ted",
     "title": "TED",
     "price": 0,
@@ -1042,7 +976,7 @@
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088739174-VA1KVM2GPQR6M38KG0VY/Leahey_Ted2.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088722756-R8FO3CATA1RVEDDQJJIG/Leahey_Ted3.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088749721-UGV8XRIHQ9SDCZGDP0N7/Leahey_Ted4.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088764129-IDWYNCV1KKMW0RZVM0WP/Leahey_Ted5.jpeg?format=1500w",
+      "/images/nl-ted-6.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088776757-8ILONXTGG943GOHML0MG/Leahey_Ted6.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088791816-GGR3JB38ANUPTG4XTHD6/Leahey_Ted7.jpeg?format=1500w"
     ]
@@ -1112,22 +1046,6 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1434082349416-LVRM5UWM3VS1YWA2B9EC/image-asset.jpeg?format=1500w"
-    ]
-  },
-  {
-    "id": "nl-family",
-    "title": "FAMILY",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953896431-YKNLX5LDHKBLVJ3J9I2P/family+family+-+1+of+3+%281%29.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953896833-42DMI0U8512KQFUPK0Q9/family+family+-+1+of+3+%282%29.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953902955-7V74NFWVF4CISEGS7BJB/family+family+-+1+of+3.jpg?format=1500w"
     ]
   },
   {
@@ -1258,20 +1176,6 @@
     ]
   },
   {
-    "id": "nl-cloudlands",
-    "title": "CLOUDLANDS",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709041005716-ZFEJAQ6YXXER3Y1Q26D0/IMG_0238.jpg?format=1500w"
-    ]
-  },
-  {
     "id": "nl-opened",
     "title": "OPENED",
     "price": 0,
@@ -1310,22 +1214,6 @@
     ]
   },
   {
-    "id": "nl-ned",
-    "title": "NED",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348248920-N5RBA2BOE5XXHH8SZW1B/IMG_1142.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348296554-PMGNMYFR8SIJN18J84B3/IMG_1139.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709348325621-DG5GA940QQEJ9D9RUTDI/IMG_1141.JPG?format=1500w"
-    ]
-  },
-  {
     "id": "nl-duckfeet",
     "title": "DUCKFEET",
     "price": 0,
@@ -1356,20 +1244,6 @@
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427201767035-OKKK33W39ICUQ4T2UP53/IMG_2636.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485950096721-9I45VVRYKPYZ2GB5PS8Q/corked+-+1+of+6+%285%29.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1678060878625-U44SB1COY9T3MEC8QM6P/IMG_6450.jpg?format=1500w"
-    ]
-  },
-  {
-    "id": "nl-meteor",
-    "title": "METEOR",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040289964-8SPX67EDF1BBVPSNR7WS/IMG_4368.jpg?format=1500w"
     ]
   },
   {
