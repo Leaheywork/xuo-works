@@ -16,7 +16,7 @@ export default function Gallery({ images, title }: { images: string[]; title: st
         <img
           src={images[active]}
           alt={title}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
         />
         <span className="absolute bottom-2 right-2 bg-foreground text-background text-[10px] font-mono uppercase tracking-wide px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
           Click to zoom
@@ -53,7 +53,7 @@ export default function Gallery({ images, title }: { images: string[]; title: st
               }`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={src} alt="" className="h-full w-full object-cover" />
+              <img src={src} alt="" className="h-full w-full object-contain" />
             </button>
           ))}
         </div>

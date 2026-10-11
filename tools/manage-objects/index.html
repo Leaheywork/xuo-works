@@ -392,7 +392,7 @@ async function loadObjects() {
   const data = await res.json();
   grid.innerHTML = '';
   const cacheBust = Date.now();
-  data.slice().reverse().forEach((o) => {
+  data.forEach((o, orderIdx) => {
     const card = document.createElement('div');
     card.className = 'card';
     const img = (o.images && o.images[0]) || '';
@@ -409,6 +409,14 @@ async function loadObjects() {
     const titleEscaped = String(o.title || '').replace(/"/g, '&quot;');
     card.innerHTML = `
       <img src="${img ? img + '?v=' + cacheBust : ''}" alt="${o.title}" onerror="this.style.opacity=0.2" />
+      <div class="row orderRow">
+        <span class="thumbHint" style="white-space:nowrap;">Position ${orderIdx + 1}</span>
+        <button type="button" class="moveBtn secondary" data-id="${o.id}" data-move="top" title="Move to the very top">Top</button>
+        <button type="button" class="moveBtn secondary" data-id="${o.id}" data-move="up" title="Move up one">&uarr;</button>
+        <button type="button" class="moveBtn secondary" data-id="${o.id}" data-move="down" title="Move down one">&darr;</button>
+        <input type="number" min="1" class="moveToInput" data-id="${o.id}" placeholder="#" style="width:56px;" />
+        <button type="button" class="moveBtn secondary" data-id="${o.id}" data-move="to" title="Move to this position number">Go</button>
+      </div>
       <input data-id="${o.id}" class="titleInput" value="${titleEscaped}" />
       <div class="thumbs" data-id="${o.id}">${thumbsHtml}</div>
       ${(o.images || []).length ? '<div class="thumbHint">Click a photo to reposition/zoom it. Drag to reorder — first is the main photo.</div>' : ''}
@@ -541,6 +549,25 @@ async function loadObjects() {
       btn.disabled = false;
       if (res.ok) { showMsg('Added photo to ' + id, true); loadObjects(); }
       else showMsg('Could not add photo to ' + id, false);
+    });
+  });
+
+  grid.querySelectorAll('.moveBtn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.id;
+      let move = btn.dataset.move;
+      if (move === 'to') {
+        const v = Number(grid.querySelector(`.moveToInput[data-id="${id}"]`).value);
+        if (!v) { showMsg('Type a position number first.', false); return; }
+        move = v;
+      }
+      const res = await fetch('/api/objects/' + encodeURIComponent(id), {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ move }),
+      });
+      if (res.ok) { showMsg('Moved ' + id, true); loadObjects(); }
+      else showMsg('Could not move ' + id, false);
     });
   });
 

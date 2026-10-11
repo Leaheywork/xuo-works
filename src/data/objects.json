@@ -1,7 +1,22 @@
 [
   {
+    "id": "twisties-4",
+    "title": "TWISTIES",
+    "price": 0,
+    "materials": "STAINLESS STEEL",
+    "dimensions": "23 X13 X 60",
+    "weightKg": 0.4,
+    "year": 2026,
+    "description": "LIFES PRETTY STRAIGHT WITHOUT A...",
+    "status": "sold",
+    "images": [
+      "/images/twisties-4.jpg",
+      "/images/twisties-4-2.jpg"
+    ]
+  },
+  {
     "id": "stocky",
-    "title": "STOCKY",
+    "title": "STOCKwhip",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "33 x 11 x 10 cm",
@@ -11,13 +26,14 @@
     "status": "sold",
     "images": [
       "/images/stocky.jpg",
-      "/images/stocky-2.jpg",
-      "/images/stocky-3.jpg"
+      "/images/stocky-3.jpg",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485946598396-W4L97M0FPO1YW1XI3ZAC/IMG_7148.jpg?format=1500w",
+      "/images/stocky-4.jpg"
     ]
   },
   {
     "id": "dominique",
-    "title": "DOMINIQUE",
+    "title": "pig",
     "price": 0,
     "materials": "Welded mild steel",
     "dimensions": "40 x 21 x 9 cm",
@@ -26,25 +42,11 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/dominique.jpg",
+      "/images/dominique-8.jpg",
       "/images/dominique-2.jpg",
-      "/images/dominique-3.jpg"
-    ]
-  },
-  {
-    "id": "cutout",
-    "title": "CUTOUT",
-    "price": 0,
-    "materials": "Recycled scrap steel",
-    "dimensions": "43 x 35 x 9 cm",
-    "weightKg": 15,
-    "year": 2022,
-    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "sold",
-    "images": [
-      "/images/cutout.jpg",
-      "/images/cutout-2.jpg",
-      "/images/cutout-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948600215-SUV45KDO9764DZ3IPC99/P1030547.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948574667-CWDEXTHVRQ4BF5E1KYNB/P1030527.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948624191-CYNX999KZIDP2RK7DGGE/P1030785.jpg?format=1500w"
     ]
   },
   {
@@ -58,14 +60,13 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/pearl-shell.jpg",
-      "/images/pearl-shell-2.jpg",
-      "/images/pearl-shell-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954896338-6W634SIWR6265V6MK42Y/pearl+shell+-+1+of+2+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485954896414-1W3711QKA82FJYCGDGMX/pearl+shell+-+1+of+2.jpg?format=1500w"
     ]
   },
   {
     "id": "nina",
-    "title": "NINA",
+    "title": "cake / slice",
     "price": 0,
     "materials": "Recycled scrap steel",
     "dimensions": "44 x 27 x 25 cm",
@@ -74,9 +75,7 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/nina.jpg",
-      "/images/nina-2.jpg",
-      "/images/nina-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485945871788-2LGDGW2G0F8V3KM4IBL6/P4200394.jpg?format=1500w"
     ]
   },
   {
@@ -90,9 +89,8 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/rachel.jpg",
-      "/images/rachel-2.jpg",
-      "/images/rachel-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427203264701-UIOF2CUYF6ZV8JFCXO4U/IMG_7302.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1427203261867-1BLL6XGHAKK0KTO8T2EE/IMG_7301.jpg?format=1500w"
     ]
   },
   {
@@ -106,9 +104,11 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/michael.jpg",
-      "/images/michael-2.jpg",
-      "/images/michael-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1473076667220-US3K55YQKDXFDSTQ2GOT/IMG_5269.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1473076667480-KHQ7IMTQBZ2PL6V2G6UA/IMG_5276.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1473076681845-6R63T1E66FDOJ7TJS4H3/IMG_5277.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1473076677238-FDCFNDWENJ0XY92M0QIF/IMG_5278.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1473076690143-1T87V1W4MPCX96J9K81Y/IMG_5279.jpg?format=1500w"
     ]
   },
   {
@@ -122,9 +122,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/minna.jpg",
-      "/images/minna-2.jpg",
-      "/images/minna-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949817227-3U0OUVN6FHE118SXT4X7/iphone+-+1+of+3+%282%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949814193-PCYUMQUWFS53PK1D2XJS/iphone+-+1+of+3+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485949830445-FRSIPZG7ZHB8BG9UKZU3/iphone+-+1+of+3.jpg?format=1500w"
     ]
   },
   {
@@ -138,9 +138,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/michael-ii.jpg",
-      "/images/michael-ii-2.jpg",
-      "/images/michael-ii-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485951900100-9XV4K4VV3GIFAMPOO7R2/football+-+1+of+2+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485951900769-FM9IXGNEZUCY35RJE0KO/football+-+1+of+2.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485951901090-Z1WUBIY8H3I24OGI6KCW/football+dist.jpg?format=1500w"
     ]
   },
   {
@@ -154,9 +154,8 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/guy.jpg",
-      "/images/guy-2.jpg",
-      "/images/guy-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075333037-1M2G3XX7RJ8K5YFS1WYP/IMG_1014.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075334734-QM075GWV5NC8LXEJ6FSG/IMG_0968.jpg?format=1500w"
     ]
   },
   {
@@ -170,9 +169,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/janet.jpg",
-      "/images/janet-2.jpg",
-      "/images/janet-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953369605-JAY7C6QCU9N4B1V1QLL2/All+Photos+-+1+of+2.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485953362060-U92GS683S17FR2ANU4JD/All+Photos+-+1+of+2+%281%29.jpg?format=1500w"
     ]
   },
   {
@@ -186,9 +184,8 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/fourty.jpg",
-      "/images/fourty-2.jpg",
-      "/images/fourty-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676201383497-2R784RAJ3Q3EFXOO0VFO/215_1587.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676201384855-94PVQ40Q5CPRKIPG5HPL/215_1585.JPG?format=1500w"
     ]
   },
   {
@@ -202,9 +199,10 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/walter.jpg",
-      "/images/walter-2.jpg",
-      "/images/walter-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076346255-Z37KUQUQDBAOVBD2TWSR/IMG_1698.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076246477-W98Q42NX229KT10R0456/IMG_1693.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076243117-ZVXRBRZ14U1ID5RLQQBO/IMG_1691.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076330957-EDOF9XU1M90LEZ0WXKDG/IMG_1699.jpg?format=1500w"
     ]
   },
   {
@@ -218,9 +216,9 @@
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
     "status": "sold",
     "images": [
-      "/images/simon.jpg",
-      "/images/simon-2.jpg",
-      "/images/simon-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076333414-S6RJEVUCEIULC1J54JJZ/IMG_1840.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076341368-5AN70XUBAT8B4SJLNAUI/IMG_1834.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487076356754-TM9IDWEBHNPL8SZDAC50/IMG_1842.jpg?format=1500w"
     ]
   },
   {
@@ -234,9 +232,11 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/eva.jpg",
-      "/images/eva-2.jpg",
-      "/images/eva-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1521552158909-HZV4QD6N3IUGWSMZG8KD/IMG_1036.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1521552238500-N7KFHHDLWZO4MMGJTCNH/IMG_1037.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1521552525238-1JZWTWQG0BSI9F07HAEO/IMG_1040.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1521552317234-OX5KBCL5TOLV5EP7LEGE/IMG_1038.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1521552426806-TUC2N5NVHM543TLAM4JV/IMG_1039.jpg?format=1500w"
     ]
   },
   {
@@ -250,9 +250,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/smoc.jpg",
-      "/images/smoc-2.jpg",
-      "/images/smoc-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676121648406-XCDA0T0ZBB0AZW36RAWN/IMG_9091.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676121643080-LVPAV6I6E5QLZXUE920S/IMG_9092+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125232656-K1BHL1BJMHJV1F6PNPPL/IMG_9093.JPG?format=1500w"
     ]
   },
   {
@@ -266,9 +266,8 @@
     "description": "Industrial off-cuts repurposed into a domestic-scaled object.",
     "status": "sold",
     "images": [
-      "/images/sophie.jpg",
-      "/images/sophie-2.jpg",
-      "/images/sophie-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1502008277045-SFDEQD1XJK7429HEBII3/DA5753DB-6B1C-4598-ADB6-A40D42BCA25D.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1502008287866-EE0TM5M3ULOCT63QRUMZ/EFF781D6-8174-4860-8292-DC67571C3043.JPG?format=1500w"
     ]
   },
   {
@@ -282,9 +281,7 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/lipstick.jpg",
-      "/images/lipstick-2.jpg",
-      "/images/lipstick-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709039411194-Q3IF6PQBMQH9FP96H5JM/IMG_2615.jpg?format=1500w"
     ]
   },
   {
@@ -298,9 +295,11 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/ashley-and-sally.jpg",
-      "/images/ashley-and-sally-2.jpg",
-      "/images/ashley-and-sally-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125207072-9CMVJ7A74ZJI7P3B3HBX/IMG_8846.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125187693-HD9YNSVN5715132KWM1D/IMG_8836+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125187466-DBVBG1E9PL14NYBFT39C/IMG_8837.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125229771-GIW3S03IO1MWFKB8ASRN/IMG_8848.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125240306-DG9ZGE5ENDW8J6Z535DP/IMG_8843+2.JPG?format=1500w"
     ]
   },
   {
@@ -314,9 +313,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/chambers.jpg",
-      "/images/chambers-2.jpg",
-      "/images/chambers-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125447423-K1VGE87XBE6953MAAMCK/IMG_2519+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125448731-NJ1NVSORVU1A1DYIER09/IMG_2520.JPG?format=1500w"
     ]
   },
   {
@@ -330,9 +328,7 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/one.jpg",
-      "/images/one-2.jpg",
-      "/images/one-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709039832733-RD9MNIR4I2RP9U3QVN48/P1010617.jpg?format=1500w"
     ]
   },
   {
@@ -346,8 +342,8 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "sold",
     "images": [
-      "/images/james.jpg",
       "/images/james-2.jpg",
+      "/images/james.jpg",
       "/images/james-3.jpg"
     ]
   },
@@ -362,9 +358,10 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/jinx.jpg",
-      "/images/jinx-2.jpg",
-      "/images/jinx-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126363804-CYI7SYQ3C20Y2E69VQDX/IMG_1149.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126363804-5WTSKI698US8UWWVV8TJ/IMG_1147.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126389224-IX9ULCGMRFE63Z8G1NXD/IMG_1150.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126389718-4K264LLUTVALEK2RGX0C/IMG_1151.JPG?format=1500w"
     ]
   },
   {
@@ -378,9 +375,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/sophie-ii.jpg",
-      "/images/sophie-ii-2.jpg",
-      "/images/sophie-ii-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676127171829-7536UG6AB3FROXCM1O9A/IMG_0399+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676127169870-4X3XMLNY398FED8XJPHS/IMG_0401+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676127187137-WAA7FR19KPTYN6CDMYRF/IMG_0402+2.JPG?format=1500w"
     ]
   },
   {
@@ -394,9 +391,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/minna-ii.jpg",
-      "/images/minna-ii-2.jpg",
-      "/images/minna-ii-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126873310-6GFZJ6HQUXKLV1GH726A/IMG_9938+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126875168-BT2A3E9H8UXGI13T4U7B/IMG_9939+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126899724-CETGAM99UZ6XJA1IW524/IMG_9940+2.JPG?format=1500w"
     ]
   },
   {
@@ -410,9 +407,8 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "sold",
     "images": [
-      "/images/chris.jpg",
-      "/images/chris-2.jpg",
-      "/images/chris-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126683490-MP0Q114XWGLU6LQ0IQ3P/IMG_9747+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676126676940-PCIQN6JU15AXM1FI1QSO/IMG_9750+2.JPG?format=1500w"
     ]
   },
   {
@@ -426,9 +422,8 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/dominique-and-jean-luc.jpg",
-      "/images/dominique-and-jean-luc-2.jpg",
-      "/images/dominique-and-jean-luc-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676127310971-S0LVW2GFZ5OYQV75KVG7/IMG_3585.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676127332899-K1C27YVOUH1ICVYKPB1K/IMG_3560+2.JPG?format=1500w"
     ]
   },
   {
@@ -442,9 +437,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/kate.jpg",
-      "/images/kate-2.jpg",
-      "/images/kate-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676128196172-05NE56DD47I36LMSMLIM/IMG_4267.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676128195690-GS6IYBGP2U9Y0I5P7G5T/IMG_4268.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676128219595-O7F8PEVOE9G6YXTU97SJ/IMG_4270.JPG?format=1500w"
     ]
   },
   {
@@ -458,9 +453,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "/images/jim.jpg",
-      "/images/jim-2.jpg",
-      "/images/jim-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676204146530-BAO2F1TUMJPZYWUNX9KB/anvel+-+8.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676204148273-OHAX2Q94RGJ65W3VTHS4/anvel+-+5.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676204153775-03B336LQG0WNLO8JWY21/anvel+-+7.jpg?format=1500w"
     ]
   },
   {
@@ -474,9 +469,8 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/la-la.jpg",
-      "/images/la-la-2.jpg",
-      "/images/la-la-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676205693028-6MGOLBOGB7FOBCFTPLHW/IMG_2821.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676205693617-FQ2KZLBGLOH1EPXL74XF/IMG_2823.JPG?format=1500w"
     ]
   },
   {
@@ -490,9 +484,8 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "/images/janet-ii.jpg",
-      "/images/janet-ii-2.jpg",
-      "/images/janet-ii-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676279333926-Q388RNQI7ARJUNR8GHHE/IMG_3642.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676279334686-NRSRAR4P410KIRPBFN0N/IMG_3643.JPG?format=1500w"
     ]
   },
   {
@@ -506,9 +499,9 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "sold",
     "images": [
-      "/images/jean-luc.jpg",
-      "/images/jean-luc-2.jpg",
-      "/images/jean-luc-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485952128199-5CO5USMCSYAJK7MOL1L3/dog+%281%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485952127160-CO0N9P2HQFVRMIG28U4O/dog+%282%29.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485952148872-EQV1W97H2U2QXBPKV70Z/dog.jpg?format=1500w"
     ]
   },
   {
@@ -522,9 +515,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/jessica.jpg",
-      "/images/jessica-2.jpg",
-      "/images/jessica-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075811478-7KUD25WI7G061V80ZBYQ/IMG_0313.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075797849-1H9UHYHL141NDHIRFRJN/IMG_0312.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1487075801394-U73QFNST5L6Y93C0ZZEI/IMG_0311.jpg?format=1500w"
     ]
   },
   {
@@ -538,9 +531,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/timmy-dog.jpg",
-      "/images/timmy-dog-2.jpg",
-      "/images/timmy-dog-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1701525466213-6UXZOKHDRCU6XFSAS85Y/Screen+Shot+2023-12-03+at+12.56.52+am.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1701526509637-KTWNPJ5KEWD0VM9OY374/TIM+GLASSES+2.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1701526509807-E450LK6UTSG2T8EYT2IJ/TIM+GLASSES+3.jpg?format=1500w"
     ]
   },
   {
@@ -554,9 +547,11 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "/images/jon-jon.jpg",
-      "/images/jon-jon-2.jpg",
-      "/images/jon-jon-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207486831-NY5KWT3J53CSVPJN0TQK/IMG_2749.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207449851-FXK2R6BXCGBPC7J9U748/IMG_2734.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207451593-LHG2B8MPJSY7XMDXZTAP/IMG_2736.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207486589-Z82DNAQZRIRY90X7AUNZ/IMG_2737.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676207508862-KJRYMK24DLLBNSUKTUSK/IMG_2750.JPG?format=1500w"
     ]
   },
   {
@@ -570,9 +565,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/ireland.jpg",
-      "/images/ireland-2.jpg",
-      "/images/ireland-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1701528422828-Y6FWDQUBU7MHX3JJGNLU/MINNA+PAS1.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1701528423558-AMH15NYPLKEI4RE5GNYC/MINNA+PASS+2.jpg?format=1500w"
     ]
   },
   {
@@ -586,9 +580,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/louise.jpg",
-      "/images/louise-2.jpg",
-      "/images/louise-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709029965545-WSG2YY4ABISEZBGCCROX/IMG_7849+2.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709029978363-O5EXHAEFKOFPMV75PGHR/IMG_7850+2.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709029965544-D1U7VWUNHI4FNJOLHOKE/IMG_7847.jpeg?format=1500w"
     ]
   },
   {
@@ -602,9 +596,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/shane.jpg",
-      "/images/shane-2.jpg",
-      "/images/shane-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709034246941-XBZJ91BB0VHAQW2YWYFX/IMG_9022.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709034246941-2ILXD7RXY0MYRRNW73NE/IMG_9021.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709034394480-NQPKER5CW1X3VY3150PA/IMG_9023.jpeg?format=1500w"
     ]
   },
   {
@@ -618,9 +612,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/burrows.jpg",
-      "/images/burrows-2.jpg",
-      "/images/burrows-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709037439432-C3G938EF978OFQLED3YG/Screenshot+2024-02-27+at+11.36.34%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709037472101-T5LSGVGFK4ASB82FFDHW/Screenshot+2024-02-27+at+11.36.02%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709037501366-1A3UBH3NRAQS3V74XKX2/Screenshot+2024-02-27+at+11.35.36%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -634,9 +628,9 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/dry-july.jpg",
-      "/images/dry-july-2.jpg",
-      "/images/dry-july-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709212754982-9A0A43S3Y6CSJU4P43QO/Screenshot+2024-03-01+at+12.17.09%E2%80%AFam.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709212772722-JXFW8YWQFXNFL0F8LQ2V/Screenshot+2024-03-01+at+12.16.38%E2%80%AFam.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709212826382-UPJEPGVDUV7EGSPGD9KY/Screenshot+2024-03-01+at+12.19.50%E2%80%AFam.png?format=1500w"
     ]
   },
   {
@@ -650,9 +644,9 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "/images/mr-king.jpg",
-      "/images/mr-king-2.jpg",
-      "/images/mr-king-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709245678732-Y9M02KQKVZBK7DCLMGJR/IMG_3620+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709245690788-V4TTV9YZD2ZADXMG7JYN/IMG_3614+3.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709245712161-UH04IID019T3QEAZ06H2/IMG_3610+2.JPG?format=1500w"
     ]
   },
   {
@@ -666,9 +660,8 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/dani.jpg",
-      "/images/dani-2.jpg",
-      "/images/dani-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709346592709-YSTKGOG9I3ZIZX2Q3RHK/Screenshot+2024-03-02+at+1.28.06%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709346573891-A9LQXN42H7OT76ZZZCMH/Screenshot+2024-03-02+at+1.29.00%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -682,9 +675,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/billy-boy.jpg",
-      "/images/billy-boy-2.jpg",
-      "/images/billy-boy-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709346897934-9GLB3JD5O22MRXUHQOGI/Screenshot+2024-03-02+at+1.31.58%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709346920296-HDZIJBIY39VN3I17C907/Screenshot+2024-03-02+at+1.32.32%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709346935975-F73R9YXE7TCEAZPSD7LF/Screenshot+2024-03-02+at+1.33.37%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -698,9 +691,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/smoc-ii.jpg",
-      "/images/smoc-ii-2.jpg",
-      "/images/smoc-ii-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709349364923-DN0DEPYTITZ87E4GWLY3/Screenshot+2024-03-02+at+2.14.32%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709349412738-WTXT5I737M9QW659ZT4C/Screenshot+2024-03-02+at+2.16.14%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -714,9 +706,7 @@
     "description": "A small edition piece, hand-torched and finished with clear wax.",
     "status": "sold",
     "images": [
-      "/images/woman-and-man.jpg",
-      "/images/woman-and-man-2.jpg",
-      "/images/woman-and-man-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709350643690-9MLQ77F5T5IXSEOASDAI/Screenshot+2024-03-02+at+2.36.55%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -730,9 +720,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/swordfish.jpg",
-      "/images/swordfish-2.jpg",
-      "/images/swordfish-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709637128607-BIVTRF1UX05FKMQIUPGH/Screenshot+2024-03-05+at+10.01.54%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709637152590-0N0ARL7CJE1HLMIA6OL5/Screenshot+2024-03-05+at+10.02.29%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -746,9 +735,8 @@
     "description": "A one-off maquette, part of an ongoing series exploring found form.",
     "status": "sold",
     "images": [
-      "/images/rhonda.jpg",
-      "/images/rhonda-2.jpg",
-      "/images/rhonda-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709638329840-AA1C3D0U1AUK5PYVYC3N/Screenshot+2024-03-05+at+10.30.40%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709638344024-NTKBIDKM097LNLFZIE6Z/Screenshot+2024-03-05+at+10.30.09%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -762,9 +750,8 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/nic.jpg",
-      "/images/nic-2.jpg",
-      "/images/nic-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639607053-DUEOC804LTDYKWMTK2HY/IMG_8314.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639617068-63H895UEGGLTQ6T2KI5W/IMG_8313.JPG?format=1500w"
     ]
   },
   {
@@ -778,9 +765,8 @@
     "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
     "status": "sold",
     "images": [
-      "/images/lala.jpg",
-      "/images/lala-2.jpg",
-      "/images/lala-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639738788-XTS2FUGDBWZC9I6VMCPW/IMG_3992+2.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639750058-6CUKCDVEVOK8VADHXNHG/IMG_3993+2.JPG?format=1500w"
     ]
   },
   {
@@ -794,9 +780,9 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/anchor.jpg",
-      "/images/anchor-2.jpg",
-      "/images/anchor-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639860061-VEP69E8IZTV4V4LIG7VS/IMG_3844.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639875939-D5Z7PA410DBDL6AH79ZF/IMG_3846.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639886643-EJYWQ6PB1S04U8DV63NL/IMG_3847.JPG?format=1500w"
     ]
   },
   {
@@ -810,25 +796,10 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/bunny.jpg",
-      "/images/bunny-2.jpg",
-      "/images/bunny-3.jpg"
-    ]
-  },
-  {
-    "id": "jecca",
-    "title": "JECCA",
-    "price": 0,
-    "materials": "Cast bronze",
-    "dimensions": "40 x 12 x 11 cm",
-    "weightKg": 17.7,
-    "year": 2023,
-    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "sold",
-    "images": [
-      "/images/jecca.jpg",
-      "/images/jecca-2.jpg",
-      "/images/jecca-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454447253-SM1TYOC5WF9OMSF4090L/Screenshot+2024-03-26+at+10.54.07%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454376408-1Y1A1892GZ7I6KN2CE18/Screenshot+2024-03-26+at+10.57.49%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454399910-ZZOTWSDY17SL3YCZ4IQO/Screenshot+2024-03-26+at+10.57.25%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454422074-E5JS483CIBCYDNEBYY0I/Screenshot+2024-03-26+at+10.56.09%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
@@ -842,9 +813,25 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/garry.jpg",
-      "/images/garry-2.jpg",
-      "/images/garry-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730897854310-HXIU4WOLRBBQ2LN3WZZG/Screenshot+2024-11-06+at+11.52.54%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730898025526-M6N8Q232QQ3LMETO7DK4/Screenshot+2024-11-06+at+11.51.58%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730898181323-F4RCG0X5F61WZ9Q96RQ3/Screenshot+2024-11-06+at+11.52.18%E2%80%AFPM.png?format=1500w"
+    ]
+  },
+  {
+    "id": "jecca",
+    "title": "JECCA",
+    "price": 0,
+    "materials": "Cast bronze",
+    "dimensions": "40 x 12 x 11 cm",
+    "weightKg": 17.7,
+    "year": 2023,
+    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
+    "status": "sold",
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895208811-S782254DR2ANCDZQ2U63/Screenshot+2024-11-06+at+11.09.27%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895297777-8EMQQ7HFHZAENM6PIVJJ/Screenshot+2024-11-06+at+11.09.54%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895548680-BNGVX6CVR8YVMRVTO7T1/Screenshot+2024-11-06+at+11.09.05%E2%80%AFPM.png?format=1500w"
     ]
   },
   {
@@ -858,9 +845,9 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "/images/jeanie.jpg",
-      "/images/jeanie-2.jpg",
-      "/images/jeanie-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730981488888-4NEQRJHPG2UMJSMNJ1WK/Screenshot+2024-11-07+at+11.08.05%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730981426145-HLEEHV1T1MIZTCUWYQYD/Screenshot+2024-11-07+at+11.06.37%E2%80%AFPM.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730982482821-T1WIK787UBGUY8QMUR67/Screenshot+2024-11-07+at+11.06.12%E2%80%AFPM.png?format=1500w"
     ]
   },
   {
@@ -874,9 +861,9 @@
     "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
     "status": "sold",
     "images": [
-      "/images/duke.jpg",
-      "/images/duke-2.jpg",
-      "/images/duke-3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769730729-UTNN5F5VQBPGU7XGPCBK/IMG_7782.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769740111-4ILSFQRG92W8QLBKL1U3/IMG_7783.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769745421-BMW3FC1KQYTG0Z3BHNAM/IMG_7784+2.jpeg?format=1500w"
     ]
   },
   {
@@ -890,8 +877,10 @@
     "description": "A quiet, figurative form finished with an oxidised patina.",
     "status": "sold",
     "images": [
-      "/images/rodger.jpg",
-      "/images/rodger-2.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769813145-0J46B593PVHTKK9NI0QX/IMG_8047.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769818366-S64VNA058LK4F3FQCGX3/IMG_8045.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769823180-U6IBNJ8VYC48T5M3MC5X/IMG_8044.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769835925-MHY4SMF0A0FHHCN7QDJ7/IMG_8039.jpeg?format=1500w"
     ]
   },
   {
@@ -907,7 +896,10 @@
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770647685-CBOBV77OE0G6PYOBZ6Z7/IMG_5366.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770618923-GKT7NSCTZCRBN2I4M116/IMG_5232.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770632756-TRZVDBAPBULRWMG1UM6Q/IMG_5258.jpeg?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770632756-TRZVDBAPBULRWMG1UM6Q/IMG_5258.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770636612-Z41PJ2VQ1M2QZD46JSJ2/IMG_5341.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770640440-7QIMWU1SPZUJAKB9E1EB/IMG_5358.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770643857-TO5EFPUAHRRRDVP8835O/IMG_5364.jpeg?format=1500w"
     ]
   },
   {
@@ -923,6 +915,8 @@
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771522521-JF10ZXOIWHUFV5Q75J5J/IMG_4843.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771525248-V5FPRZI93ZQABFNMSEPE/IMG_4841.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771530293-G08CSD0HTLN3MXU4E6DC/IMG_5232.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771533586-GX94UJ3CU9H0AYJ8Q633/IMG_5258.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750771552261-EHRBM528I9DHBDLXUKCE/IMG_5358.jpeg?format=1500w"
     ]
   },
@@ -938,7 +932,10 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772208212-KXNYO9O9WDSJTNO27IUV/IMG_3606.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772212457-7ECE0A3CI6OD8V10KO3W/IMG_3607.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772185916-668OXWIKL06FQACNN3X5/IMG_3423.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772195824-VIXPOQ41QYK9OTWGA142/IMG_3440.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772191391-OOAN98MYVXNYO2341HF2/IMG_3439.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772215737-GPX3PWI4UISKPTXW229C/IMG_3608.jpeg?format=1500w"
     ]
   },
@@ -954,7 +951,10 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772342231-B3NW3QBFO7FID0G498KR/IMG_3466.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772347228-5UY9P8KRCB5UZ363KLTB/IMG_3465.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772353398-NNW8935O6Z0H40KT13OA/IMG_3462.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772364539-77PV0DRJUHVCSUBOQWLZ/IMG_3464.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772370140-1OI9EDQJGF2W9GZSS2JO/IMG_3469.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772377202-LMFXF8H7QPIALWSDMKSH/IMG_3471.jpeg?format=1500w"
     ]
   },
@@ -986,7 +986,8 @@
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772679552-1MPGSTY89GGN81K49IG2/IMG_3604.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772671883-FLZYEFP1RXJ7N1MA1LG0/IMG_3600.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772693740-16GR783552IBZUMZZQMS/IMG_3605.jpeg?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772693740-16GR783552IBZUMZZQMS/IMG_3605.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750772666276-1OQOCGRWW87PIZZNR388/IMG_3599.jpeg?format=1500w"
     ]
   },
   {
@@ -1002,6 +1003,7 @@
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773638946-Q3XSBLTKV10ZGWUYNRPN/IMG_3415.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773644412-QG9GUTKZUKFJS6XIHX3A/IMG_3416.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773648656-KY7SOM50UB50BC9B8WRC/IMG_3415+2.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750773659684-13OHUMR9TZOZMZP8BBO7/IMG_3417.jpeg?format=1500w"
     ]
   },
@@ -1017,23 +1019,11 @@
     "status": "sold",
     "images": [
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774052808-LU2401H5W31JR20SMMJI/IMG_3025.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774073998-Z2AH3W8THHK3XDDAQ68Y/IMG_3043.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774059707-CKEORUYZADAB5YHLHBT7/IMG_3037.jpeg?format=1500w"
-    ]
-  },
-  {
-    "id": "twisties-4",
-    "title": "TWISTIES",
-    "price": 0,
-    "materials": "STAINLESS STEEL",
-    "dimensions": "23 X13 X 60",
-    "weightKg": 0.4,
-    "year": 2026,
-    "description": "LIFES PRETTY STRAIGHT WITHOUT A...",
-    "status": "sold",
-    "images": [
-      "/images/twisties-4.jpg",
-      "/images/twisties-4-2.jpg"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774048664-4538BA8L2YYEUXOVPOPR/IMG_3023.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774056742-MIUVLDBM41HS8L288CUA/IMG_3027.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750774062903-3ADFLONFC4U2FYSIW379/IMG_3038.jpeg?format=1500w"
     ]
   },
   {

@@ -171,6 +171,20 @@ const server = http.createServer((req, res) => {
         const obj = data.find((o) => o.id === id);
         if (!obj) return send(res, 404, { error: "Item not found." });
 
+        if (patch.move) {
+          const from = data.indexOf(obj);
+          let to = from;
+          if (patch.move === "top") to = 0;
+          else if (patch.move === "bottom") to = data.length - 1;
+          else if (patch.move === "up") to = Math.max(0, from - 1);
+          else if (patch.move === "down") to = Math.min(data.length - 1, from + 1);
+          else if (typeof patch.move === "number") to = Math.max(0, Math.min(data.length - 1, Math.round(patch.move) - 1));
+          if (to !== from) {
+            data.splice(from, 1);
+            data.splice(to, 0, obj);
+          }
+        }
+
         if (Array.isArray(patch.reorderImages) && patch.reorderImages.length) {
           const current = new Set(obj.images || []);
           const isValidPermutation =

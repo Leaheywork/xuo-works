@@ -27,7 +27,7 @@ export default function Tile({ object, showName = true }: { object: XuoObject; s
         <img
           src={object.images[0]}
           alt={object.title}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+          className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.02]"
         />
         {isSold && (
           <span className="absolute top-2 right-2 h-2.5 w-2.5 rounded-full bg-sold" />
