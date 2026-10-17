@@ -1,43 +1,23 @@
 import Link from "next/link";
 import Tile from "@/components/Tile";
-import { getBiddingObjects, getRecentObjects } from "@/lib/data";
+import HeroCarousel from "@/components/HeroCarousel";
+import { getAllObjects, getBiddingObjects, getRecentObjects } from "@/lib/data";
 
 export default function Home() {
   const bidding = getBiddingObjects(7);
   const recent = getRecentObjects(7);
-  const hero = recent[0];
+  const featured = getAllObjects()
+    .filter((o) => o.status === "available" || o.status === "in_bidding")
+    .reverse()
+    .slice(0, 8);
 
   return (
     <div>
-      {hero && (
-        <div className="relative">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={hero.images[0]}
-            alt={hero.title}
-            className="w-full h-[52vh] min-h-[320px] object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent flex items-end">
-            <div className="max-w-6xl mx-auto w-full px-6 pb-10 text-white">
-              <h1 className="text-3xl md:text-4xl font-semibold uppercase tracking-tight leading-tight">
-                Steel objects,
-                <br />
-                one at a time
-              </h1>
-              <p className="mt-3 max-w-md text-sm text-white/85">
-                Each piece is unique. Buy at the listed price, or watch the
-                24-hour bidding window and place a higher offer.
-              </p>
-              <Link
-                href="/objects"
-                className="inline-block mt-5 border border-white/70 px-5 py-2 text-[11px] font-mono uppercase tracking-wide hover:bg-white hover:text-[#1a1a1a] transition-colors"
-              >
-                View objects
-              </Link>
-            </div>
-          </div>
-        </div>
-      )}
+      <HeroCarousel
+        objects={featured}
+        headline={"Made by hand.\nMade once."}
+        blurb="Each piece is unique and ships worldwide. Buy at the listed price, or watch the 24-hour bidding window and place a higher offer."
+      />
 
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex items-baseline justify-between border-b border-hairline pb-3 mb-5">
@@ -81,15 +61,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+        id="commission"
+        className="max-w-6xl mx-auto px-6 py-12 border-t border-hairline"
+      >
+        <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
+          Commissions
+        </h2>
+        <p className="text-sm text-steel leading-relaxed">
+          Need something useless or unique made? The studio fabricates
+          one-off objects to order.
+          <a
+            href="mailto:work@xuo.works?subject=XUO.WORKS%20commission%20enquiry"
+            className="inline-block ml-3 align-middle border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide text-foreground hover:bg-foreground hover:text-background transition-colors"
+          >
+            Contact the studio
+          </a>
+        </p>
+        <p className="mt-3 text-[11px] font-mono text-steel">
+          work@xuo.works
+        </p>
+      </section>
+
       <section className="max-w-6xl mx-auto px-6 pb-16 border-t border-hairline pt-10">
         <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
           About
         </h2>
         <p className="max-w-2xl text-sm text-steel leading-relaxed">
-          Workshop-based sculpture built from steel, found hardware, and
-          reclaimed materials. Each object listed here is a one-off — once
-          it&apos;s sold, it&apos;s gone. Domestic and international shipping
-          quoted live at checkout.
+          Workshop-based sculpture made from metal, found objects, and
+          whatever else the work calls for. Each object listed here is a
+          one-off — once it&apos;s sold, it&apos;s gone. We ship worldwide — international is
+          no problem, and shipping is quoted live at checkout.
         </p>
       </section>
     </div>

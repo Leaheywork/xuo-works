@@ -1,14 +1,31 @@
 [
   {
+    "id": "poppie-standard-lamp",
+    "title": "Poppie standard lamp",
+    "price": 5000,
+    "materials": "stainless steel ",
+    "dimensions": "1800 x 700 x 500",
+    "weightKg": 20,
+    "year": 2026,
+    "description": "a standard lamp fabricated from heat  finished stainless steel ",
+    "status": "available",
+    "images": [
+      "/images/poppie-standard-lamp.jpg",
+      "/images/poppie-standard-lamp-2.jpg",
+      "/images/poppie-standard-lamp-3.jpg",
+      "/images/poppie-standard-lamp-4.jpg"
+    ]
+  },
+  {
     "id": "twisties-4",
     "title": "TWISTIES",
-    "price": 0,
+    "price": 750,
     "materials": "STAINLESS STEEL",
     "dimensions": "23 X13 X 60",
     "weightKg": 0.4,
     "year": 2026,
     "description": "LIFES PRETTY STRAIGHT WITHOUT A...",
-    "status": "sold",
+    "status": "available",
     "images": [
       "/images/twisties-4.jpg",
       "/images/twisties-4-2.jpg"
@@ -193,7 +210,7 @@
   },
   {
     "id": "eva",
-    "title": "EVA",
+    "title": "reading glasses",
     "price": 0,
     "materials": "Stainless steel",
     "dimensions": "33 x 39 x 10 cm",
@@ -211,7 +228,7 @@
   },
   {
     "id": "smoc",
-    "title": "SMOC",
+    "title": "brushes",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "60 x 35 x 25 cm",
@@ -227,7 +244,7 @@
   },
   {
     "id": "sophie",
-    "title": "SOPHIE",
+    "title": "candle",
     "price": 0,
     "materials": "Stainless steel",
     "dimensions": "22 x 17 x 10 cm",
@@ -255,26 +272,8 @@
     ]
   },
   {
-    "id": "ashley-and-sally",
-    "title": "ASHLEY AND SALLY",
-    "price": 0,
-    "materials": "Welded steel, rust patina",
-    "dimensions": "47 x 28 x 12 cm",
-    "weightKg": 12.7,
-    "year": 2026,
-    "description": "A small edition piece, hand-torched and finished with clear wax.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125207072-9CMVJ7A74ZJI7P3B3HBX/IMG_8846.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125187693-HD9YNSVN5715132KWM1D/IMG_8836+2.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125187466-DBVBG1E9PL14NYBFT39C/IMG_8837.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125229771-GIW3S03IO1MWFKB8ASRN/IMG_8848.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1676125240306-DG9ZGE5ENDW8J6Z535DP/IMG_8843+2.JPG?format=1500w"
-    ]
-  },
-  {
     "id": "chambers",
-    "title": "CHAMBERS",
+    "title": "dog collar",
     "price": 0,
     "materials": "Welded mild steel",
     "dimensions": "37 x 33 x 20 cm",
@@ -303,7 +302,7 @@
   },
   {
     "id": "james",
-    "title": "JAMES",
+    "title": "house",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "42 x 14 x 19 cm",
@@ -319,7 +318,7 @@
   },
   {
     "id": "jinx",
-    "title": "JINX",
+    "title": "swimming goggles",
     "price": 0,
     "materials": "Stainless steel",
     "dimensions": "17 x 24 x 19 cm",
@@ -336,7 +335,7 @@
   },
   {
     "id": "sophie-ii",
-    "title": "SOPHIE II",
+    "title": "croissant",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "37 x 38 x 23 cm",
@@ -352,7 +351,7 @@
   },
   {
     "id": "minna-ii",
-    "title": "MINNA II",
+    "title": "barista",
     "price": 0,
     "materials": "Welded steel, rust patina",
     "dimensions": "55 x 24 x 23 cm",
@@ -368,7 +367,7 @@
   },
   {
     "id": "chris",
-    "title": "CHRIS",
+    "title": "t-bone",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "41 x 31 x 12 cm",
@@ -383,7 +382,7 @@
   },
   {
     "id": "dominique-and-jean-luc",
-    "title": "DOMINIQUE AND JEAN LUC",
+    "title": "queen and king",
     "price": 0,
     "materials": "Cast bronze",
     "dimensions": "49 x 13 x 30 cm",
@@ -398,7 +397,7 @@
   },
   {
     "id": "kate",
-    "title": "KATE",
+    "title": "rose",
     "price": 0,
     "materials": "Welded steel, rust patina",
     "dimensions": "57 x 22 x 25 cm",
@@ -414,7 +413,7 @@
   },
   {
     "id": "jim",
-    "title": "JIM",
+    "title": "anvel",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "59 x 23 x 20 cm",
@@ -430,7 +429,7 @@
   },
   {
     "id": "la-la",
-    "title": "LA LA",
+    "title": "A+ brand",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "30 x 9 x 8 cm",
@@ -526,7 +525,7 @@
   },
   {
     "id": "ireland",
-    "title": "IRELAND",
+    "title": "passport",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "45 x 37 x 28 cm",
@@ -541,7 +540,7 @@
   },
   {
     "id": "louise",
-    "title": "LOUISE",
+    "title": "knit",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "9 x 8 x 28 cm",
@@ -557,7 +556,7 @@
   },
   {
     "id": "shane",
-    "title": "SHANE",
+    "title": "battery",
     "price": 0,
     "materials": "Steel and found objects",
     "dimensions": "60 x 21 x 8 cm",
@@ -573,7 +572,7 @@
   },
   {
     "id": "burrows",
-    "title": "BURROWS",
+    "title": "tape",
     "price": 0,
     "materials": "Welded steel, rust patina",
     "dimensions": "24 x 34 x 12 cm",
@@ -605,7 +604,7 @@
   },
   {
     "id": "mr-king",
-    "title": "MR KING",
+    "title": "number plate",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "57 x 19 x 27 cm",
@@ -621,7 +620,7 @@
   },
   {
     "id": "dani",
-    "title": "DANI",
+    "title": "crochet",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "47 x 15 x 25 cm",
@@ -636,7 +635,7 @@
   },
   {
     "id": "billy-boy",
-    "title": "BILLY BOY",
+    "title": "chop",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "58 x 14 x 25 cm",
@@ -652,7 +651,7 @@
   },
   {
     "id": "smoc-ii",
-    "title": "SMOC II",
+    "title": "bird",
     "price": 0,
     "materials": "Recycled scrap steel",
     "dimensions": "40 x 36 x 25 cm",
@@ -710,36 +709,6 @@
     ]
   },
   {
-    "id": "nic",
-    "title": "NIC",
-    "price": 0,
-    "materials": "Forged steel and brass",
-    "dimensions": "53 x 31 x 12 cm",
-    "weightKg": 5.2,
-    "year": 2023,
-    "description": "Salvaged hardware reworked into a single continuous gesture.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639607053-DUEOC804LTDYKWMTK2HY/IMG_8314.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639617068-63H895UEGGLTQ6T2KI5W/IMG_8313.JPG?format=1500w"
-    ]
-  },
-  {
-    "id": "lala",
-    "title": "LALA",
-    "price": 0,
-    "materials": "Recycled scrap steel",
-    "dimensions": "33 x 39 x 13 cm",
-    "weightKg": 17.8,
-    "year": 2023,
-    "description": "Built from reclaimed steel offcuts, this piece plays with negative space and shadow.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639738788-XTS2FUGDBWZC9I6VMCPW/IMG_3992+2.JPG?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709639750058-6CUKCDVEVOK8VADHXNHG/IMG_3993+2.JPG?format=1500w"
-    ]
-  },
-  {
     "id": "anchor",
     "title": "ANCHOR",
     "price": 0,
@@ -757,7 +726,7 @@
   },
   {
     "id": "bunny",
-    "title": "BUNNY",
+    "title": "camera",
     "price": 0,
     "materials": "Welded steel, rust patina",
     "dimensions": "9 x 29 x 25 cm",
@@ -766,15 +735,15 @@
     "description": "Salvaged hardware reworked into a single continuous gesture.",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454447253-SM1TYOC5WF9OMSF4090L/Screenshot+2024-03-26+at+10.54.07%E2%80%AFpm.png?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454376408-1Y1A1892GZ7I6KN2CE18/Screenshot+2024-03-26+at+10.57.49%E2%80%AFpm.png?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454399910-ZZOTWSDY17SL3YCZ4IQO/Screenshot+2024-03-26+at+10.57.25%E2%80%AFpm.png?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454422074-E5JS483CIBCYDNEBYY0I/Screenshot+2024-03-26+at+10.56.09%E2%80%AFpm.png?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454376408-1Y1A1892GZ7I6KN2CE18/Screenshot+2024-03-26+at+10.57.49%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454422074-E5JS483CIBCYDNEBYY0I/Screenshot+2024-03-26+at+10.56.09%E2%80%AFpm.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1711454447253-SM1TYOC5WF9OMSF4090L/Screenshot+2024-03-26+at+10.54.07%E2%80%AFpm.png?format=1500w"
     ]
   },
   {
     "id": "garry",
-    "title": "GARRY",
+    "title": "goggles",
     "price": 0,
     "materials": "Forged steel and brass",
     "dimensions": "25 x 16 x 21 cm",
@@ -789,24 +758,8 @@
     ]
   },
   {
-    "id": "jecca",
-    "title": "JECCA",
-    "price": 0,
-    "materials": "Cast bronze",
-    "dimensions": "40 x 12 x 11 cm",
-    "weightKg": 17.7,
-    "year": 2023,
-    "description": "A compact welded study in balance and weight, hand-finished in the workshop.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895208811-S782254DR2ANCDZQ2U63/Screenshot+2024-11-06+at+11.09.27%E2%80%AFPM.png?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895297777-8EMQQ7HFHZAENM6PIVJJ/Screenshot+2024-11-06+at+11.09.54%E2%80%AFPM.png?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1730895548680-BNGVX6CVR8YVMRVTO7T1/Screenshot+2024-11-06+at+11.09.05%E2%80%AFPM.png?format=1500w"
-    ]
-  },
-  {
     "id": "jeanie",
-    "title": "JEANIE",
+    "title": "JEANIE bottle",
     "price": 0,
     "materials": "Steel and copper wire",
     "dimensions": "52 x 28 x 10 cm",
@@ -822,7 +775,7 @@
   },
   {
     "id": "duke",
-    "title": "DUKE",
+    "title": "fly catcher",
     "price": 0,
     "materials": "Cast bronze",
     "dimensions": "9 x 13 x 16 cm",
@@ -838,7 +791,7 @@
   },
   {
     "id": "rodger",
-    "title": "RODGER",
+    "title": "bcd",
     "price": 0,
     "materials": "Recycled scrap steel",
     "dimensions": "37 x 8 x 18 cm",
@@ -851,25 +804,6 @@
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769818366-S64VNA058LK4F3FQCGX3/IMG_8045.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769823180-U6IBNJ8VYC48T5M3MC5X/IMG_8044.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750769835925-MHY4SMF0A0FHHCN7QDJ7/IMG_8039.jpeg?format=1500w"
-    ]
-  },
-  {
-    "id": "married-just",
-    "title": "MARRIED JUST",
-    "price": 0,
-    "materials": "Welded mild steel, brass fittings",
-    "dimensions": "38 x 24 x 12 cm",
-    "weightKg": 9.4,
-    "year": 2024,
-    "description": "A paired form welded from salvaged hardware, finished with a warm oxidised patina.",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770647685-CBOBV77OE0G6PYOBZ6Z7/IMG_5366.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770618923-GKT7NSCTZCRBN2I4M116/IMG_5232.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770632756-TRZVDBAPBULRWMG1UM6Q/IMG_5258.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770636612-Z41PJ2VQ1M2QZD46JSJ2/IMG_5341.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770640440-7QIMWU1SPZUJAKB9E1EB/IMG_5358.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1750770643857-TO5EFPUAHRRRDVP8835O/IMG_5364.jpeg?format=1500w"
     ]
   },
   {
@@ -911,7 +845,7 @@
   },
   {
     "id": "terry",
-    "title": "TERRY",
+    "title": "needle and thread",
     "price": 0,
     "materials": "Welded scrap steel",
     "dimensions": "31 x 19 x 10 cm",
@@ -971,19 +905,19 @@
     "description": "",
     "status": "sold",
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088691928-WFY2K88LGTVB7WD2YN3Z/Leahey_install4.jpeg?format=1500w",
+      "/images/nl-ted-6.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088690399-4MQXS1FT5MO86OCAT6CH/Leahey_Ted1.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088739174-VA1KVM2GPQR6M38KG0VY/Leahey_Ted2.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088722756-R8FO3CATA1RVEDDQJJIG/Leahey_Ted3.jpeg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088749721-UGV8XRIHQ9SDCZGDP0N7/Leahey_Ted4.jpeg?format=1500w",
-      "/images/nl-ted-6.jpg",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088776757-8ILONXTGG943GOHML0MG/Leahey_Ted6.jpeg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088791816-GGR3JB38ANUPTG4XTHD6/Leahey_Ted7.jpeg?format=1500w"
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088791816-GGR3JB38ANUPTG4XTHD6/Leahey_Ted7.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1444088691928-WFY2K88LGTVB7WD2YN3Z/Leahey_install4.jpeg?format=1500w"
     ]
   },
   {
     "id": "nl-mortaged",
-    "title": "MORTAGED",
+    "title": "house ",
     "price": 0,
     "materials": "",
     "dimensions": "",
@@ -1032,20 +966,6 @@
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948881963-DNRB9K6ZJZIMM8LJX0FP/PEAR++BLURB.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948849584-HKY9GM2YY8SQMEQW05Q2/P5180852.JPG.jpg?format=1500w",
       "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1485948851534-YNT97DYGQHRV996U25WH/P5180853.JPG.jpg?format=1500w"
-    ]
-  },
-  {
-    "id": "nl-gillian",
-    "title": "GILLIAN",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1434082349416-LVRM5UWM3VS1YWA2B9EC/image-asset.jpeg?format=1500w"
     ]
   },
   {
@@ -1145,21 +1065,6 @@
     ]
   },
   {
-    "id": "nl-plane",
-    "title": "PLANE",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040520679-DCH9M8K4300GDKCWRQXK/IMG_3362.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1709040520679-USKLARM861WYY4EWDGGY/IMG_3358.jpg?format=1500w"
-    ]
-  },
-  {
     "id": "nl-grant",
     "title": "GRANT",
     "price": 0,
@@ -1193,27 +1098,6 @@
     ]
   },
   {
-    "id": "nl-eric",
-    "title": "ERIC",
-    "price": 0,
-    "materials": "",
-    "dimensions": "",
-    "weightKg": 0,
-    "year": 0,
-    "description": "",
-    "status": "sold",
-    "images": [
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403369385622-WZ2YWVPYI3ZGQ6M4E5GC/081228_0546.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881134576-Y93IHM52K5FDKUHFARCL/081228_0288.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881132263-XZXCPI2BGM196H3GVRDY/081228_0298.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881133228-NW3CNZGNMG1M0EKABBVW/081228_0451.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881134446-831YW6JEB5WRJETIMWO4/081228_0498.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881135885-JXRNZS60JGK3N8LSH98R/081228_0549.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881137547-YD2U0Y4P59SEU0CUIA7Z/081228_0555.jpg?format=1500w",
-      "https://images.squarespace-cdn.com/content/v1/53a59b3fe4b074c78632b8b8/1403881137224-73XUHUN334O4K0NYWSFA/081228_0556.jpg?format=1500w"
-    ]
-  },
-  {
     "id": "nl-duckfeet",
     "title": "DUCKFEET",
     "price": 0,
@@ -1229,7 +1113,7 @@
   },
   {
     "id": "nl-ian",
-    "title": "IAN",
+    "title": "corkscrew",
     "price": 0,
     "materials": "",
     "dimensions": "",
@@ -1248,7 +1132,7 @@
   },
   {
     "id": "nl-lola",
-    "title": "LOLA",
+    "title": "cube and plane",
     "price": 0,
     "materials": "",
     "dimensions": "",
@@ -1277,7 +1161,7 @@
   },
   {
     "id": "andy-and-rachel",
-    "title": "ANDY AND RACHEL",
+    "title": "dry july",
     "price": 0,
     "materials": "",
     "dimensions": "",

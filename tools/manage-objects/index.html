@@ -359,7 +359,7 @@ git push</code>
     <canvas id="cropCanvas" width="320" height="320"></canvas>
     <div class="crop-controls">
       <label>Zoom</label>
-      <input type="range" id="cropZoom" min="1" max="4" step="0.01" value="1" />
+      <input type="range" id="cropZoom" min="0.2" max="4" step="0.005" value="1" />
     </div>
     <div class="crop-actions">
       <button type="button" id="cropSkip" class="secondary">Use original (no crop)</button>
@@ -636,19 +636,46 @@ const cropCtx = cropCanvas.getContext('2d');
 let cropState = null;
 let cropResolve = null;
 
-function drawCrop() {
-  if (!cropState) return;
+// Called when a photo opens: lets you zoom OUT until the whole photo fits
+// inside the square (with white space around it), and starts there.
+function applyFit() {
+  const { img, minSide } = cropState;
+  const maxSide = Math.max(img.naturalWidth, img.naturalHeight);
+  const fit = minSide / maxSide; // scale at which the whole photo is visible
+  cropState.fit = fit;
+  cropState.scale = fit;
+  cropZoomInput.min = fit;
+  cropZoomInput.max = 4;
+  cropZoomInput.value = fit;
+}
+
+function clampAxis(center, size, dim) {
+  let start = center - size / 2;
+  if (size >= dim) return (dim - size) / 2; // photo smaller than the window: centre it
+  return Math.max(0, Math.min(start, dim - size));
+}
+
+// Draws the current crop onto any square canvas context (white where the photo doesn't reach).
+function paintCrop(ctx, outSize) {
   const { img, scale, minSide } = cropState;
   const sSize = minSide / scale;
-  let sx = cropState.cx - sSize / 2;
-  let sy = cropState.cy - sSize / 2;
-  sx = Math.max(0, Math.min(sx, img.naturalWidth - sSize));
-  sy = Math.max(0, Math.min(sy, img.naturalHeight - sSize));
+  const sx = clampAxis(cropState.cx, sSize, img.naturalWidth);
+  const sy = clampAxis(cropState.cy, sSize, img.naturalHeight);
   cropState.sx = sx;
   cropState.sy = sy;
   cropState.sSize = sSize;
-  cropCtx.clearRect(0, 0, cropCanvas.width, cropCanvas.height);
-  cropCtx.drawImage(img, sx, sy, sSize, sSize, 0, 0, cropCanvas.width, cropCanvas.height);
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, outSize, outSize);
+  // part of the source window that actually overlaps the photo
+  const ix0 = Math.max(0, sx), iy0 = Math.max(0, sy);
+  const ix1 = Math.min(img.naturalWidth, sx + sSize), iy1 = Math.min(img.naturalHeight, sy + sSize);
+  const k = outSize / sSize;
+  ctx.drawImage(img, ix0, iy0, ix1 - ix0, iy1 - iy0, (ix0 - sx) * k, (iy0 - sy) * k, (ix1 - ix0) * k, (iy1 - iy0) * k);
+}
+
+function drawCrop() {
+  if (!cropState) return;
+  paintCrop(cropCtx, cropCanvas.width);
 }
 
 function openCropper(file, counterText) {
@@ -665,7 +692,7 @@ function openCropper(file, counterText) {
           cy: img.naturalHeight / 2,
           minSide,
         };
-        cropZoomInput.value = 1;
+        applyFit();
         cropCounterEl.textContent = counterText || '';
         cropSkipBtn.textContent = 'Use original (no crop)';
         drawCrop();
@@ -690,7 +717,7 @@ function openCropperFromUrl(url, counterText) {
         cy: img.naturalHeight / 2,
         minSide,
       };
-      cropZoomInput.value = 1;
+      applyFit();
       cropCounterEl.textContent = counterText || '';
       cropSkipBtn.textContent = 'Cancel';
       drawCrop();
@@ -716,7 +743,7 @@ function finishCrop(useCrop) {
   out.width = outSize;
   out.height = outSize;
   const octx = out.getContext('2d');
-  octx.drawImage(cropState.img, cropState.sx, cropState.sy, cropState.sSize, cropState.sSize, 0, 0, outSize, outSize);
+  paintCrop(octx, outSize);
   const dataURL = out.toDataURL('image/jpeg', 0.9);
   cropState = null;
   cropResolve(dataURL);
@@ -758,7 +785,7 @@ window.addEventListener('mousemove', (e) => {
 cropCanvas.addEventListener('wheel', (e) => {
   if (!cropState) return;
   e.preventDefault();
-  const next = Math.min(4, Math.max(1, cropState.scale - e.deltaY * 0.003));
+  const next = Math.min(4, Math.max(cropState.fit || 1, cropState.scale - e.deltaY * 0.003));
   cropState.scale = next;
   cropZoomInput.value = next;
   drawCrop();

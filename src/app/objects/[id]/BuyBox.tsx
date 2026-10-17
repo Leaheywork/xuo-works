@@ -12,6 +12,46 @@ export default function BuyBox({ object }: { object: XuoObject }) {
   const [currentBid, setCurrentBid] = useState(object.currentBid ?? object.price);
   const [bidCount, setBidCount] = useState(object.bidCount ?? 0);
   const [bidInput, setBidInput] = useState("");
+  const [offerInput, setOfferInput] = useState("");
+
+  const offerBox = (
+    <div className="mt-5 pt-4 border-t border-hairline">
+      <div className="text-[11px] font-mono uppercase tracking-wide text-steel mb-2">
+        Or make an offer
+      </div>
+      <div className="flex gap-2">
+        <input
+          type="number"
+          min={1}
+          placeholder="Your offer (AUD)"
+          value={offerInput}
+          onChange={(e) => setOfferInput(e.target.value)}
+          className="flex-1 border border-hairline px-3 py-2 text-sm font-mono bg-background"
+        />
+        <a
+          href={
+            Number(offerInput) > (bidding ? currentBid : object.price)
+              ? `mailto:work@xuo.works?subject=${encodeURIComponent(
+                  `Offer for ${object.title}`
+                )}&body=${encodeURIComponent(
+                  `I'd like to offer $${Number(offerInput).toLocaleString(
+                    "en-AU"
+                  )} for ${object.title}.`
+                )}`
+              : undefined
+          }
+          className="border border-foreground px-4 py-2 text-[11px] font-mono uppercase tracking-wide hover:bg-foreground hover:text-background transition-colors"
+        >
+          Make offer
+        </a>
+      </div>
+      <p className="text-[11px] text-steel mt-2 leading-relaxed">
+        Only offers above the {bidding ? "current bid" : "listed price"} (
+        {formatPrice(bidding ? currentBid : object.price)}) will be
+        considered.
+      </p>
+    </div>
+  );
 
   if (object.status === "sold") {
     return (
@@ -39,12 +79,13 @@ export default function BuyBox({ object }: { object: XuoObject }) {
           }}
           className="w-full border border-foreground py-2.5 text-[11px] font-mono uppercase tracking-wide hover:bg-foreground hover:text-background transition-colors"
         >
-          Buy — opens 24hr bidding
+          Buy now
         </button>
         <p className="text-[11px] text-steel mt-3 leading-relaxed">
-          Clicking Buy places the first bid at the listed price and opens a
-          24-hour window for others to outbid you.
+          24 hours on the clock. Highest bid wins. We&apos;ll tell you if
+          you&apos;re outbid.
         </p>
+        {offerBox}
       </div>
     );
   }
@@ -88,6 +129,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
       <p className="text-[11px] text-steel mt-3">
         Minimum next bid: {formatPrice(minNext)}
       </p>
+      {offerBox}
     </div>
   );
 }
