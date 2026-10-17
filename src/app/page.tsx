@@ -93,6 +93,14 @@ export default function Home() {
           one-off — once it&apos;s sold, it&apos;s gone. We ship worldwide — international is
           no problem, and shipping is quoted live at checkout.
         </p>
+        <a
+          href="https://leahey.work"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-5 border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide hover:bg-foreground hover:text-background transition-colors"
+        >
+          Who made this&hellip; &rarr;
+        </a>
       </section>
     </div>
   );

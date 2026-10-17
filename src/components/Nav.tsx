@@ -22,6 +22,14 @@ export default function Nav() {
           <Link href="/#commission" className="hover:text-foreground">
             Commissions
           </Link>
+          <a
+            href="https://leahey.work"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-foreground"
+          >
+            Who made this&hellip;
+          </a>
         </nav>
       </div>
     </div>
