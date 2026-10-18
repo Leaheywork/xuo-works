@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Tile from "@/components/Tile";
 import HeroCarousel from "@/components/HeroCarousel";
+import SubscribeForm from "@/components/SubscribeForm";
 import { getAllObjects, getBiddingObjects, getRecentObjects } from "@/lib/data";
 
 export default function Home() {
@@ -61,29 +62,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="commission"
-        className="max-w-6xl mx-auto px-6 py-12 border-t border-hairline"
-      >
-        <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
-          Commissions
-        </h2>
-        <p className="text-sm text-steel leading-relaxed">
-          Need something useless or unique made? The studio fabricates
-          one-off objects to order.
-          <a
-            href="mailto:work@xuo.works?subject=XUO.WORKS%20commission%20enquiry"
-            className="inline-block ml-3 align-middle border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide text-foreground hover:bg-foreground hover:text-background transition-colors"
-          >
-            Contact the studio
-          </a>
-        </p>
-        <p className="mt-3 text-[11px] font-mono text-steel">
-          work@xuo.works
-        </p>
-      </section>
+      <SubscribeForm />
 
-      <section className="max-w-6xl mx-auto px-6 pb-16 border-t border-hairline pt-10">
+      <section className="max-w-6xl mx-auto px-6 py-12 border-t border-hairline">
         <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
           About
         </h2>
@@ -101,6 +82,28 @@ export default function Home() {
         >
           Who made this&hellip; &rarr;
         </a>
+      </section>
+
+      <section
+        id="commission"
+        className="max-w-6xl mx-auto px-6 pb-16 pt-12 border-t border-hairline"
+      >
+        <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
+          Commissions
+        </h2>
+        <p className="text-sm text-steel leading-relaxed">
+          Need something useless / unique made? The studio fabricates
+          one-off objects to order.
+          <a
+            href="mailto:work@xuo.works?subject=XUO.WORKS%20commission%20enquiry"
+            className="inline-block ml-3 align-middle border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide text-foreground hover:bg-foreground hover:text-background transition-colors"
+          >
+            Contact the studio
+          </a>
+        </p>
+        <p className="mt-3 text-[11px] font-mono text-steel">
+          work@xuo.works
+        </p>
       </section>
     </div>
   );
