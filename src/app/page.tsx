@@ -2,6 +2,7 @@ import Link from "next/link";
 import Tile from "@/components/Tile";
 import HeroCarousel from "@/components/HeroCarousel";
 import SubscribeForm from "@/components/SubscribeForm";
+import ContactForm from "@/components/ContactForm";
 import { getAllObjects, getBiddingObjects, getRecentObjects } from "@/lib/data";
 
 export default function Home() {
@@ -68,12 +69,21 @@ export default function Home() {
         <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
           About
         </h2>
-        <p className="max-w-2xl text-sm text-steel leading-relaxed">
-          Workshop-based sculpture made from metal, found objects, and
-          whatever else the work calls for. Each object listed here is a
-          one-off — once it&apos;s sold, it&apos;s gone. We ship worldwide — international is
-          no problem, and shipping is quoted live at checkout.
-        </p>
+        <div className="max-w-2xl space-y-3 text-sm text-steel leading-relaxed">
+          <p>
+            OEO. Original exclusive objects. Los Angeles, 1987. Made as wrap
+            gifts for the people behind the films. One object per film,
+            representing its essence. Never repeated.
+          </p>
+          <p>
+            Forty years later: XUO. Extremely useless / unique objects. Same
+            rule.
+          </p>
+          <p>
+            We ship worldwide. International is no problem, and shipping is
+            quoted live at checkout.
+          </p>
+        </div>
         <a
           href="https://leahey.work"
           target="_blank"
@@ -91,19 +101,11 @@ export default function Home() {
         <h2 className="uppercase tracking-wide text-sm font-semibold mb-3">
           Commissions
         </h2>
-        <p className="text-sm text-steel leading-relaxed">
+        <p className="text-sm text-steel leading-relaxed mb-5">
           Need something useless / unique made? The studio fabricates
           one-off objects to order.
-          <a
-            href="mailto:work@xuo.works?subject=XUO.WORKS%20commission%20enquiry"
-            className="inline-block ml-3 align-middle border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide text-foreground hover:bg-foreground hover:text-background transition-colors"
-          >
-            Contact the studio
-          </a>
         </p>
-        <p className="mt-3 text-[11px] font-mono text-steel">
-          work@xuo.works
-        </p>
+        <ContactForm />
       </section>
     </div>
   );
