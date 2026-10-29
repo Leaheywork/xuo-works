@@ -9,7 +9,8 @@ export default function Nav() {
           <img
             src="/logo-photo.png"
             alt="XUO.WORKS"
-            className="h-7 w-auto"
+            className="w-auto"
+            style={{ height: 52, filter: "brightness(0.35) contrast(1.5)" }}
           />
         </Link>
         <nav className="flex gap-6 text-[11px] font-mono uppercase tracking-wide text-steel">
