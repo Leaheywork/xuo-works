@@ -51,7 +51,7 @@ export default function Tile({ object, showName = true }: { object: XuoObject; s
               isSold ? "text-sold" : isBidding ? "text-bidding" : "text-available"
             }`}
           >
-            {isSold ? "Not available" : isBidding ? "In bidding" : "Available"}
+            {isSold ? "Gone" : isBidding ? "In bidding" : "Available"}
           </div>
         </div>
       )}

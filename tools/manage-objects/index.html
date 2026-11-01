@@ -323,7 +323,7 @@
         <select name="status" id="statusSelect">
           <option value="available">Available</option>
           <option value="in_bidding">In bidding</option>
-          <option value="sold">Not available</option>
+          <option value="sold">Gone</option>
         </select>
       </div>
       <div class="field" id="hoursLeftField" style="display:none;">
@@ -385,7 +385,7 @@ function showMsg(text, ok) {
 }
 
 function statusLabel(s) {
-  return s === 'in_bidding' ? 'In bidding' : s === 'sold' ? 'Not available' : 'Available';
+  return s === 'in_bidding' ? 'In bidding' : s === 'sold' ? 'Gone' : 'Available';
 }
 
 async function loadObjects() {
@@ -425,7 +425,7 @@ async function loadObjects() {
         <select data-id="${o.id}" class="statusSel">
           <option value="available" ${o.status==='available'?'selected':''}>Available</option>
           <option value="in_bidding" ${o.status==='in_bidding'?'selected':''}>In bidding</option>
-          <option value="sold" ${o.status==='sold'?'selected':''}>Not available</option>
+          <option value="sold" ${o.status==='sold'?'selected':''}>Gone</option>
         </select>
       </div>
       <div class="row">
