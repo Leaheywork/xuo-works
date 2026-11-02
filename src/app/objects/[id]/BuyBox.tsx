@@ -31,7 +31,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
           Gone
         </div>
         <p className="text-sm text-steel">
-          Made once. Once gone, gone.
+          Made once. Once gone - gone.
         </p>
       </div>
     );

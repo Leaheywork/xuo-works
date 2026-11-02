@@ -1,7 +1,7 @@
 // Sign-up box for "tell me when new pieces drop".
 // Sign-ups go to a Buttondown newsletter account.
 // After creating the Buttondown account, put its username here.
-const BUTTONDOWN_USERNAME: string = "";
+const BUTTONDOWN_USERNAME: string = "xuoworks";
 
 export default function SubscribeForm() {
   const connected = BUTTONDOWN_USERNAME !== "";
