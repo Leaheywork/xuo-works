@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import SubscribeForm from "@/components/SubscribeForm";
 
 export const metadata: Metadata = {
   title: "XUO.WORKS — extremely useless / unique objects",
@@ -25,7 +26,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           PROTOTYPE — static demo, no live payments or shipping.
         </div>
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-hairline mt-16 py-6 px-6 flex items-center justify-between text-[11px] font-mono uppercase tracking-wide text-steel">
+        <SubscribeForm variant="band" />
+        <footer className="border-t border-hairline py-6 px-6 flex items-center justify-between text-[11px] font-mono uppercase tracking-wide text-steel">
           <span>&copy; XUO.WORKS</span>
           <span>Prototype build — not a live store</span>
         </footer>
