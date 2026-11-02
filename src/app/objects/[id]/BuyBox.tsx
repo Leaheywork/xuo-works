@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { XuoObject } from "@/lib/types";
 import OfferForm from "@/components/OfferForm";
+import { minNextBid, ANTI_SNIPE_MINUTES } from "@/lib/bidding";
 
 function formatPrice(n: number) {
   return `$${n.toLocaleString("en-AU")}`;
@@ -60,7 +61,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
     );
   }
 
-  const minNext = currentBid + 10;
+  const minNext = minNextBid(currentBid);
 
   return (
     <div className="border border-hairline p-5">
@@ -98,6 +99,10 @@ export default function BuyBox({ object }: { object: XuoObject }) {
       </div>
       <p className="text-[11px] text-steel mt-3">
         Minimum next bid: {formatPrice(minNext)}
+      </p>
+      <p className="text-[11px] text-steel mt-1 leading-relaxed">
+        A bid in the last {ANTI_SNIPE_MINUTES} minutes adds {ANTI_SNIPE_MINUTES}{" "}
+        minutes to the clock.
       </p>
       {offerBox}
     </div>
