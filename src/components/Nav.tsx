@@ -15,7 +15,7 @@ export default function Nav() {
         </Link>
         <nav className="flex gap-6 text-[11px] font-mono uppercase tracking-wide text-steel">
           <Link href="/" className="hover:text-foreground">
-            Home
+            XUO
           </Link>
           <Link href="/objects" className="hover:text-foreground">
             Objects
