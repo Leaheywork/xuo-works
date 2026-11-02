@@ -21,6 +21,7 @@ export default function Home() {
         blurb="Each piece is unique and ships worldwide. Buy at the listed price, or watch the 24-hour bidding window and place a higher offer."
       />
 
+      {bidding.length > 0 && (
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex items-baseline justify-between border-b border-hairline pb-3 mb-5">
           <h2 className="uppercase tracking-wide text-sm font-semibold">
@@ -33,16 +34,17 @@ export default function Home() {
             See all &rarr;
           </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-px bg-hairline border border-hairline">
-          {(bidding.length ? bidding : recent).map((o) => (
-            <div key={o.id} className="bg-background">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
+          {bidding.map((o) => (
+            <div key={o.id} className="bg-background border border-hairline">
               <Tile object={o} />
             </div>
           ))}
         </div>
       </section>
+      )}
 
-      <section className="max-w-6xl mx-auto px-6 pb-12">
+      <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex items-baseline justify-between border-b border-hairline pb-3 mb-5">
           <h2 className="uppercase tracking-wide text-sm font-semibold">
             Recently added
@@ -54,9 +56,9 @@ export default function Home() {
             See all &rarr;
           </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-px bg-hairline border border-hairline">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
           {recent.map((o) => (
-            <div key={o.id} className="bg-background">
+            <div key={o.id} className="bg-background border border-hairline">
               <Tile object={o} />
             </div>
           ))}

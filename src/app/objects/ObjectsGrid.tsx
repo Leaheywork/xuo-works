@@ -42,9 +42,9 @@ export default function ObjectsGrid({ objects }: { objects: XuoObject[] }) {
           {filtered.length} object{filtered.length === 1 ? "" : "s"}
         </span>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-px bg-hairline border border-hairline">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
         {filtered.map((o) => (
-          <div key={o.id} className="bg-background">
+          <div key={o.id} className="bg-background border border-hairline">
             <Tile object={o} />
           </div>
         ))}
