@@ -5,8 +5,10 @@ export const metadata = {
   title: "Objects — XUO.WORKS",
 };
 
-export default function ObjectsPage() {
-  const objects = getAllObjects();
+export const revalidate = 60;
+
+export default async function ObjectsPage() {
+  const objects = await getAllObjects();
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10">

@@ -5,10 +5,12 @@ import SubscribeForm from "@/components/SubscribeForm";
 import ContactForm from "@/components/ContactForm";
 import { getAllObjects, getBiddingObjects, getRecentObjects } from "@/lib/data";
 
-export default function Home() {
-  const bidding = getBiddingObjects(7);
-  const recent = getRecentObjects(7);
-  const featured = getAllObjects()
+export const revalidate = 60;
+
+export default async function Home() {
+  const bidding = await getBiddingObjects(7);
+  const recent = await getRecentObjects(7);
+  const featured = (await getAllObjects())
     .filter((o) => o.status === "available" || o.status === "in_bidding")
     .reverse()
     .slice(0, 8);
@@ -92,7 +94,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="inline-block mt-5 border border-foreground px-4 py-1.5 text-[11px] font-mono uppercase tracking-wide hover:bg-foreground hover:text-background transition-colors"
         >
-          Who made this&hellip; &rarr;
+          Who makes this&hellip; &rarr;
         </a>
       </section>
 

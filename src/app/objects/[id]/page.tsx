@@ -3,8 +3,10 @@ import { getAllObjects, getObjectById } from "@/lib/data";
 import Gallery from "./Gallery";
 import BuyBox from "./BuyBox";
 
-export function generateStaticParams() {
-  return getAllObjects().map((o) => ({ id: o.id }));
+export const revalidate = 60;
+
+export async function generateStaticParams() {
+  return (await getAllObjects()).map((o) => ({ id: o.id }));
 }
 
 export default async function ObjectDetailPage({
@@ -13,7 +15,7 @@ export default async function ObjectDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const object = getObjectById(id);
+  const object = await getObjectById(id);
   if (!object) notFound();
 
   return (

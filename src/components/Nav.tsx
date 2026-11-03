@@ -32,7 +32,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="hover:text-foreground"
           >
-            Who made this&hellip;
+            Who makes this&hellip;
           </a>
         </nav>
       </div>
