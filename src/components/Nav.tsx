@@ -23,6 +23,9 @@ export default function Nav() {
           <Link href="/#commission" className="hover:text-foreground">
             Commissions
           </Link>
+          <Link href="/account" className="hover:text-foreground">
+            Account
+          </Link>
           <a
             href="https://leahey.work"
             target="_blank"
