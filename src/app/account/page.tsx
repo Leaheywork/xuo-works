@@ -11,7 +11,9 @@ const button =
 export default function AccountPage() {
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(false);
-  const [mode, setMode] = useState<"signin" | "register">("register");
+  const [mode, setMode] = useState<
+    "signin" | "register" | "forgot" | "newpassword"
+  >("register");
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string>("");
   const [error, setError] = useState<string>("");
@@ -25,8 +27,9 @@ export default function AccountPage() {
       setUser(data.session?.user ?? null);
       setReady(true);
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
+    const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
+      if (event === "PASSWORD_RECOVERY") setMode("newpassword");
     });
     return () => sub.subscription.unsubscribe();
   }, []);
@@ -55,6 +58,22 @@ export default function AccountPage() {
         setMessage(
           "Check your email. Click the link we sent to finish registering."
         );
+    } else if (mode === "forgot") {
+      const { error } = await supabase.auth.resetPasswordForEmail(email, {
+        redirectTo: `${window.location.origin}/account`,
+      });
+      if (error) setError(error.message);
+      else
+        setMessage(
+          "If that email is registered, a reset link is on its way. Check your email."
+        );
+    } else if (mode === "newpassword") {
+      const { error } = await supabase.auth.updateUser({ password });
+      if (error) setError(error.message);
+      else {
+        setMessage("Password changed. You're signed in.");
+        setMode("signin");
+      }
     } else {
       const { error } = await supabase.auth.signInWithPassword({
         email,
@@ -84,7 +103,32 @@ export default function AccountPage() {
         <p className="text-sm text-steel">Loading&hellip;</p>
       )}
 
-      {supabaseConfigured && ready && user && (
+      {supabaseConfigured && ready && mode === "newpassword" && (
+        <div className="max-w-md">
+          <p className="text-sm text-steel leading-relaxed mb-4">
+            Choose a new password.
+          </p>
+          <form onSubmit={onSubmit} className="space-y-3">
+            <input
+              name="password"
+              type="password"
+              required
+              minLength={8}
+              placeholder="New password (8+ characters)"
+              className={field}
+            />
+            <button type="submit" disabled={busy} className={button}>
+              {busy ? "..." : "Save password"}
+            </button>
+          </form>
+          {message && <p className="mt-4 text-sm">{message}</p>}
+          {error && (
+            <p className="mt-4 text-[11px] font-mono text-sold">{error}</p>
+          )}
+        </div>
+      )}
+
+      {supabaseConfigured && ready && user && mode !== "newpassword" && (
         <div className="max-w-md space-y-4">
           <p className="text-sm">
             Signed in as <span className="font-mono">{user.email}</span>
@@ -98,7 +142,7 @@ export default function AccountPage() {
         </div>
       )}
 
-      {supabaseConfigured && ready && !user && (
+      {supabaseConfigured && ready && !user && mode !== "newpassword" && (
         <div className="max-w-md">
           <div className="flex gap-4 mb-5 text-[11px] font-mono uppercase tracking-wide">
             <button
@@ -125,6 +169,8 @@ export default function AccountPage() {
           <p className="text-sm text-steel leading-relaxed mb-4">
             {mode === "register"
               ? "Register to bid. We'll email you if you're outbid."
+              : mode === "forgot"
+              ? "Enter your email. We'll send a link to set a new password."
               : "Welcome back."}
           </p>
           <form onSubmit={onSubmit} className="space-y-3">
@@ -144,18 +190,38 @@ export default function AccountPage() {
               placeholder="Your email"
               className={field}
             />
-            <input
-              name="password"
-              type="password"
-              required
-              minLength={8}
-              placeholder="Password (8+ characters)"
-              className={field}
-            />
+            {mode !== "forgot" && (
+              <input
+                name="password"
+                type="password"
+                required
+                minLength={8}
+                placeholder="Password (8+ characters)"
+                className={field}
+              />
+            )}
             <button type="submit" disabled={busy} className={button}>
-              {busy ? "..." : mode === "register" ? "Register" : "Sign in"}
+              {busy
+                ? "..."
+                : mode === "register"
+                ? "Register"
+                : mode === "forgot"
+                ? "Send reset link"
+                : "Sign in"}
             </button>
           </form>
+          {mode === "signin" && (
+            <button
+              onClick={() => {
+                setMode("forgot");
+                setError("");
+                setMessage("");
+              }}
+              className="mt-4 text-[11px] font-mono uppercase tracking-wide text-steel hover:text-foreground"
+            >
+              Forgot password?
+            </button>
+          )}
           {message && <p className="mt-4 text-sm">{message}</p>}
           {error && (
             <p className="mt-4 text-[11px] font-mono text-sold">{error}</p>
