@@ -112,6 +112,7 @@ export default function AccountPage() {
             <input
               name="password"
               type="password"
+              autoComplete="new-password"
               required
               minLength={8}
               placeholder="New password (8+ characters)"
@@ -186,6 +187,8 @@ export default function AccountPage() {
             <input
               name="email"
               type="email"
+              autoComplete="username"
+              inputMode="email"
               required
               placeholder="Your email"
               className={field}
@@ -194,6 +197,7 @@ export default function AccountPage() {
               <input
                 name="password"
                 type="password"
+                autoComplete={mode === "register" ? "new-password" : "current-password"}
                 required
                 minLength={8}
                 placeholder="Password (8+ characters)"
