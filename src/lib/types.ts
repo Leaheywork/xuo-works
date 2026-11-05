@@ -14,4 +14,5 @@ export interface XuoObject {
   currentBid?: number;
   bidCount?: number;
   hoursLeft?: number;
+  endsAt?: string;
 }

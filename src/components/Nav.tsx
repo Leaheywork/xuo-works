@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CurrencyPicker from "./CurrencyPicker";
 
 export default function Nav() {
   return (
@@ -34,6 +35,7 @@ export default function Nav() {
           >
             Who makes this&hellip;
           </a>
+          <CurrencyPicker />
         </nav>
       </div>
     </div>

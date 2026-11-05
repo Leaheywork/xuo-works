@@ -32,7 +32,7 @@ export default function OfferForm({
   );
   const note = (
     <p className="text-[11px] text-steel mt-2 leading-relaxed">
-      Only offers above the {floorLabel} ({formatPrice(floor)}) will be
+      Only offers above the {floorLabel} ({formatPrice(floor)} USD) will be
       considered.
     </p>
   );

@@ -1,9 +1,7 @@
 import Link from "next/link";
 import type { XuoObject } from "@/lib/types";
 
-function formatPrice(n: number) {
-  return `$${n.toLocaleString("en-AU")}`;
-}
+import Price from "./Price";
 
 function formatCountdown(hoursLeft: number) {
   const totalSeconds = Math.max(0, Math.round(hoursLeft * 3600));
@@ -43,7 +41,7 @@ export default function Tile({ object, showName = true }: { object: XuoObject; s
             <span className="font-mono text-steel">
               {isBidding && object.hoursLeft !== undefined
                 ? formatCountdown(object.hoursLeft)
-                : formatPrice(object.currentBid ?? object.price)}
+                : <Price usd={object.currentBid ?? object.price} />}
             </span>
           </div>
           <div

@@ -39,6 +39,7 @@ function fromRow(r: Row): XuoObject {
     currentBid: r.current_bid != null ? Number(r.current_bid) : undefined,
     bidCount: r.bid_count ?? undefined,
     hoursLeft,
+    endsAt: r.ends_at ?? undefined,
   };
 }
 
@@ -47,6 +48,8 @@ function fromRow(r: Row): XuoObject {
 async function load(): Promise<XuoObject[]> {
   if (!supabaseConfigured) return FALLBACK;
   try {
+    // Close any auctions whose clock has run out.
+    await supabase.rpc("close_expired_auctions");
     const { data, error } = await supabase
       .from("objects")
       .select("*")

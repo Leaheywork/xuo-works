@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { XuoObject } from "@/lib/types";
 
-function formatPrice(n: number) {
-  return `$${n.toLocaleString("en-AU")}`;
-}
+import Price from "./Price";
 
 function formatCountdown(hoursLeft: number) {
   const totalSeconds = Math.max(0, Math.round(hoursLeft * 3600));
@@ -83,7 +81,7 @@ export default function HeroCarousel({
             <span className="font-mono text-steel">
               {isBidding && current.hoursLeft !== undefined
                 ? formatCountdown(current.hoursLeft)
-                : formatPrice(current.currentBid ?? current.price)}
+                : <Price usd={current.currentBid ?? current.price} />}
             </span>
           </div>
           <div
