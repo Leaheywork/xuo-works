@@ -20,7 +20,7 @@ export default async function Home() {
       <HeroCarousel
         objects={featured}
         headline={"Made by hand.\nMade once."}
-        blurb="Each piece is unique and ships worldwide. Buy at the listed price, or watch the 24-hour bidding window and place a higher offer."
+        blurb="Each piece is unique and ships worldwide. Bidding opens at the listed price, then runs for 24 hours. Highest bid wins."
       />
 
       {bidding.length > 0 && (

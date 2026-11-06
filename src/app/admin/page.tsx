@@ -280,7 +280,7 @@ export default function AdminPage() {
                 {form.images.map((src, i) => (
                   <div key={src + i} className="border border-hairline p-1 text-center">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={src} alt="" className="w-full aspect-square object-cover" />
+                    <img src={src} alt="" className="w-full aspect-square object-contain bg-white" />
                     <div className="flex justify-between text-[11px] font-mono mt-1">
                       <button type="button" onClick={() => moveImage(i, -1)}>&larr;</button>
                       <button type="button" onClick={() => removeImage(i)}>remove</button>

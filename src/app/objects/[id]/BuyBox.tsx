@@ -58,6 +58,24 @@ export default function BuyBox({ object }: { object: XuoObject }) {
     return () => sub.subscription.unsubscribe();
   }, []);
 
+  // The page may be up to a minute old, so fetch the live state on load.
+  useEffect(() => {
+    if (!supabaseConfigured) return;
+    supabase
+      .from("objects")
+      .select("status,current_bid,bid_count,ends_at")
+      .eq("id", object.id)
+      .single()
+      .then(({ data }) => {
+        if (!data) return;
+        const row = data as BidRow;
+        setStatus(row.status);
+        if (row.current_bid != null) setCurrentBid(Number(row.current_bid));
+        setBidCount(row.bid_count ?? 0);
+        setEndsAt(row.ends_at ?? undefined);
+      });
+  }, [object.id]);
+
   useEffect(() => {
     const t = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(t);
@@ -137,15 +155,15 @@ export default function BuyBox({ object }: { object: XuoObject }) {
           }}
           className={bigButton}
         >
-          {busy ? "..." : "Buy now"}
+          {busy ? "..." : "Start bidding"}
         </button>
         {!signedIn && signInPrompt}
         {error && (
           <p className="text-[11px] font-mono text-sold mt-3">{error}</p>
         )}
         <p className="text-[11px] text-steel mt-3 leading-relaxed">
-          24 hours on the clock. Highest bid wins. We&apos;ll tell you if
-          you&apos;re outbid.
+          Opens at the listed price and starts a 24-hour clock. Highest bid
+          wins. We&apos;ll tell you if you&apos;re outbid.
         </p>
         {offerBox}
       </div>

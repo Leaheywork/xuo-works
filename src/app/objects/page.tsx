@@ -17,8 +17,8 @@ export default async function ObjectsPage() {
           All objects
         </h1>
         <p className="text-sm text-steel mt-1 max-w-xl">
-          Every object here is one of one. Buy at the listed price, or watch
-          the 24-hour window and place a higher offer before it closes.
+          Every object here is one of one. Bidding opens at the listed price, then runs for 24 hours. Highest bid
+          wins.
         </p>
       </div>
       <ObjectsGrid objects={objects} />

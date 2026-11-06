@@ -6,7 +6,7 @@ import SubscribeForm from "@/components/SubscribeForm";
 export const metadata: Metadata = {
   title: "XUO.WORKS — extremely useless / unique objects",
   description:
-    "One-off sculptural objects. Buy at the listed price, or watch the 24-hour bidding window.",
+    "One-off sculptural objects. Bidding opens at the listed price, then runs for 24 hours.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
