@@ -31,7 +31,6 @@ export async function POST(req: Request) {
     const session = await stripe<{ url: string }>("/checkout/sessions", {
       mode: "setup",
       customer,
-      "payment_method_types[0]": "card",
       success_url: `${origin}/account?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/account`,
     });
