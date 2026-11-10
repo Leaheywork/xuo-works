@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { User } from "@supabase/supabase-js";
 import { supabase, supabaseConfigured } from "@/lib/supabase";
+import CardBox from "./CardBox";
 
 const field = "w-full border border-hairline px-3 py-2 text-sm bg-background";
 const button =
@@ -134,9 +135,7 @@ export default function AccountPage() {
           <p className="text-sm">
             Signed in as <span className="font-mono">{user.email}</span>
           </p>
-          <p className="text-sm text-steel leading-relaxed">
-            You&apos;re registered. You can bid on pieces once bidding opens.
-          </p>
+          <CardBox user={user} />
           <button onClick={signOut} className={button}>
             Sign out
           </button>
