@@ -41,7 +41,7 @@ export default function Tile({ object, showName = true }: { object: XuoObject; s
             <span className="font-mono text-steel">
               {isBidding && object.hoursLeft !== undefined
                 ? formatCountdown(object.hoursLeft)
-                : <Price usd={object.currentBid ?? object.price} />}
+                : <Price aud={object.currentBid ?? object.price} />}
             </span>
           </div>
           <div

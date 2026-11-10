@@ -6,15 +6,15 @@ import type { XuoObject } from "@/lib/types";
 import OfferForm from "@/components/OfferForm";
 import Price from "@/components/Price";
 import { minNextBid, ANTI_SNIPE_MINUTES } from "@/lib/bidding";
-import { useCurrency, formatUsd } from "@/lib/currency";
+import { useCurrency, formatAud } from "@/lib/currency";
 import { supabase, supabaseConfigured } from "@/lib/supabase";
 
-function UsdNote({ usd }: { usd: number }) {
+function AudNote({ aud }: { aud: number }) {
   const { code } = useCurrency();
-  if (code === "USD") return null;
+  if (code === "AUD") return null;
   return (
     <div className="text-[11px] font-mono text-steel mb-3">
-      Priced and charged in USD: {formatUsd(usd)}
+      Priced and charged in AUD: {formatAud(aud)}
     </div>
   );
 }
@@ -140,15 +140,15 @@ export default function BuyBox({ object }: { object: XuoObject }) {
     return (
       <div className="border border-hairline p-5">
         <div className="text-2xl font-mono mb-1">
-          <Price usd={object.price} />
+          <Price aud={object.price} />
         </div>
-        <UsdNote usd={object.price} />
+        <AudNote aud={object.price} />
         <button
           disabled={busy || !signedIn}
           onClick={() => {
             if (
               window.confirm(
-                `Place the opening bid of ${formatUsd(object.price)} USD? This starts the 24-hour clock.`
+                `Place the opening bid of ${formatAud(object.price)}? This starts the 24-hour clock.`
               )
             )
               bid(object.price);
@@ -183,9 +183,9 @@ export default function BuyBox({ object }: { object: XuoObject }) {
         </span>
       </div>
       <div className="text-2xl font-mono mb-1">
-        <Price usd={currentBid} />
+        <Price aud={currentBid} />
       </div>
-      <UsdNote usd={currentBid} />
+      <AudNote aud={currentBid} />
       <div className="text-[11px] font-mono text-steel mb-4">
         {bidCount} bid{bidCount === 1 ? "" : "s"}
         {leading && !closed ? " · you are the highest bidder" : ""}
@@ -209,7 +209,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
               onClick={() => {
                 const val = Number(bidInput);
                 if (!val || val < minNext) {
-                  setError(`The minimum bid is ${formatUsd(minNext)}.`);
+                  setError(`The minimum bid is ${formatAud(minNext)}.`);
                   return;
                 }
                 bid(val);
@@ -224,7 +224,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
             <p className="text-[11px] font-mono text-sold mt-3">{error}</p>
           )}
           <p className="text-[11px] text-steel mt-3">
-            Minimum next bid: {formatUsd(minNext)} USD. Bids are in USD.
+            Minimum next bid: {formatAud(minNext)}. Bids are in AUD.
           </p>
           <p className="text-[11px] text-steel mt-1 leading-relaxed">
             A bid in the last {ANTI_SNIPE_MINUTES} minutes adds{" "}

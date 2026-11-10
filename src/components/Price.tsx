@@ -1,13 +1,13 @@
 "use client";
 
-import { CURRENCIES, formatUsd, useCurrency } from "@/lib/currency";
+import { CURRENCIES, formatAud, useCurrency } from "@/lib/currency";
 
-// Shows a USD price in the visitor's chosen currency (approximate).
-export default function Price({ usd }: { usd: number }) {
+// Shows an AUD price in the visitor's chosen currency (approximate).
+export default function Price({ aud }: { aud: number }) {
   const { code, rates } = useCurrency();
-  if (code === "USD") return <>{formatUsd(usd)}</>;
+  if (code === "AUD") return <>{formatAud(aud)}</>;
   const c = CURRENCIES[code];
-  const value = Math.round(usd * (rates[code] ?? c.fallback));
+  const value = Math.round(aud * (rates[code] ?? c.fallback));
   return (
     <>
       ≈ {c.symbol}

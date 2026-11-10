@@ -2,11 +2,7 @@
 
 import { useState } from "react";
 import { FORMSPREE_ID, STUDIO_EMAIL } from "@/lib/forms";
-import { useCurrency } from "@/lib/currency";
-
-function formatPrice(n: number) {
-  return `$${n.toLocaleString("en-AU")}`;
-}
+import { formatAud } from "@/lib/currency";
 
 export default function OfferForm({
   title,
@@ -24,10 +20,7 @@ export default function OfferForm({
     "idle"
   );
   const [amount, setAmount] = useState("");
-  // Offers are made in AUD; compared against the USD price at today's rate.
-  const { rates } = useCurrency();
-  const floorAud = Math.ceil(floor * (rates.AUD ?? 1.55));
-  const valid = Number(amount) > floorAud;
+  const valid = Number(amount) > floor;
 
   const heading = (
     <div className="text-[11px] font-mono uppercase tracking-wide text-steel mb-2">
@@ -36,9 +29,8 @@ export default function OfferForm({
   );
   const note = (
     <p className="text-[11px] text-steel mt-2 leading-relaxed">
-      Offers are in AUD. Only offers above the {floorLabel} (A$
-      {floorAud.toLocaleString("en-AU")}, about {formatPrice(floor)} USD) will
-      be considered.
+      Offers are in AUD. Only offers above the {floorLabel} (
+      {formatAud(floor)}) will be considered.
     </p>
   );
 
@@ -124,7 +116,7 @@ export default function OfferForm({
         <input
           type="number"
           name="offer_aud"
-          min={floorAud + 1}
+          min={floor + 1}
           required
           placeholder="Your offer (AUD)"
           value={amount}

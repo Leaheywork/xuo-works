@@ -235,7 +235,7 @@ export default function AdminPage() {
 
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <span className={label}>Price (USD)</span>
+                <span className={label}>Price (AUD)</span>
                 <input className={field} type="number" min="0" value={form.price} onChange={(e) => set("price", Number(e.target.value))} />
               </div>
               <div>
@@ -321,7 +321,7 @@ export default function AdminPage() {
                   >
                     {p.title}
                     <span className="block text-[11px] font-mono text-steel">
-                      {p.status === "sold" ? "Gone" : p.status === "in_bidding" ? "In bidding" : "Available"} · ${p.price}
+                      {p.status === "sold" ? "Gone" : p.status === "in_bidding" ? "In bidding" : "Available"} · A${p.price}
                     </span>
                   </button>
                 </li>

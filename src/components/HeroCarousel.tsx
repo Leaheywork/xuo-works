@@ -81,7 +81,7 @@ export default function HeroCarousel({
             <span className="font-mono text-steel">
               {isBidding && current.hoursLeft !== undefined
                 ? formatCountdown(current.hoursLeft)
-                : <Price usd={current.currentBid ?? current.price} />}
+                : <Price aud={current.currentBid ?? current.price} />}
             </span>
           </div>
           <div
