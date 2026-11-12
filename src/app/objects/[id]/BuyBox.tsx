@@ -249,9 +249,3 @@ export default function BuyBox({ object }: { object: XuoObject }) {
     </div>
   );
 }
-
-The edit page link again: https://github.com/Leaheywork/xuo-works/edit/main/src/app/objects/%5Bid%5D/BuyBox.tsx
-
-I’ve pasted the full file above in the chat, so you can copy it straight from the box. It’s the same as the BuyBox.tsx file card I sent earlier.
-
-Open the edit link, press Cmd+A in the code box, paste it over, then Commit changes. Tell me when Vercel shows Ready and I’ll walk you through the test.
