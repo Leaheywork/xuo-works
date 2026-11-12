@@ -37,6 +37,23 @@ interface BidRow {
 const bigButton =
   "w-full border border-foreground py-2.5 text-[11px] font-mono uppercase tracking-wide hover:bg-foreground hover:text-background transition-colors disabled:opacity-40";
 
+function ErrorNote({ error }: { error: string }) {
+  if (!error) return null;
+  if (/add a card/i.test(error)) {
+    return (
+      <div className="mt-3">
+        <p className="text-[11px] font-mono text-steel mb-2">
+          You need a card on file before you can bid.
+        </p>
+        <Link href="/account" className={`${bigButton} block text-center`}>
+          Add a card
+        </Link>
+      </div>
+    );
+  }
+  return <p className="text-[11px] font-mono text-sold mt-3">{error}</p>;
+}
+
 export default function BuyBox({ object }: { object: XuoObject }) {
   const [status, setStatus] = useState(object.status);
   const [currentBid, setCurrentBid] = useState(object.currentBid ?? object.price);
@@ -158,9 +175,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
           {busy ? "..." : "Start bidding"}
         </button>
         {!signedIn && signInPrompt}
-        {error && (
-          <p className="text-[11px] font-mono text-sold mt-3">{error}</p>
-        )}
+        <ErrorNote error={error} />
         <p className="text-[11px] text-steel mt-3 leading-relaxed">
           Opens at the listed price and starts a 24-hour clock. Highest bid
           wins. We&apos;ll tell you if you&apos;re outbid.
@@ -220,9 +235,7 @@ export default function BuyBox({ object }: { object: XuoObject }) {
             </button>
           </div>
           {!signedIn && signInPrompt}
-          {error && (
-            <p className="text-[11px] font-mono text-sold mt-3">{error}</p>
-          )}
+          <ErrorNote error={error} />
           <p className="text-[11px] text-steel mt-3">
             Minimum next bid: {formatAud(minNext)}. Bids are in AUD.
           </p>
@@ -236,3 +249,9 @@ export default function BuyBox({ object }: { object: XuoObject }) {
     </div>
   );
 }
+
+The edit page link again: https://github.com/Leaheywork/xuo-works/edit/main/src/app/objects/%5Bid%5D/BuyBox.tsx
+
+I’ve pasted the full file above in the chat, so you can copy it straight from the box. It’s the same as the BuyBox.tsx file card I sent earlier.
+
+Open the edit link, press Cmd+A in the code box, paste it over, then Commit changes. Tell me when Vercel shows Ready and I’ll walk you through the test.
