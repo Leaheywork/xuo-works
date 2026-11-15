@@ -178,7 +178,8 @@ export default function BuyBox({ object }: { object: XuoObject }) {
         <ErrorNote error={error} />
         <p className="text-[11px] text-steel mt-3 leading-relaxed">
           Opens at the listed price and starts a 24-hour clock. Highest bid
-          wins. We&apos;ll tell you if you&apos;re outbid.
+          wins. You need a card on file, and it&apos;s only charged if you win.
+          We&apos;ll tell you if you&apos;re outbid.
         </p>
         {offerBox}
       </div>

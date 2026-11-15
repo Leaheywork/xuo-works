@@ -15,11 +15,14 @@ export default function Nav() {
           />
         </Link>
         <nav className="flex flex-wrap gap-x-5 gap-y-2 text-[11px] font-mono uppercase tracking-wide text-steel">
-          <Link href="/" className="hover:text-foreground">
-            XUO
-          </Link>
-          <Link href="/objects" className="hover:text-foreground">
+          <Link href="/#objects" className="hover:text-foreground">
             Objects
+          </Link>
+          <Link href="/#how" className="hover:text-foreground">
+            How it works
+          </Link>
+          <Link href="/xuo" className="hover:text-foreground">
+            XUO
           </Link>
           <Link href="/#commission" className="hover:text-foreground">
             Commissions

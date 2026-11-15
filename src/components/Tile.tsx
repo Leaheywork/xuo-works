@@ -49,7 +49,7 @@ export default function Tile({ object, showName = true }: { object: XuoObject; s
               isSold ? "text-sold" : isBidding ? "text-bidding" : "text-available"
             }`}
           >
-            {isSold ? "Gone" : isBidding ? "In bidding" : "Available"}
+            {isSold ? "Gone" : isBidding ? "Bidding now" : "Open for bids"}
           </div>
         </div>
       )}

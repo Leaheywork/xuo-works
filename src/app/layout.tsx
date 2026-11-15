@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import SubscribeForm from "@/components/SubscribeForm";
@@ -29,6 +30,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SubscribeForm variant="band" />
         <footer className="border-t border-hairline py-6 px-6 flex items-center justify-between text-[11px] font-mono uppercase tracking-wide text-steel">
           <span>&copy; XUO.WORKS</span>
+          <span className="flex gap-x-5">
+            <Link href="/terms" className="hover:text-foreground">Terms</Link>
+            <Link href="/shipping" className="hover:text-foreground">Shipping</Link>
+            <Link href="/returns" className="hover:text-foreground">Returns</Link>
+          </span>
           <span>Prototype build — not a live store</span>
         </footer>
       </body>

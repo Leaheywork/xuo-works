@@ -7,8 +7,8 @@ import type { ObjectStatus, XuoObject } from "@/lib/types";
 
 const FILTERS: { key: ObjectStatus | "all"; label: string }[] = [
   { key: "all", label: "All" },
-  { key: "available", label: "Available" },
-  { key: "in_bidding", label: "In bidding" },
+  { key: "available", label: "Open for bids" },
+  { key: "in_bidding", label: "Bidding now" },
   { key: "sold", label: "Gone" },
 ];
 
